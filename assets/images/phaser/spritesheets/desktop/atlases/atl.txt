@@ -1,0 +1,2 @@
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/loader_0.json 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/loader_no_alpha_0.json 

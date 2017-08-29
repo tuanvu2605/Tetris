@@ -1,0 +1,4 @@
+http://games.coolgames.com/tetris-twist/en/4.7/assets/fonts/jp/rounded-x-mplus-1m-bold.ttf 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/fonts/jp/jiyucho-webfont.ttf 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/fonts/jp/rounded-x-mplus-1m-bold.woff 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/fonts/jp/jiyucho-webfont.woff 
