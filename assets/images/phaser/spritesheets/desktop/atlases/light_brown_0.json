@@ -1,0 +1,111 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_BRIDGE.png",
+	"frame": {"x":298,"y":268,"w":313,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":313,"h":235},
+	"sourceSize": {"w":313,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_COWBODY_02.png",
+	"frame": {"x":613,"y":232,"w":49,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":49},
+	"sourceSize": {"w":49,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_COWHEAD_02.png",
+	"frame": {"x":1,"y":480,"w":19,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":18},
+	"sourceSize": {"w":19,"h":18},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_DUCK_02.png",
+	"frame": {"x":22,"y":480,"w":12,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":10},
+	"sourceSize": {"w":12,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_DUCK_HEAD_02.png",
+	"frame": {"x":22,"y":492,"w":8,"h":7},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":7},
+	"sourceSize": {"w":8,"h":7},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_WICKS.png",
+	"frame": {"x":1,"y":1,"w":294,"h":294},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":294,"h":294},
+	"sourceSize": {"w":294,"h":294},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "HELI_PROPELOR_01.png",
+	"frame": {"x":576,"y":160,"w":88,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":34},
+	"sourceSize": {"w":88,"h":34},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "HELI_PROPELOR_02.png",
+	"frame": {"x":576,"y":196,"w":88,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":34},
+	"sourceSize": {"w":88,"h":34},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenCityTower.png",
+	"frame": {"x":297,"y":1,"w":277,"h":265},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":265},
+	"sourceSize": {"w":277,"h":265},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londoncity_block9.png",
+	"frame": {"x":576,"y":1,"w":92,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":157},
+	"sourceSize": {"w":92,"h":157},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block9.png",
+	"frame": {"x":1,"y":297,"w":295,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":181},
+	"sourceSize": {"w":295,"h":181},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "light_brown_0.png",
+	"format": "RGBA8888",
+	"size": {"w":669,"h":504},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:2e0236c3213c9970bfbb25bec77062be:80fefa0d093053576247f0bf8178fb8b:bcfe8fb14ca2eb5f2325746a630eb679$"
+}
+}

@@ -1,0 +1,368 @@
+{
+"skeleton": { "hash": "n08HG2sqq0kQVGVY8O+ThbUI0gs", "spine": "3.2.01", "width": 1248.89, "height": 1273.01, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "NEWYORKC_CITY_ISLAND_02", "parent": "root", "x": 331.8, "y": -402.83 },
+	{ "name": "NEWYORK_CITY", "parent": "root" },
+	{ "name": "NEWYORK_CITY_ISLAND_1", "parent": "root", "x": -424.62, "y": -292.67 },
+	{ "name": "NEWYORK_ISLAND_03", "parent": "root", "x": 533.76, "y": -182.51 },
+	{ "name": "TAXI_01", "parent": "NEWYORK_CITY", "x": -51.2, "y": 17.95 },
+	{ "name": "SMOKE", "parent": "TAXI_01", "x": 53.58, "y": -31.6 },
+	{ "name": "TEXI_02", "parent": "NEWYORK_CITY", "x": 366.49, "y": -32.87 },
+	{ "name": "SMOKE2", "parent": "TEXI_02", "x": 26.23, "y": 14.27 }
+],
+"slots": [
+	{ "name": "NEWYORK_CITY", "bone": "NEWYORK_CITY", "attachment": "NEWYORK_CITY_02" },
+	{ "name": "NEWYORK_TAXI_01", "bone": "TAXI_01", "attachment": "NEWYORK_TAXI_01" },
+	{ "name": "NEWYORK_TAXI_SMOKE_01", "bone": "SMOKE", "attachment": "NEWYORK_TAXI_SMOKE_01" },
+	{ "name": "NEWYORK_TAXI_SMOKE_1", "bone": "SMOKE2", "attachment": "NEWYORK_TAXI_SMOKE_01" },
+	{ "name": "NEWYORK_TAXI_WEELS_01", "bone": "NEWYORK_CITY", "attachment": "NEWYORK_TAXI_WEELS_01" },
+	{ "name": "NEWYORK_ISLAND_02", "bone": "NEWYORKC_CITY_ISLAND_02", "attachment": "NEWYORK__CITY_ISLAND_02" },
+	{ "name": "NEWYORK_ISLAND_01", "bone": "NEWYORK_CITY_ISLAND_1", "attachment": "NEWYORK_CITY_ISLAND_01" },
+	{ "name": "NEWYORK_ISLAND_03", "bone": "NEWYORK_ISLAND_03", "attachment": "NEWYORK_CITY_ISLAND_03" },
+	{ "name": "NEWYORK_TAXI_02", "bone": "TEXI_02", "attachment": "NEWYORK_TAXI_02" },
+	{ "name": "NEWYORK_TAXI_WEELS_02", "bone": "NEWYORK_CITY", "attachment": "NEWYORK_TAXI_WEELS_02" }
+],
+"skins": {
+	"default": {
+		"NEWYORK_CITY": {
+			"NEWYORK_CITY_02": { "y": 169.67, "width": 982, "height": 1191 }
+		},
+		"NEWYORK_ISLAND_01": {
+			"NEWYORK_CITY_ISLAND_01": { "width": 291, "height": 261 }
+		},
+		"NEWYORK_ISLAND_02": {
+			"NEWYORK__CITY_ISLAND_02": { "width": 136, "height": 210 }
+		},
+		"NEWYORK_ISLAND_03": {
+			"NEWYORK_CITY_ISLAND_03": { "width": 290, "height": 263 }
+		},
+		"NEWYORK_TAXI_01": {
+			"NEWYORK_TAXI_01": { "x": -1.41, "y": -2.58, "width": 138, "height": 106 }
+		},
+		"NEWYORK_TAXI_02": {
+			"NEWYORK_TAXI_02": { "x": -6.11, "y": -5.74, "width": 142, "height": 106 }
+		},
+		"NEWYORK_TAXI_SMOKE_01": {
+			"NEWYORK_TAXI_SMOKE 03": { "x": 39.49, "y": 11.01, "width": 77, "height": 64 },
+			"NEWYORK_TAXI_SMOKE_01": { "x": 40.99, "y": 11.01, "width": 68, "height": 58 },
+			"NEWYORK_TAXI_SMOKE_02": { "x": 43.99, "y": 19.01, "width": 60, "height": 52 }
+		},
+		"NEWYORK_TAXI_SMOKE_1": {
+			"NEWYORK_TAXI_SMOKE 03": { "x": 39.49, "y": 11.01, "width": 77, "height": 64 },
+			"NEWYORK_TAXI_SMOKE_01": { "x": 40.99, "y": 11.01, "width": 68, "height": 58 },
+			"NEWYORK_TAXI_SMOKE_02": { "x": 43.99, "y": 19.01, "width": 60, "height": 52 }
+		},
+		"NEWYORK_TAXI_WEELS_01": {
+			"NEWYORK_TAXI_WEELS_01": { "x": -74.62, "y": -12.62, "width": 70, "height": 44 }
+		},
+		"NEWYORK_TAXI_WEELS_02": {
+			"NEWYORK_TAXI_WEELS_02": { "x": 384.37, "y": -66.62, "width": 70, "height": 44 }
+		}
+	}
+},
+"animations": {
+	"newyorkCity": {
+		"slots": {
+			"NEWYORK_ISLAND_02": {
+				"attachment": [
+					{ "time": 0, "name": "NEWYORK__CITY_ISLAND_02" }
+				]
+			},
+			"NEWYORK_ISLAND_03": {
+				"attachment": [
+					{ "time": 0, "name": "NEWYORK_CITY_ISLAND_03" }
+				]
+			},
+			"NEWYORK_TAXI_SMOKE_01": {
+				"attachment": [
+					{ "time": 0, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.6666, "name": "NEWYORK_TAXI_SMOKE 03" }
+				]
+			},
+			"NEWYORK_TAXI_SMOKE_1": {
+				"attachment": [
+					{ "time": 0, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.6666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.8, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.9333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.0666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.2, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.3333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.4666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.6, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.7333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.8666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10.1333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.2666, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10.4, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10.5333, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.6666, "name": "NEWYORK_TAXI_SMOKE_02" }
+				]
+			}
+		},
+		"bones": {
+			"TAXI_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 6 },
+					{ "time": 1.3333, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": 5.49 },
+					{ "time": 2.6666, "x": 0, "y": -1 },
+					{ "time": 3.3333, "x": 0, "y": 6.99 },
+					{ "time": 4, "x": 0, "y": 0 },
+					{ "time": 4.6666, "x": 0, "y": 6 },
+					{ "time": 5.3333, "x": 0, "y": 1 },
+					{ "time": 6, "x": 0, "y": 6 },
+					{ "time": 6.6666, "x": 0, "y": 1.5 },
+					{ "time": 7.3333, "x": 0, "y": 6 },
+					{ "time": 8, "x": 0, "y": -0.49 },
+					{ "time": 8.6666, "x": 0, "y": 6.5 },
+					{ "time": 9.3333, "x": 0, "y": 0 },
+					{ "time": 10, "x": 0, "y": 5 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"TEXI_02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.61 },
+					{ "time": 0.6666, "x": 0, "y": -1.88 },
+					{ "time": 1.3333, "x": 0, "y": 5.11 },
+					{ "time": 2, "x": 0, "y": 0.11 },
+					{ "time": 2.6666, "x": 0, "y": 6.11 },
+					{ "time": 3.3333, "x": 0, "y": 0.11 },
+					{ "time": 4, "x": 0, "y": 6.61 },
+					{ "time": 4.6666, "x": 0, "y": 0.11 },
+					{ "time": 5.3333, "x": 0, "y": 6.11 },
+					{ "time": 6, "x": 0, "y": 0.12 },
+					{ "time": 6.6666, "x": 0, "y": 6.12 },
+					{ "time": 7.3333, "x": 0, "y": 0.12 },
+					{ "time": 8, "x": 0, "y": 6.61 },
+					{ "time": 8.6666, "x": 0, "y": -0.37 },
+					{ "time": 9.3333, "x": 0, "y": 6.62 },
+					{ "time": 10, "x": 0, "y": 0.11 },
+					{ "time": 10.6666, "x": 0, "y": 6.61 }
+				]
+			},
+			"NEWYORK_CITY": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -61.79,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"NEWYORK_CITY_ISLAND_1": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -173.4,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"NEWYORKC_CITY_ISLAND_02": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -103.7,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": -103.7,
+						"y": -98.6,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": -103.7, "y": 0 }
+				]
+			},
+			"NEWYORK_ISLAND_03": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -110.96,
+						"y": -56.77,
+						"curve": [ 0.152, 0.44, 0.302, 0.88 ]
+					},
+					{
+						"time": 2.6333,
+						"x": -110.96,
+						"y": -78.2,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 7.9666,
+						"x": -110.96,
+						"y": -33.99,
+						"curve": [ 0.697, 0.16, 0.849, 0.59 ]
+					},
+					{ "time": 10.6333, "x": -110.96, "y": -56.77 }
+				]
+			}
+		}
+	}
+}
+}

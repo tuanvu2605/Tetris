@@ -1,0 +1,4 @@
+http://games.coolgames.com/tetris-twist/en/4.7/assets/audio/music.mp3 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/audio/music.json 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/audio/effects.mp3 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/audio/effects.json  

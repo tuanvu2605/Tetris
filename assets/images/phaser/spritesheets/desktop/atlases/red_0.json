@@ -1,0 +1,66 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_MILL.png",
+	"frame": {"x":1,"y":147,"w":155,"h":349},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":155,"h":349},
+	"sourceSize": {"w":155,"h":349},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnRe.png",
+	"frame": {"x":1,"y":1,"w":222,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":76},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnRe_downstate.png",
+	"frame": {"x":1,"y":79,"w":222,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":66},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIslandBus.png",
+	"frame": {"x":1,"y":655,"w":123,"h":104},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":104},
+	"sourceSize": {"w":123,"h":104},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisMillWicks.png",
+	"frame": {"x":1,"y":498,"w":155,"h":155},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":155,"h":155},
+	"sourceSize": {"w":155,"h":155},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoRedLight.png",
+	"frame": {"x":158,"y":147,"w":9,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":9},
+	"sourceSize": {"w":9,"h":9},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "red_0.png",
+	"format": "RGBA8888",
+	"size": {"w":224,"h":760},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:238225f8d1d7640cf9c97e4a5ea63d0d:e052f9661033cd267b36b4299d46d879:0a6e1ecff995ee0cdc77f3263e897eef$"
+}
+}

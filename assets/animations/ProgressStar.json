@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "cPAqmEz1DeMhN9soiMCOtVxw7z4", "spine": "2.1.27", "width": 596, "height": 375, "images": "./images/" },
+"bones": [
+	{ "name": "progressStar" }
+],
+"slots": [
+	{ "name": "progressStar_01", "bone": "progressStar", "attachment": "progressStar_01" }
+],
+"skins": {
+	"default": {
+		"progressStar_01": {
+			"progressStar_01": { "x": 0.33, "y": -131.8, "width": 596, "height": 375 },
+			"progressStar_02": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_03": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_04": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_05": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_06": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_07": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_08": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_09": { "x": 0.33, "y": -131.81, "width": 596, "height": 375 },
+			"progressStar_10": { "x": 0.32, "y": -131.8, "width": 596, "height": 375 }
+		}
+	}
+},
+"animations": {
+	"ProgressStar": {
+		"slots": {
+			"progressStar_01": {
+				"attachment": [
+					{ "time": 0, "name": "progressStar_10" },
+					{ "time": 0.0333, "name": "progressStar_02" },
+					{ "time": 0.0666, "name": "progressStar_03" },
+					{ "time": 0.1, "name": "progressStar_04" },
+					{ "time": 0.1333, "name": "progressStar_05" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": "progressStar_07" },
+					{ "time": 0.2333, "name": "progressStar_08" },
+					{ "time": 0.2666, "name": "progressStar_09" },
+					{ "time": 0.3, "name": "progressStar_10" }
+				]
+			}
+		},
+		"bones": {
+			"progressStar": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

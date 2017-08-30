@@ -1,0 +1,201 @@
+{"frames": [
+
+{
+	"filename": "LONDEN_EYE_BAR_BACK.png",
+	"frame": {"x":675,"y":1,"w":10,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":193},
+	"sourceSize": {"w":10,"h":193},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_BAR_FRONT.png",
+	"frame": {"x":687,"y":1,"w":10,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":193},
+	"sourceSize": {"w":10,"h":193},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_CABIN.png",
+	"frame": {"x":534,"y":173,"w":63,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":46},
+	"sourceSize": {"w":63,"h":46},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_CENTER.png",
+	"frame": {"x":656,"y":196,"w":38,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":24},
+	"sourceSize": {"w":38,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_CENTER_FRONT.png",
+	"frame": {"x":534,"y":121,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_CIRCLE_BACK.png",
+	"frame": {"x":206,"y":1,"w":203,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":218},
+	"sourceSize": {"w":203,"h":218},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_CIRCLE_FRONT.png",
+	"frame": {"x":1,"y":1,"w":203,"h":219},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":219},
+	"sourceSize": {"w":203,"h":219},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_TAXI_SMOKE 03.png",
+	"frame": {"x":411,"y":178,"w":50,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":42},
+	"sourceSize": {"w":50,"h":42},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_TAXI_SMOKE_01.png",
+	"frame": {"x":463,"y":178,"w":44,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":38},
+	"sourceSize": {"w":44,"h":38},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_TAXI_SMOKE_02.png",
+	"frame": {"x":750,"y":52,"w":39,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":34},
+	"sourceSize": {"w":39,"h":34},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "TAXI_01_PARTICLES.png",
+	"frame": {"x":750,"y":88,"w":34,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":28},
+	"sourceSize": {"w":34,"h":28},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ghost_part_01.png",
+	"frame": {"x":699,"y":1,"w":49,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":49},
+	"sourceSize": {"w":49,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ghost_part_02.png",
+	"frame": {"x":699,"y":52,"w":49,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":49},
+	"sourceSize": {"w":49,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ghost_part_03.png",
+	"frame": {"x":699,"y":103,"w":49,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":49},
+	"sourceSize": {"w":49,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ghost_part_04.png",
+	"frame": {"x":699,"y":154,"w":49,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":49},
+	"sourceSize": {"w":49,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ghost_part_05.png",
+	"frame": {"x":750,"y":1,"w":49,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":49},
+	"sourceSize": {"w":49,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londonCitymask.png",
+	"frame": {"x":411,"y":1,"w":147,"h":118},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":118},
+	"sourceSize": {"w":147,"h":118},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisballoon02.png",
+	"frame": {"x":560,"y":1,"w":113,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":170},
+	"sourceSize": {"w":113,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIslandWater1.png",
+	"frame": {"x":534,"y":143,"w":16,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":14},
+	"sourceSize": {"w":16,"h":14},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIslandWater2.png",
+	"frame": {"x":411,"y":121,"w":121,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":55},
+	"sourceSize": {"w":121,"h":55},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIslandWater3.png",
+	"frame": {"x":599,"y":173,"w":55,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":29},
+	"sourceSize": {"w":55,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "light_blue_0.png",
+	"format": "RGBA8888",
+	"size": {"w":800,"h":221},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:4cd5a435a266d9b8e145100321af20b3:04b681ecd7189f94ea4b6aad289852ef:21c7dd2ef5476202cdcdbdb75d251883$"
+}
+}

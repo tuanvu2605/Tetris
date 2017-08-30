@@ -1,0 +1,192 @@
+{"frames": [
+
+{
+	"filename": "btnCampaign.png",
+	"frame": {"x":1608,"y":357,"w":307,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":170},
+	"sourceSize": {"w":307,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnCampaign_downstate.png",
+	"frame": {"x":302,"y":467,"w":241,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":34,"w":241,"h":102},
+	"sourceSize": {"w":307,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnGr.png",
+	"frame": {"x":669,"y":307,"w":222,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":76},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnGr_controls.png",
+	"frame": {"x":893,"y":307,"w":222,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":76},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnGr_controlsGlow.png",
+	"frame": {"x":1,"y":467,"w":299,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":131},
+	"sourceSize": {"w":299,"h":131},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnGr_downstate.png",
+	"frame": {"x":1608,"y":529,"w":222,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":66},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnRewardedAd.png",
+	"frame": {"x":1459,"y":1,"w":438,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":438,"h":180},
+	"sourceSize": {"w":438,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnRewardedAd_downstate.png",
+	"frame": {"x":1459,"y":183,"w":438,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":438,"h":172},
+	"sourceSize": {"w":438,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "chooseControlsKeyboard.png",
+	"frame": {"x":477,"y":1,"w":489,"h":304},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":489,"h":304},
+	"sourceSize": {"w":489,"h":304},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "chooseControlsMouse.png",
+	"frame": {"x":1117,"y":357,"w":489,"h":228},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":489,"h":228},
+	"sourceSize": {"w":489,"h":228},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "chooseControlsMouse_small.png",
+	"frame": {"x":1117,"y":357,"w":489,"h":228},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":489,"h":228},
+	"sourceSize": {"w":489,"h":228},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "controlsDesktop_complex.png",
+	"frame": {"x":968,"y":1,"w":489,"h":304},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":489,"h":304},
+	"sourceSize": {"w":489,"h":304},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "controlsMobileClassic.png",
+	"frame": {"x":1,"y":1,"w":474,"h":464},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":474,"h":464},
+	"sourceSize": {"w":474,"h":464},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "keyboardHold.png",
+	"frame": {"x":545,"y":403,"w":380,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":206},
+	"sourceSize": {"w":380,"h":206},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlNodeActive.png",
+	"frame": {"x":477,"y":307,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlNodeActiveDown.png",
+	"frame": {"x":573,"y":307,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_01.png",
+	"frame": {"x":477,"y":403,"w":34,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":40},
+	"sourceSize": {"w":34,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_01.png",
+	"frame": {"x":345,"y":571,"w":40,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":24},
+	"sourceSize": {"w":40,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_01.png",
+	"frame": {"x":302,"y":571,"w":41,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":24},
+	"sourceSize": {"w":41,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_01.png",
+	"frame": {"x":387,"y":571,"w":29,"h":13},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":29,"h":13},
+	"sourceSize": {"w":30,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "green_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1916,"h":610},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:4e0897c095978f2e4be2e7c182e8d6f3:31633df8a644560c304781461e7082fa:204ced72ca7e74b218417afae1f26866$"
+}
+}

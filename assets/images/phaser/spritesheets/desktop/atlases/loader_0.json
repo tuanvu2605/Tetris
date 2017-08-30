@@ -1,0 +1,129 @@
+{"frames": [
+
+{
+	"filename": "loadingwindow.png",
+	"frame": {"x":1,"y":1,"w":618,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":618,"h":58},
+	"sourceSize": {"w":618,"h":58},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "logo.png",
+	"frame": {"x":1,"y":61,"w":469,"h":307},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":36,"w":469,"h":307},
+	"sourceSize": {"w":520,"h":377},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "play_btn.png",
+	"frame": {"x":472,"y":61,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "progress_bar_back.png",
+	"frame": {"x":602,"y":87,"w":8,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":18},
+	"sourceSize": {"w":8,"h":18},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "progress_bar_front.png",
+	"frame": {"x":602,"y":107,"w":8,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":18},
+	"sourceSize": {"w":8,"h":18},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetDarkblue.png",
+	"frame": {"x":567,"y":122,"w":22,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":33},
+	"sourceSize": {"w":22,"h":33},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetGreen.png",
+	"frame": {"x":567,"y":74,"w":33,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":22},
+	"sourceSize": {"w":33,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetLightblue.png",
+	"frame": {"x":567,"y":61,"w":44,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":11},
+	"sourceSize": {"w":44,"h":11},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetLightblueSmall.png",
+	"frame": {"x":602,"y":74,"w":11,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":11},
+	"sourceSize": {"w":11,"h":11},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetOrange.png",
+	"frame": {"x":567,"y":98,"w":33,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":22},
+	"sourceSize": {"w":33,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetPurple.png",
+	"frame": {"x":591,"y":127,"w":22,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":33},
+	"sourceSize": {"w":22,"h":33},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetRed.png",
+	"frame": {"x":567,"y":157,"w":22,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":33},
+	"sourceSize": {"w":22,"h":33},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tetYellow.png",
+	"frame": {"x":591,"y":162,"w":22,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":22},
+	"sourceSize": {"w":22,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "loader_0.png",
+	"format": "RGBA8888",
+	"size": {"w":620,"h":369},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:c1b343e580dd49901ee83a8124301ad3:9ffed1d8112bf1e566a4caa0f76c14fe:bc566840b197817b3f6a3e014d3c837b$"
+}
+}

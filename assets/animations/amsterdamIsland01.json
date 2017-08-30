@@ -1,0 +1,164 @@
+{
+"skeleton": { "hash": "Mz96T2qTLX7vGNzjzuyvHAvKT94", "spine": "3.2.01", "width": 827, "height": 832.32, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Boot", "parent": "root", "x": 90.24, "y": 38.95 },
+	{ "name": "amsterdam island 01", "parent": "root" }
+],
+"slots": [
+	{ "name": "AMSTERDAM_ISLAND_01", "bone": "amsterdam island 01", "attachment": "AMSTERDAM_ISLAND_03" },
+	{ "name": "AMSTERDAM_WATER_04", "bone": "amsterdam island 01", "attachment": "AMSTERDAM_WATER_04" },
+	{ "name": "AMSTERDAM_WATER_03", "bone": "amsterdam island 01", "attachment": "AMSTERDAM_WATER_03" },
+	{ "name": "AMSTERDAM_BOOT", "bone": "Boot", "attachment": "AMSTERDAM_BOOT" },
+	{ "name": "AMSTERDAM_MASK", "bone": "amsterdam island 01", "attachment": "AMSTERDAM_MASK" },
+	{ "name": "amsterdamIsland01_locked", "bone": "root", "attachment": "amsterdamIsland01_locked" }
+],
+"skins": {
+	"default": {
+		"AMSTERDAM_BOOT": {
+			"AMSTERDAM_BOOT": { "x": -1.47, "y": -7.42, "width": 254, "height": 137 }
+		},
+		"AMSTERDAM_ISLAND_01": {
+			"AMSTERDAM_ISLAND_03": { "x": -44.36, "y": 38.95, "width": 826, "height": 832 }
+		},
+		"AMSTERDAM_MASK": {
+			"AMSTERDAM_MASK": { "x": 97.77, "y": 0.53, "width": 302, "height": 193 }
+		},
+		"AMSTERDAM_WATER_03": {
+			"AMSTERDAM_WATER_03": { "x": 15.27, "y": -4.46, "width": 705, "height": 337 }
+		},
+		"AMSTERDAM_WATER_04": {
+			"AMSTERDAM_WATER_04": { "x": 24.77, "y": -2.96, "width": 686, "height": 334 }
+		},
+		"amsterdamIsland01_locked": {
+			"amsterdamIsland01_locked": { "x": -43.99, "y": 38.62, "width": 827, "height": 832 }
+		}
+	}
+},
+"animations": {
+	"amsterdamIsland01": {
+		"slots": {
+			"AMSTERDAM_WATER_03": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.6666, "color": "ffffff00" },
+					{ "time": 3.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4.6666, "color": "ffffffff" },
+					{ "time": 5.3333, "color": "ffffff00" },
+					{ "time": 6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 7.3333, "color": "ffffffff" },
+					{ "time": 8, "color": "ffffff00" },
+					{ "time": 8.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 10, "color": "ffffffff" },
+					{ "time": 10.6666, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_WATER_04": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ffffffff" },
+					{ "time": 4, "color": "ffffff00" },
+					{ "time": 4.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 6, "color": "ffffffff" },
+					{ "time": 6.6666, "color": "ffffff00" },
+					{ "time": 7.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.6666, "color": "ffffffff" },
+					{ "time": 9.3333, "color": "ffffff00" },
+					{ "time": 10, "color": "ffffffff" }
+				]
+			},
+			"amsterdamIsland01_locked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "amsterdamIsland01_locked" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 94.24,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"Boot": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -8.16 },
+					{ "time": 1.3333, "x": 0, "y": 0 },
+					{ "time": 2.6666, "x": 0, "y": -8.16 },
+					{ "time": 4, "x": 0, "y": 0 },
+					{ "time": 5.3333, "x": 0, "y": -8.16 },
+					{ "time": 6.6666, "x": 0, "y": 0 },
+					{ "time": 8, "x": 0, "y": -8.16 },
+					{ "time": 9.3333, "x": 0, "y": 0 },
+					{ "time": 10.6666, "x": 0, "y": -8.16 }
+				]
+			},
+			"amsterdam island 01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"amsterdamIsland01_locked": {
+		"slots": {
+			"AMSTERDAM_BOOT": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_ISLAND_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_MASK": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_WATER_03": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_WATER_04": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Boot": {
+				"translate": [
+					{ "time": 0, "x": 9.33, "y": -3.11 }
+				]
+			},
+			"amsterdam island 01": {
+				"translate": [
+					{ "time": 0, "x": 9.33, "y": -3.11 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,462 @@
+{
+"skeleton": { "hash": "ukpgBpSHPrOPR5qchrtze/c739I", "spine": "3.2.01", "width": 371, "height": 579, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "water1", "parent": "root", "x": 161.25, "y": -36.75 },
+	{ "name": "water2", "parent": "root", "x": 35.33, "y": -90.07 },
+	{ "name": "water3", "parent": "root", "x": 82.35, "y": -70.94 },
+	{ "name": "water4", "parent": "root", "rotation": -3, "x": -55.5, "y": -84.53, "scaleX": -1 },
+	{ "name": "water5", "parent": "root", "rotation": -3, "x": -55.5, "y": -84.53, "scaleX": -1 },
+	{ "name": "water6", "parent": "root", "x": 161.25, "y": -36.75 },
+	{ "name": "water7", "parent": "root", "x": 161.25, "y": -36.75 }
+],
+"slots": [
+	{ "name": "tokyoIslandCastle", "bone": "root", "attachment": "tokyoIslandCastle" },
+	{ "name": "tokyoIslandWater3", "bone": "water3", "attachment": "tokyoIslandWater3" },
+	{ "name": "tokyoIslandWater2", "bone": "water2", "attachment": "tokyoIslandWater2" },
+	{ "name": "tokyoIslandWater1", "bone": "water1", "attachment": "tokyoIslandWater1" },
+	{ "name": "tokyoIslandWater4", "bone": "water6", "attachment": "tokyoIslandWater1" },
+	{ "name": "tokyoIslandWater5", "bone": "water7", "attachment": "tokyoIslandWater1" },
+	{ "name": "water4", "bone": "water4", "attachment": "tokyoIslandWater3" },
+	{ "name": "water5", "bone": "water5", "attachment": "tokyoIslandWater3" },
+	{ "name": "tokyoIslandCastleWall", "bone": "root", "attachment": "tokyoIslandCastleWall" },
+	{ "name": "tokyoIslandLocked", "bone": "root", "attachment": "tokyoIsland01_locked" }
+],
+"skins": {
+	"default": {
+		"tokyoIslandCastle": {
+			"tokyoIslandCastle": { "x": 5, "y": -0.5, "width": 370, "height": 579 }
+		},
+		"tokyoIslandCastleWall": {
+			"tokyoIslandCastleWall": { "x": 4.5, "y": -145.5, "width": 369, "height": 289 }
+		},
+		"tokyoIslandLocked": {
+			"tokyoIsland01_locked": { "x": 5.5, "y": -0.5, "width": 371, "height": 579 }
+		},
+		"tokyoIslandWater1": {
+			"tokyoIslandWater1": { "x": -1.76, "y": -2.93, "width": 25, "height": 22 }
+		},
+		"tokyoIslandWater2": {
+			"tokyoIslandWater2": { "x": 50.66, "y": 20.57, "width": 186, "height": 85 }
+		},
+		"tokyoIslandWater3": {
+			"tokyoIslandWater3": { "x": -18.85, "y": -8.05, "width": 85, "height": 44 }
+		},
+		"tokyoIslandWater4": {
+			"tokyoIslandWater1": { "x": -256.49, "y": -124.96, "scaleX": -1, "rotation": -3, "width": 25, "height": 22 }
+		},
+		"tokyoIslandWater5": {
+			"tokyoIslandWater1": { "x": -324.35, "y": -29.62, "scaleX": -1, "rotation": -3, "width": 25, "height": 22 }
+		},
+		"water4": {
+			"tokyoIslandWater3": { "x": -1.5, "y": 2.99, "width": 85, "height": 44 }
+		},
+		"water5": {
+			"tokyoIslandWater3": { "x": 78.56, "y": 33.12, "width": 85, "height": 44 }
+		}
+	}
+},
+"animations": {
+	"tokyoIsland01": {
+		"slots": {
+			"tokyoIslandLocked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9333, "color": "ffffff00" },
+					{ "time": 2.0666, "color": "ffffffff" },
+					{ "time": 3.3666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.7666, "color": "ffffff00" },
+					{ "time": 3.8666, "color": "ffffffff" },
+					{ "time": 5.2333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.4333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.7333, "color": "ffffff00" },
+					{ "time": 5.9, "color": "ffffffff" },
+					{ "time": 7.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7.3666, "color": "ffffff00" },
+					{ "time": 7.5, "color": "ffffffff" },
+					{ "time": 8.8, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 9.2, "color": "ffffff00" },
+					{ "time": 9.3, "color": "ffffffff" },
+					{ "time": 10.6333, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3.7666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5, "color": "ffffff00" },
+					{ "time": 5.1666, "color": "ffffffff" },
+					{ "time": 6.4333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.2666, "color": "ffffff00" },
+					{ "time": 8.4333, "color": "ffffffff" },
+					{ "time": 9.7, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 3.3333, "color": "ffffff06" },
+					{ "time": 3.4, "color": "ffffffff" },
+					{ "time": 5.0333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6, "color": "ffffff00" },
+					{ "time": 6.1, "color": "ffffffff" },
+					{ "time": 7.5333, "color": "ffffff00" },
+					{ "time": 8.8666, "color": "ffffff06" },
+					{ "time": 8.9333, "color": "ffffffff" },
+					{ "time": 10.0333, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater5": {
+				"color": [
+					{ "time": 0.8666, "color": "ffffffff" },
+					{ "time": 1.3666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.4333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.0666, "color": "ffffff00" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 2.6666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.7333, "color": "ffffff00" },
+					{ "time": 2.8, "color": "ffffffff" },
+					{ "time": 3.3, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ffffff00" },
+					{ "time": 3.4, "color": "ffffffff" },
+					{ "time": 3.9, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.9666, "color": "ffffff00" },
+					{ "time": 4.0333, "color": "ffffffff" },
+					{ "time": 4.5333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.5666, "color": "ffffff00" },
+					{ "time": 4.6333, "color": "ffffffff" },
+					{ "time": 5.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.1666, "color": "ffffff00" },
+					{ "time": 5.2333, "color": "ffffffff" },
+					{ "time": 5.7666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.8, "color": "ffffff00" },
+					{ "time": 5.8666, "color": "ffffffff" },
+					{ "time": 6.3666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.4, "color": "ffffff00" },
+					{ "time": 6.4666, "color": "ffffffff" },
+					{ "time": 6.9666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7, "color": "ffffff00" },
+					{ "time": 7.0666, "color": "ffffffff" },
+					{ "time": 7.6, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7.6333, "color": "ffffff00" },
+					{ "time": 7.7, "color": "ffffffff" },
+					{ "time": 8.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.2333, "color": "ffffff00" },
+					{ "time": 8.3, "color": "ffffffff" },
+					{ "time": 8.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.8666, "color": "ffffff00" },
+					{ "time": 8.9333, "color": "ffffffff" },
+					{ "time": 9.4333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 9.4666, "color": "ffffff00" },
+					{ "time": 9.5333, "color": "ffffffff" },
+					{ "time": 10.0333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 10.0666, "color": "ffffff00" },
+					{ "time": 10.1333, "color": "ffffffff" },
+					{ "time": 10.6666, "color": "ffffff00" }
+				]
+			},
+			"water4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffe9" },
+					{ "time": 1.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 2.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.3666, "color": "ffffffff" },
+					{ "time": 3.4, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.2, "color": "ffffff00" },
+					{ "time": 5.2333, "color": "ffffffff" },
+					{ "time": 6.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.3, "color": "ffffff00" },
+					{ "time": 6.3333, "color": "ffffffff" },
+					{ "time": 7.3666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7.4, "color": "ffffff00" },
+					{ "time": 7.4333, "color": "ffffffff" },
+					{ "time": 8.4666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.5, "color": "ffffff00" },
+					{ "time": 8.5333, "color": "ffffffff" },
+					{ "time": 9.5666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 9.6, "color": "ffffff00" },
+					{ "time": 9.6333, "color": "ffffffff" },
+					{ "time": 10.6666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.2, "name": null },
+					{ "time": 1.2333, "name": "tokyoIslandWater3" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.3666, "name": "tokyoIslandWater3" },
+					{ "time": 5.2, "name": null },
+					{ "time": 5.2333, "name": "tokyoIslandWater3" },
+					{ "time": 6.3, "name": null },
+					{ "time": 6.3333, "name": "tokyoIslandWater3" },
+					{ "time": 7.4, "name": null },
+					{ "time": 7.4333, "name": "tokyoIslandWater3" },
+					{ "time": 8.5, "name": null },
+					{ "time": 8.5333, "name": "tokyoIslandWater3" },
+					{ "time": 9.6, "name": null },
+					{ "time": 9.6333, "name": "tokyoIslandWater3" }
+				]
+			},
+			"water5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"water1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 1.8333, "x": 0, "y": -178.01 },
+					{ "time": 1.9333, "x": 0, "y": 0 },
+					{ "time": 3.3666, "x": 0, "y": -178.01 },
+					{ "time": 3.7666, "x": 0, "y": 0 },
+					{ "time": 5.2333, "x": 0, "y": -182.48 },
+					{ "time": 5.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.7333, "x": 0, "y": 0 },
+					{ "time": 7.2666, "x": 0, "y": -178.01 },
+					{ "time": 7.3666, "x": 0, "y": 0 },
+					{ "time": 8.8, "x": 0, "y": -178.01 },
+					{ "time": 9.2, "x": 0, "y": 0 },
+					{ "time": 10.6333, "x": 0, "y": -182.48 }
+				]
+			},
+			"water2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1333, "x": 0, "y": -177.32 },
+					{ "time": 2.3333, "x": 0, "y": 0 },
+					{ "time": 3.7666, "x": 0, "y": -177.32 },
+					{ "time": 5, "x": 0, "y": 0 },
+					{ "time": 6.4333, "x": 0, "y": -177.32 },
+					{ "time": 8.2666, "x": 0, "y": 0 },
+					{ "time": 9.7, "x": 0, "y": -177.32 }
+				]
+			},
+			"water3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": -177.32 },
+					{ "time": 2.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.4, "x": 0, "y": 0 },
+					{ "time": 5.0333, "x": 0, "y": -177.32 },
+					{ "time": 6.1, "x": 0, "y": 0 },
+					{ "time": 7.5333, "x": 0, "y": -177.32 },
+					{ "time": 7.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8.9333, "x": 0, "y": 0 },
+					{ "time": 10.0333, "x": 0, "y": -177.32 }
+				]
+			},
+			"water7": {
+				"rotate": [
+					{ "time": 1.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 3.9666, "angle": 0, "curve": "stepped" },
+					{ "time": 4.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 5.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 5.8, "angle": 0, "curve": "stepped" },
+					{ "time": 6.4, "angle": 0, "curve": "stepped" },
+					{ "time": 7, "angle": 0, "curve": "stepped" },
+					{ "time": 7.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 8.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 8.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 9.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 10.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 },
+					{ "time": 1.3666, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 1.4333, "x": 0, "y": -142.12 },
+					{ "time": 1.5, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 2.0666, "x": 0, "y": -142.12 },
+					{ "time": 2.1333, "x": 0, "y": 0 },
+					{ "time": 2.6666, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 2.7333, "x": 0, "y": -142.12 },
+					{ "time": 2.8, "x": 0, "y": 0 },
+					{ "time": 3.3, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": -142.12 },
+					{ "time": 3.4, "x": 0, "y": 0 },
+					{ "time": 3.9, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 3.9666, "x": 0, "y": -142.12 },
+					{ "time": 4.0333, "x": 0, "y": 0 },
+					{ "time": 4.5333, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 4.5666, "x": 0, "y": -142.12 },
+					{ "time": 4.6333, "x": 0, "y": 0 },
+					{ "time": 5.1333, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 5.1666, "x": 0, "y": -142.12 },
+					{ "time": 5.2333, "x": 0, "y": 0 },
+					{ "time": 5.7666, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 5.8, "x": 0, "y": -142.12 },
+					{ "time": 5.8666, "x": 0, "y": 0 },
+					{ "time": 6.3666, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 6.4, "x": 0, "y": -142.12 },
+					{ "time": 6.4666, "x": 0, "y": 0 },
+					{ "time": 6.9666, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 7, "x": 0, "y": -142.12 },
+					{ "time": 7.0666, "x": 0, "y": 0 },
+					{ "time": 7.6, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 7.6333, "x": 0, "y": -142.12 },
+					{ "time": 7.7, "x": 0, "y": 0 },
+					{ "time": 8.2, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 8.2333, "x": 0, "y": -142.12 },
+					{ "time": 8.3, "x": 0, "y": 0 },
+					{ "time": 8.8333, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 8.8666, "x": 0, "y": -142.12 },
+					{ "time": 8.9333, "x": 0, "y": 0 },
+					{ "time": 9.4333, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 9.4666, "x": 0, "y": -142.12 },
+					{ "time": 9.5333, "x": 0, "y": 0 },
+					{ "time": 10.0333, "x": 0, "y": -142.12, "curve": "stepped" },
+					{ "time": 10.0666, "x": 0, "y": -142.12 },
+					{ "time": 10.1333, "x": 0, "y": 0 },
+					{ "time": 10.6666, "x": 0, "y": -142.12 }
+				],
+				"scale": [
+					{ "time": 1.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.9666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 9.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 10.0666, "x": 1, "y": 1 }
+				]
+			},
+			"water4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1666, "x": 0, "y": -177.06, "curve": "stepped" },
+					{ "time": 1.2, "x": 0, "y": -177.06 },
+					{ "time": 1.2333, "x": 0, "y": -1.58 },
+					{ "time": 2.2666, "x": 0, "y": -174.67 },
+					{ "time": 2.3333, "x": 0, "y": -177.06 },
+					{ "time": 2.3666, "x": 0, "y": -1.58 },
+					{ "time": 3.4, "x": 0, "y": -174.67 },
+					{ "time": 5.2, "x": 0, "y": -177.06 },
+					{ "time": 5.2333, "x": 0, "y": -1.58 },
+					{ "time": 6.2666, "x": 0, "y": -174.67 },
+					{ "time": 6.3, "x": 0, "y": -177.06 },
+					{ "time": 6.3333, "x": 0, "y": -1.58 },
+					{ "time": 7.3666, "x": 0, "y": -174.67 },
+					{ "time": 7.4, "x": 0, "y": -177.06 },
+					{ "time": 7.4333, "x": 0, "y": -1.58 },
+					{ "time": 8.4666, "x": 0, "y": -174.67 },
+					{ "time": 8.5, "x": 0, "y": -177.06 },
+					{ "time": 8.5333, "x": 0, "y": -1.58 },
+					{ "time": 9.5666, "x": 0, "y": -174.67 },
+					{ "time": 9.6, "x": 0, "y": -177.06 },
+					{ "time": 9.6333, "x": 0, "y": -1.58 },
+					{ "time": 10.6666, "x": 0, "y": -174.67 }
+				]
+			},
+			"water5": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.2, "x": 0, "y": -176.26 }
+				]
+			},
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 76.69,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"tokyoIsland01_locked": {
+		"slots": {
+			"tokyoIslandCastle": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandCastleWall": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tokyoIslandWater5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"water4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"water5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,829 @@
+{
+"skeleton": { "hash": "WAHCJlLOzJBE+zUqdFJrmsCHgHM", "spine": "2.1.27", "width": 2434.56, "height": 1705.94, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "AMSTERDAM_CITY", "parent": "root", "x": 767.5, "y": -240.29 },
+	{ "name": "BALLON", "parent": "root", "x": 223.72, "y": 81.92 },
+	{ "name": "GLOW", "parent": "root", "x": 13.37, "y": 413.29 },
+	{ "name": "GLOW2", "parent": "root", "x": 13.37, "y": 413.29 },
+	{ "name": "HELI", "parent": "root", "x": -1462.68, "y": 878.31 },
+	{ "name": "LONDON CITY", "parent": "root", "x": -763.18, "y": -360.12 },
+	{ "name": "LONDON_ISLAND_01", "parent": "root", "x": -882.38, "y": -523.32 },
+	{ "name": "NEWYORK_CITY", "parent": "root", "x": 534.35, "y": -274.62 },
+	{ "name": "NEWYORK_ISLAND_01", "parent": "root", "x": 848.08, "y": -518.62 },
+	{ "name": "NEWYORK_ISLAND_02", "parent": "root", "x": 869.09, "y": -514.41 },
+	{ "name": "NEWYORK_ISLAND_03", "parent": "root", "x": 200.97, "y": -634.17 },
+	{ "name": "PARIS_CITY", "parent": "root", "x": 5.81, "y": -123.01 },
+	{ "name": "TOKYO ISLAND_01", "parent": "root", "x": -40.53, "y": -592.68 },
+	{ "name": "TOKYO ISLAND_02", "parent": "root", "x": -549.06, "y": -602.8 },
+	{ "name": "TOKYO_CITY", "parent": "root", "x": -301.12, "y": -296.67 },
+	{ "name": "BUS", "parent": "LONDON CITY", "x": -72.28, "y": 37.71 },
+	{ "name": "HELI_PROPELOR", "parent": "HELI", "x": 8.13, "y": 33.29 },
+	{ "name": "TAXI_01", "parent": "NEWYORK_CITY", "x": -57.2, "y": -54.47 },
+	{ "name": "TEXI_02", "parent": "NEWYORK_CITY", "x": 228.81, "y": -95.33 }
+],
+"slots": [
+	{ "name": "LONDON_CITY", "bone": "LONDON CITY", "attachment": "LONDON_CITY" },
+	{ "name": "LONDON_BUS", "bone": "BUS", "attachment": "LONDON_BUS" },
+	{ "name": "LONDON_WHEELS", "bone": "LONDON CITY", "attachment": "LONDON_WHEELS" },
+	{ "name": "LONDON_ISLAND", "bone": "LONDON_ISLAND_01", "attachment": "LONDON_ISLAND" },
+	{ "name": "AMSTERDAM_CITY", "bone": "AMSTERDAM_CITY", "attachment": "AMSTERDAM_CITY" },
+	{ "name": "PARIS_CITY", "bone": "PARIS_CITY", "attachment": "PARIS_CITY" },
+	{ "name": "PARIS_BALOON", "bone": "BALLON", "attachment": "PARIS_BALOON" },
+	{ "name": "PARIS_ISLAND_03", "bone": "root", "attachment": "PARIS_ISLAND_03" },
+	{ "name": "PARIS_ISLAND_01", "bone": "root", "attachment": "PARIS_ISLAND_01" },
+	{ "name": "NEWYORK_CITY", "bone": "NEWYORK_CITY", "attachment": "NEWYORK_CITY" },
+	{ "name": "NEWYORK_ISLAND_03", "bone": "NEWYORK_ISLAND_03", "attachment": "NEWYORK_ISLAND_03" },
+	{ "name": "NEWYORK_ISLAND_02", "bone": "NEWYORK_ISLAND_02", "attachment": "NEWYORK_ISLAND_02" },
+	{ "name": "NEWYORK_ISLAND_01", "bone": "NEWYORK_ISLAND_01", "attachment": "NEWYORK_ISLAND_01" },
+	{ "name": "TAXI_02_PARTICLES", "bone": "TEXI_02", "attachment": "TAXI_02_PARTICLES" },
+	{ "name": "TEXT_02", "bone": "TEXI_02", "attachment": "TEXT_02" },
+	{ "name": "TAXI_02_WEELS", "bone": "NEWYORK_CITY", "attachment": "TAXI_02_WEELS" },
+	{ "name": "TAXI_01", "bone": "TAXI_01", "attachment": "TAXI_01" },
+	{ "name": "TAXI_01_PARTICLES", "bone": "TAXI_01", "attachment": "TAXI_01_PARTICLES" },
+	{ "name": "TAXI_01_WEELS", "bone": "NEWYORK_CITY", "attachment": "TAXI_01_WEELS" },
+	{ "name": "LOGO_GLOW", "bone": "GLOW", "attachment": "LOGO_GLOW" },
+	{ "name": "LOGO_GLOW2", "bone": "GLOW2", "attachment": "LOGO_GLOW" },
+	{ "name": "HELI", "bone": "HELI", "attachment": "HELI" },
+	{ "name": "HELI_PROPELOR", "bone": "HELI_PROPELOR", "attachment": "HELI_PROPELOR_01" },
+	{ "name": "TOKYO_CITY", "bone": "TOKYO_CITY", "attachment": "TOKYO_CITY" },
+	{ "name": "TOKYO ISLAND_02", "bone": "TOKYO ISLAND_02", "attachment": "TOKYO ISLAND_02" },
+	{ "name": "TOKYO ISLAND_01", "bone": "TOKYO ISLAND_01", "attachment": "TOKYO ISLAND_01" }
+],
+"skins": {
+	"default": {
+		"AMSTERDAM_CITY": {
+			"AMSTERDAM_CITY": { "x": -137.48, "y": 24.81, "width": 512, "height": 579 }
+		},
+		"HELI": {
+			"HELI": { "x": -2.22, "y": 11.15, "width": 115, "height": 109 }
+		},
+		"HELI_PROPELOR": {
+			"HELI_PROPELOR_01": { "width": 136, "height": 53 },
+			"HELI_PROPELOR_02": { "width": 136, "height": 53 }
+		},
+		"LOGO_GLOW": {
+			"LOGO_GLOW": { "x": -18.86, "y": -81.27, "width": 1139, "height": 1050 }
+		},
+		"LOGO_GLOW2": {
+			"LOGO_GLOW": { "x": -18.86, "y": -81.27, "width": 1139, "height": 1050 }
+		},
+		"LONDON_BUS": {
+			"LONDON_BUS": { "x": 13.49, "y": 6.92, "width": 144, "height": 121 }
+		},
+		"LONDON_CITY": {
+			"LONDON_CITY": { "x": 147.7, "y": 131.64, "width": 603, "height": 585 }
+		},
+		"LONDON_ISLAND": {
+			"LONDON_ISLAND": { "x": 1.4, "y": 2.84, "width": 146, "height": 165 }
+		},
+		"LONDON_WHEELS": {
+			"LONDON_WHEELS": { "x": -76.79, "y": 13.14, "width": 96, "height": 58 }
+		},
+		"NEWYORK_CITY": {
+			"NEWYORK_CITY": { "x": -64.83, "y": 56.14, "width": 753, "height": 839 }
+		},
+		"NEWYORK_ISLAND_01": {
+			"NEWYORK_ISLAND_01": { "x": -16.56, "y": -6.35, "width": 161, "height": 172 }
+		},
+		"NEWYORK_ISLAND_02": {
+			"NEWYORK_ISLAND_02": { "x": -88.07, "y": -119.56, "width": 130, "height": 182 }
+		},
+		"NEWYORK_ISLAND_03": {
+			"NEWYORK_ISLAND_03": { "x": -3.96, "y": 48.19, "width": 208, "height": 188 }
+		},
+		"PARIS_BALOON": {
+			"PARIS_BALOON": { "x": 0.28, "y": -8.4, "width": 132, "height": 187 }
+		},
+		"PARIS_CITY": {
+			"PARIS_CITY": { "x": 31.2, "y": -68.96, "width": 490, "height": 580 }
+		},
+		"PARIS_ISLAND_01": {
+			"PARIS_ISLAND_01": { "x": -206.98, "y": -291.97, "width": 170, "height": 140 }
+		},
+		"PARIS_ISLAND_03": {
+			"PARIS_ISLAND_03": { "x": 257.51, "y": -406.97, "width": 235, "height": 248 }
+		},
+		"TAXI_01": {
+			"TAXI_01": { "x": -8.13, "y": 3.12, "width": 102, "height": 78 }
+		},
+		"TAXI_01_PARTICLES": {
+			"TAXI_01_PARTICLES": { "x": 57.86, "y": -10.37, "width": 52, "height": 43 }
+		},
+		"TAXI_01_WEELS": {
+			"TAXI_01_WEELS": { "x": -79.67, "y": -70.86, "width": 52, "height": 34 }
+		},
+		"TAXI_02_PARTICLES": {
+			"TAXI_02_PARTICLES": { "x": 53.84, "y": 28.98, "width": 40, "height": 50 }
+		},
+		"TAXI_02_WEELS": {
+			"TAXI_02_WEELS": { "x": 240.66, "y": -109.35, "width": 54, "height": 36 }
+		},
+		"TEXT_02": {
+			"TEXT_02": { "x": -5.15, "y": 5.48, "width": 100, "height": 75 }
+		},
+		"TOKYO ISLAND_01": {
+			"TOKYO ISLAND_01": { "x": -31.44, "y": 13.7, "width": 316, "height": 366 }
+		},
+		"TOKYO ISLAND_02": {
+			"TOKYO ISLAND_02": { "x": 9.08, "y": 24.82, "width": 312, "height": 328 }
+		},
+		"TOKYO_CITY": {
+			"TOKYO_CITY": { "x": -41.35, "y": 144.69, "width": 773, "height": 908 }
+		}
+	}
+},
+"animations": {
+	"SplashScreen": {
+		"slots": {
+			"HELI": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 5, "color": "ffffffff" }
+				]
+			},
+			"HELI_PROPELOR": {
+				"attachment": [
+					{ "time": 0.0333, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.0666, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.1, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.1333, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.1666, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.2, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.2333, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.2666, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.3, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.3333, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.3666, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.4, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.4333, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.4666, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.5, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.5333, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.5666, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.6, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.6333, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.6666, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.7, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.7333, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.7666, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.8, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.8333, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.8666, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.9, "name": "HELI_PROPELOR_02" },
+					{ "time": 0.9333, "name": "HELI_PROPELOR_01" },
+					{ "time": 0.9666, "name": "HELI_PROPELOR_02" },
+					{ "time": 1, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.0333, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.0666, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.1, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.1333, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.1666, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.2, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.2333, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.2666, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.3, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.3333, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.3666, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.4, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.4333, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.4666, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.5, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.5333, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.5666, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.6, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.6333, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.6666, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.7, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.7333, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.7666, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.8, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.8333, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.8666, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.9, "name": "HELI_PROPELOR_02" },
+					{ "time": 1.9333, "name": "HELI_PROPELOR_01" },
+					{ "time": 1.9666, "name": "HELI_PROPELOR_02" },
+					{ "time": 2, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.0333, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.0666, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.1, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.1333, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.1666, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.2, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.2333, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.2666, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.3, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.3333, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.3666, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.4, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.4333, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.4666, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.5, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.5333, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.5666, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.6, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.6333, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.6666, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.7, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.7333, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.7666, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.8, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.8333, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.8666, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.9, "name": "HELI_PROPELOR_01" },
+					{ "time": 2.9333, "name": "HELI_PROPELOR_02" },
+					{ "time": 2.9666, "name": "HELI_PROPELOR_01" },
+					{ "time": 3, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.0333, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.0666, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.1, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.1333, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.1666, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.2, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.2333, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.2666, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.3, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.3333, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.3666, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.4, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.4333, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.4666, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.5, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.5333, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.5666, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.6, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.6333, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.6666, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.7, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.7333, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.7666, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.8, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.8333, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.8666, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.9, "name": "HELI_PROPELOR_01" },
+					{ "time": 3.9333, "name": "HELI_PROPELOR_02" },
+					{ "time": 3.9666, "name": "HELI_PROPELOR_01" },
+					{ "time": 4, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.0333, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.0666, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.1, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.1333, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.1666, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.2, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.2333, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.2666, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.3, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.3333, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.3666, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.4, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.4333, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.4666, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.5, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.5333, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.5666, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.6, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.6333, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.6666, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.7, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.7333, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.7666, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.8, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.8333, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.8666, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.9, "name": "HELI_PROPELOR_01" },
+					{ "time": 4.9333, "name": "HELI_PROPELOR_02" },
+					{ "time": 4.9666, "name": "HELI_PROPELOR_01" },
+					{ "time": 5, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.0333, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.0666, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.1, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.1333, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.1666, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.2, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.2333, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.2666, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.3, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.3666, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.4, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.4333, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.4666, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.5, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.5333, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.5666, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.6, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.6333, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.6666, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.7, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.7333, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.7666, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.8, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.8333, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.8666, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.9, "name": "HELI_PROPELOR_02" },
+					{ "time": 5.9333, "name": "HELI_PROPELOR_01" },
+					{ "time": 5.9666, "name": "HELI_PROPELOR_02" },
+					{ "time": 6, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.0333, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.0666, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.1, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.1333, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.1666, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.2, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.2333, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.2666, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.3, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.3333, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.3666, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.4, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.4333, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.4666, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.5, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.5333, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.5666, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.6, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.6333, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.6666, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.7, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.7333, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.7666, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.8, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.8333, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.8666, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.9, "name": "HELI_PROPELOR_02" },
+					{ "time": 6.9333, "name": "HELI_PROPELOR_01" },
+					{ "time": 6.9666, "name": "HELI_PROPELOR_02" },
+					{ "time": 7, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.0333, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.0666, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.1, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.1333, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.1666, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.2, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.2333, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.2666, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.3, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.3333, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.3666, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.4, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.4333, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.4666, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.5, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.5333, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.5666, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.6, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.6333, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.6666, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.7, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.7333, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.7666, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.8, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.8333, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.8666, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.9, "name": "HELI_PROPELOR_02" },
+					{ "time": 7.9333, "name": "HELI_PROPELOR_01" },
+					{ "time": 7.9666, "name": "HELI_PROPELOR_02" },
+					{ "time": 8, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.0333, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.0666, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.1, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.1333, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.1666, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.2, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.2333, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.2666, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.3, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.3333, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.3666, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.4, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.4333, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.4666, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.5, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.5333, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.5666, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.6, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.6333, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.6666, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.7, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.7333, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.7666, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.8, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.8333, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.8666, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.9, "name": "HELI_PROPELOR_01" },
+					{ "time": 8.9333, "name": "HELI_PROPELOR_02" },
+					{ "time": 8.9666, "name": "HELI_PROPELOR_01" },
+					{ "time": 9, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.0333, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.0666, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.1, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.1333, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.1666, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.2, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.2333, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.2666, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.3, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.3333, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.3666, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.4, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.4333, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.4666, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.5, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.5333, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.5666, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.6, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.6333, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.6666, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.7, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.7333, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.7666, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.8, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.8333, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.8666, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.9, "name": "HELI_PROPELOR_01" },
+					{ "time": 9.9333, "name": "HELI_PROPELOR_02" },
+					{ "time": 9.9666, "name": "HELI_PROPELOR_01" },
+					{ "time": 10, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.0333, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.0666, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.1, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.1333, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.1666, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.2, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.2333, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.2666, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.3, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.3333, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.3666, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.4, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.4333, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.4666, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.5, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.5333, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.5666, "name": "HELI_PROPELOR_01" },
+					{ "time": 10.6, "name": "HELI_PROPELOR_02" },
+					{ "time": 10.6333, "name": "HELI_PROPELOR_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 5, "color": "ffffffff" }
+				]
+			},
+			"LOGO_GLOW": {
+				"color": [
+					{ "time": 0, "color": "ffffffc7" }
+				]
+			},
+			"LOGO_GLOW2": {
+				"color": [
+					{ "time": 0, "color": "ffffffc7" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.3333, "x": 0, "y": 0 }
+				]
+			},
+			"TOKYO_CITY": {
+				"rotate": [
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 1.12,
+						"y": 0.67,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 2.6666,
+						"x": 0,
+						"y": 9,
+						"curve": [ 0.727, 0, 0.847, 0.5 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -3.92,
+						"curve": [ 0.127, 0.5, 0.282, 1 ]
+					},
+					{
+						"time": 8,
+						"x": 0,
+						"y": -11,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 1.12, "y": 0.67 }
+				]
+			},
+			"TOKYO ISLAND_02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 7.5 },
+					{
+						"time": 2,
+						"x": 0,
+						"y": 30,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 7.3333,
+						"x": 0,
+						"y": -30,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 7.5 }
+				]
+			},
+			"TOKYO ISLAND_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -7.5 },
+					{ "time": 0.6666, "x": 0, "y": 0 },
+					{
+						"time": 3.3333,
+						"x": 0,
+						"y": 30,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 8.6666,
+						"x": 0,
+						"y": -30,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": -7.5 }
+				]
+			},
+			"PARIS_CITY": {
+				"rotate": [
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 2.6666,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 8,
+						"x": 0,
+						"y": 5,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"BUS": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 1.3 },
+					{ "time": 2.6666, "x": 0, "y": 0 },
+					{ "time": 4, "x": 0, "y": 1.3 },
+					{ "time": 5.3333, "x": 0, "y": 0 },
+					{ "time": 6.6666, "x": 0, "y": 1.3 },
+					{ "time": 8, "x": 0, "y": 0 },
+					{ "time": 9.3333, "x": 0, "y": 1.3 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"LONDON CITY": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 2.6666,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 8,
+						"x": 0,
+						"y": 5,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"LONDON_ISLAND_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 2.6666,
+						"x": 0,
+						"y": -15,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 8,
+						"x": 0,
+						"y": 15,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"HELI": {
+				"translate": [
+					{ "time": 0, "x": 123.37, "y": -370.11 },
+					{ "time": 10.6666, "x": 2762.16, "y": -1603.83 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"NEWYORK_CITY": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 20,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -20,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 8, "x": 0, "y": 0 },
+					{ "time": 10.6666, "x": 0, "y": 20 }
+				]
+			},
+			"TAXI_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 4 },
+					{ "time": 1.3333, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": 4 },
+					{ "time": 2.6666, "x": 0, "y": 0 },
+					{ "time": 3.3333, "x": 0, "y": 4 },
+					{ "time": 4, "x": 0, "y": 0 },
+					{ "time": 4.6666, "x": 0, "y": 4 },
+					{ "time": 5.3333, "x": 0, "y": 0 },
+					{ "time": 6, "x": 0, "y": 4 },
+					{ "time": 6.6666, "x": 0, "y": 0 },
+					{ "time": 7.3333, "x": 0, "y": 4 },
+					{ "time": 8, "x": 0, "y": 0 },
+					{ "time": 8.6666, "x": 0, "y": 4 },
+					{ "time": 9.3333, "x": 0, "y": 0 },
+					{ "time": 10, "x": 0, "y": 4 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"TEXI_02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 4 },
+					{ "time": 0.6666, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 4 },
+					{ "time": 2, "x": 0, "y": 0 },
+					{ "time": 2.6666, "x": 0, "y": 4 },
+					{ "time": 3.3333, "x": 0, "y": 0 },
+					{ "time": 4, "x": 0, "y": 4 },
+					{ "time": 4.6666, "x": 0, "y": 0 },
+					{ "time": 5.3333, "x": 0, "y": 4 },
+					{ "time": 6.0666, "x": 0, "y": 0 },
+					{ "time": 6.7333, "x": 0, "y": 4 },
+					{ "time": 7.3333, "x": 0, "y": 0 },
+					{ "time": 8, "x": 0, "y": 4 },
+					{ "time": 8.6666, "x": 0, "y": 0 },
+					{ "time": 9.3333, "x": 0, "y": 4 },
+					{ "time": 10, "x": 0, "y": 0 },
+					{ "time": 10.6666, "x": 0, "y": 4 }
+				]
+			},
+			"AMSTERDAM_CITY": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 2.6666,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 8,
+						"x": 0,
+						"y": 5,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"GLOW": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 2.6666, "angle": -90 },
+					{ "time": 5.3333, "angle": 180 },
+					{ "time": 10.6666, "angle": 0 }
+				]
+			},
+			"BALLON": {
+				"rotate": [
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 2.6666,
+						"x": 0,
+						"y": -20,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 8,
+						"x": 0,
+						"y": 20,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"NEWYORK_ISLAND_03": {
+				"rotate": [
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 10.19,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -75.07,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 10.19 }
+				]
+			},
+			"NEWYORK_ISLAND_01": {
+				"rotate": [
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -80,
+						"curve": [ 0.661, 0, 0.217, 1 ]
+					},
+					{ "time": 8, "x": 0, "y": -40 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"NEWYORK_ISLAND_02": {
+				"rotate": [
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 2.6666, "x": 0, "y": 20 },
+					{ "time": 5.3333, "x": 0, "y": 0 },
+					{ "time": 8, "x": 0, "y": -20 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"HELI_PROPELOR": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 5.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"GLOW2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 5.3333, "angle": 180 },
+					{ "time": 8, "angle": 270 },
+					{ "time": 10.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

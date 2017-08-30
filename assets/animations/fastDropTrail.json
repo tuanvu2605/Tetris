@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "eNiS6efpbMA+ltw+K1PSWfci0sQ", "spine": "2.1.27", "width": 332, "height": 534, "images": "./images/" },
+"bones": [
+	{ "name": "fastDropTrail" }
+],
+"slots": [
+	{ "name": "fastDropTrail_01", "bone": "fastDropTrail", "attachment": "fastDropTrail_06" }
+],
+"skins": {
+	"default": {
+		"fastDropTrail_01": {
+			"fastDropTrail_01": { "y": 267.5, "width": 332, "height": 534 },
+			"fastDropTrail_02": { "y": 267.5, "width": 332, "height": 534 },
+			"fastDropTrail_03": { "y": 267.5, "width": 332, "height": 534 },
+			"fastDropTrail_04": { "y": 267.5, "width": 332, "height": 534 },
+			"fastDropTrail_05": { "y": 267.5, "width": 332, "height": 534 },
+			"fastDropTrail_06": { "y": 267.5, "width": 332, "height": 534 }
+		}
+	}
+},
+"animations": {
+	"fastDropTrail": {
+		"slots": {
+			"fastDropTrail_01": {
+				"attachment": [
+					{ "time": 0, "name": "fastDropTrail_01" },
+					{ "time": 0.0333, "name": "fastDropTrail_02" },
+					{ "time": 0.0666, "name": "fastDropTrail_03" },
+					{ "time": 0.1, "name": "fastDropTrail_04" },
+					{ "time": 0.1333, "name": "fastDropTrail_05" },
+					{ "time": 0.1666, "name": "fastDropTrail_06" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,87 @@
+{
+"skeleton": { "hash": "X0jz9c/Q6lns1r9Wk6p0/YWGois", "spine": "2.1.27", "width": 1046, "height": 446, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "rowRemove_02", "bone": "root", "attachment": "rowRemove_07" },
+	{ "name": "root", "bone": "root" },
+	{ "name": "rowRemovePartic", "bone": "root", "attachment": "rowRemoveParticles_02_15" }
+],
+"skins": {
+	"default": {
+		"rowRemovePartic": {
+			"rowRemoveParticles_02_02": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_03": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_04": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_05": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_06": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_07": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_08": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_09": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_10": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_11": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_12": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_13": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_14": { "x": 262, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_15": { "x": 262, "width": 808, "height": 446 }
+		},
+		"rowRemove_02": {
+			"rowRemove_01": { "width": 760, "height": 88 },
+			"rowRemove_02": { "width": 760, "height": 88 },
+			"rowRemove_03": { "width": 760, "height": 88 },
+			"rowRemove_04": { "width": 760, "height": 88 },
+			"rowRemove_05": { "x": 1.24, "width": 760, "height": 88 },
+			"rowRemove_06": { "x": 1.24, "width": 760, "height": 88 },
+			"rowRemove_07": { "width": 760, "height": 88 },
+			"rowRemove_08": { "width": 760, "height": 88 }
+		}
+	}
+},
+"animations": {
+	"rowRemove": {
+		"slots": {
+			"rowRemovePartic": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemoveParticles_02_02" },
+					{ "time": 0.0666, "name": "rowRemoveParticles_02_03" },
+					{ "time": 0.1, "name": "rowRemoveParticles_02_04" },
+					{ "time": 0.1333, "name": "rowRemoveParticles_02_05" },
+					{ "time": 0.1666, "name": "rowRemoveParticles_02_06" },
+					{ "time": 0.2, "name": "rowRemoveParticles_02_07" },
+					{ "time": 0.2333, "name": "rowRemoveParticles_02_08" },
+					{ "time": 0.2666, "name": "rowRemoveParticles_02_09" },
+					{ "time": 0.3, "name": "rowRemoveParticles_02_10" },
+					{ "time": 0.3333, "name": "rowRemoveParticles_02_11" },
+					{ "time": 0.3666, "name": "rowRemoveParticles_02_12" },
+					{ "time": 0.4, "name": "rowRemoveParticles_02_13" },
+					{ "time": 0.4333, "name": "rowRemoveParticles_02_14" },
+					{ "time": 0.4666, "name": "rowRemoveParticles_02_15" }
+				]
+			},
+			"rowRemove_02": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemove_01" },
+					{ "time": 0.0333, "name": "rowRemove_02" },
+					{ "time": 0.0666, "name": "rowRemove_03" },
+					{ "time": 0.1, "name": "rowRemove_04" },
+					{ "time": 0.1333, "name": "rowRemove_05" },
+					{ "time": 0.1666, "name": "rowRemove_06" },
+					{ "time": 0.2, "name": "rowRemove_07" },
+					{ "time": 0.2333, "name": "rowRemove_08" },
+					{ "time": 0.2666, "name": null }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.0333,
+				"offsets": [
+					{ "slot": "rowRemove_02", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,368 @@
+{
+  "resources": [
+    "assets/audio/effects.ogg",
+    "assets/audio/effects.mp3"
+  ],
+  "spritemap": {
+    "airplane": {
+      "start": 0,
+      "end": 4.5,
+      "loop": false
+    },
+    "allclear": {
+      "start": 6,
+      "end": 9.07201814058957,
+      "loop": false
+    },
+    "back2back": {
+      "start": 11,
+      "end": 12.584013605442177,
+      "loop": false
+    },
+    "bicycle": {
+      "start": 14,
+      "end": 15.872018140589569,
+      "loop": false
+    },
+    "boat": {
+      "start": 17,
+      "end": 21.62501133786848,
+      "loop": false
+    },
+    "bus": {
+      "start": 23,
+      "end": 27.5,
+      "loop": false
+    },
+    "button_select": {
+      "start": 29,
+      "end": 29.125011337868482,
+      "loop": false
+    },
+    "commercialscreens": {
+      "start": 31,
+      "end": 35.75,
+      "loop": false
+    },
+    "countdown": {
+      "start": 37,
+      "end": 40.57598639455782,
+      "loop": false
+    },
+    "cow": {
+      "start": 42,
+      "end": 43.87201814058957,
+      "loop": false
+    },
+    "game_over": {
+      "start": 45,
+      "end": 48.866122448979596,
+      "loop": false
+    },
+    "gravity_down": {
+      "start": 50,
+      "end": 51.31249433106576,
+      "loop": false
+    },
+    "gravity_up": {
+      "start": 53,
+      "end": 54.31249433106576,
+      "loop": false
+    },
+    "hard_drop": {
+      "start": 56,
+      "end": 56.74401360544218,
+      "loop": false
+    },
+    "helicopter": {
+      "start": 58,
+      "end": 61.88643990929705,
+      "loop": false
+    },
+    "hold": {
+      "start": 63,
+      "end": 63.42655328798186,
+      "loop": false
+    },
+    "hotairballoon": {
+      "start": 65,
+      "end": 71.19201814058957,
+      "loop": false
+    },
+    "hourglass": {
+      "start": 73,
+      "end": 75.80800453514739,
+      "loop": false
+    },
+    "hourglass_drop": {
+      "start": 77,
+      "end": 78.30312925170068,
+      "loop": false
+    },
+    "hourglass_mino_1": {
+      "start": 80,
+      "end": 80.05519274376417,
+      "loop": false
+    },
+    "hourglass_mino_2": {
+      "start": 82,
+      "end": 82.04947845804989,
+      "loop": false
+    },
+    "hourglass_mino_3": {
+      "start": 84,
+      "end": 84.0520634920635,
+      "loop": false
+    },
+    "hourglass_mino_4": {
+      "start": 86,
+      "end": 86.05156462585035,
+      "loop": false
+    },
+    "hourglass_mino_5": {
+      "start": 88,
+      "end": 88.05727891156462,
+      "loop": false
+    },
+    "junkspawn": {
+      "start": 90,
+      "end": 90.80049886621315,
+      "loop": false
+    },
+    "koto": {
+      "start": 92,
+      "end": 96.1280045351474,
+      "loop": false
+    },
+    "lasthurrah_lineclear": {
+      "start": 98,
+      "end": 99.29598639455783,
+      "loop": false
+    },
+    "lasthurrah_mino_1": {
+      "start": 101,
+      "end": 101.44408163265307,
+      "loop": false
+    },
+    "lasthurrah_mino_2": {
+      "start": 103,
+      "end": 103.44408163265307,
+      "loop": false
+    },
+    "lasthurrah_mino_3": {
+      "start": 105,
+      "end": 105.44408163265307,
+      "loop": false
+    },
+    "lasthurrah_mino_4": {
+      "start": 107,
+      "end": 107.44408163265307,
+      "loop": false
+    },
+    "lasthurrah_mino_5": {
+      "start": 109,
+      "end": 109.36571428571429,
+      "loop": false
+    },
+    "lasthurrah_minospawn": {
+      "start": 111,
+      "end": 111.05519274376417,
+      "loop": false
+    },
+    "lasthurrah_textappear": {
+      "start": 113,
+      "end": 114.85104308390022,
+      "loop": false
+    },
+    "level_start": {
+      "start": 116,
+      "end": 117.17396825396825,
+      "loop": false
+    },
+    "level_unlock": {
+      "start": 119,
+      "end": 121.52083900226758,
+      "loop": false
+    },
+    "lineclear_double": {
+      "start": 123,
+      "end": 124.15201814058958,
+      "loop": false
+    },
+    "lineclear_single": {
+      "start": 126,
+      "end": 126.81598639455783,
+      "loop": false
+    },
+    "lineclear_tetris": {
+      "start": 128,
+      "end": 129.94401360544217,
+      "loop": false
+    },
+    "lineclear_triple": {
+      "start": 131,
+      "end": 132.15201814058958,
+      "loop": false
+    },
+    "marathon_levelup": {
+      "start": 134,
+      "end": 136.16301587301587,
+      "loop": false
+    },
+    "movement_failure": {
+      "start": 138,
+      "end": 138.48,
+      "loop": false
+    },
+    "popup_close": {
+      "start": 140,
+      "end": 141.1093650793651,
+      "loop": false
+    },
+    "popup_open": {
+      "start": 143,
+      "end": 144.18748299319728,
+      "loop": false
+    },
+    "rotation_failure": {
+      "start": 146,
+      "end": 146.30258503401362,
+      "loop": false
+    },
+    "saxophone": {
+      "start": 148,
+      "end": 153.5,
+      "loop": false
+    },
+    "score_count": {
+      "start": 155,
+      "end": 155.05414965986395,
+      "loop": false
+    },
+    "scorecell_activate": {
+      "start": 157,
+      "end": 158.35469387755103,
+      "loop": false
+    },
+    "scorecell_deactivate": {
+      "start": 160,
+      "end": 160.41666666666666,
+      "loop": false
+    },
+    "sfx_ButtonPressed": {
+      "start": 162,
+      "end": 162.20897959183674,
+      "loop": false
+    },
+    "soft_drop": {
+      "start": 164,
+      "end": 164.48,
+      "loop": false
+    },
+    "soft_drop_a": {
+      "start": 166,
+      "end": 166.33598639455784,
+      "loop": false
+    },
+    "soft_drop_b": {
+      "start": 168,
+      "end": 168.33598639455784,
+      "loop": false
+    },
+    "star_collect_1": {
+      "start": 170,
+      "end": 171.09426303854875,
+      "loop": false
+    },
+    "star_collect_2": {
+      "start": 173,
+      "end": 174.04167800453516,
+      "loop": false
+    },
+    "star_collect_3": {
+      "start": 176,
+      "end": 177.11718820861677,
+      "loop": false
+    },
+    "star_not_collected": {
+      "start": 179,
+      "end": 180.87201814058957,
+      "loop": false
+    },
+    "streetorgan": {
+      "start": 182,
+      "end": 188.02401360544218,
+      "loop": false
+    },
+    "t-spin": {
+      "start": 190,
+      "end": 190.96,
+      "loop": false
+    },
+    "taxi": {
+      "start": 192,
+      "end": 195.71249433106576,
+      "loop": false
+    },
+    "tetrimino_lockdown": {
+      "start": 197,
+      "end": 197.93598639455783,
+      "loop": false
+    },
+    "tetrimino_move": {
+      "start": 199,
+      "end": 199.2640136054422,
+      "loop": false
+    },
+    "tetrimino_rotation": {
+      "start": 201,
+      "end": 201.2880045351474,
+      "loop": false
+    },
+    "tetrimino_spawn": {
+      "start": 203,
+      "end": 203.14530612244897,
+      "loop": false
+    },
+    "timesup": {
+      "start": 205,
+      "end": 205.22403628117914,
+      "loop": false
+    },
+    "violin": {
+      "start": 207,
+      "end": 213.24,
+      "loop": false
+    },
+    "waterfall": {
+      "start": 215,
+      "end": 220,
+      "loop": false
+    },
+    "windmill": {
+      "start": 221,
+      "end": 225.03201814058957,
+      "loop": false
+    },
+    "worldmap_swipe": {
+      "start": 227,
+      "end": 227.84478458049887,
+      "loop": false
+    },
+    "worldunlock_citybuildup": {
+      "start": 229,
+      "end": 230.33904761904762,
+      "loop": false
+    },
+    "worldunlock_lockopen": {
+      "start": 232,
+      "end": 234.18385487528346,
+      "loop": false
+    },
+    "worldunlock_lockwiggle": {
+      "start": 236,
+      "end": 236.4640589569161,
+      "loop": false
+    }
+  }
+}

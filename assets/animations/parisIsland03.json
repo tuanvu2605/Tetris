@@ -1,0 +1,86 @@
+{
+"skeleton": { "hash": "c87yra539KIMI5Ld2fui1szmdhA", "spine": "3.2.01", "width": 924.76, "height": 852.79, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "parisHouseLight02", "parent": "root", "x": -165.1, "y": 86.91 },
+	{ "name": "parisIsland04", "parent": "root", "x": -1.94, "y": 32.16 }
+],
+"slots": [
+	{ "name": "parisIsland04", "bone": "parisIsland04", "attachment": "parisIsland04" },
+	{ "name": "parisHouseLight02", "bone": "parisHouseLight02", "attachment": "parisHouseLight02" },
+	{ "name": "parisblock2_locked", "bone": "root", "attachment": "parisblock2_locked" }
+],
+"skins": {
+	"default": {
+		"parisHouseLight02": {
+			"parisHouseLight02": { "x": 34.83, "y": 6.28, "width": 187, "height": 170 }
+		},
+		"parisIsland04": {
+			"parisIsland04": { "x": -3.31, "y": 58.03, "width": 923, "height": 852 }
+		},
+		"parisblock2_locked": {
+			"parisblock2_locked": { "x": -3.99, "y": 91, "width": 924, "height": 852 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"parisHouseLight02": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffffa0" },
+					{ "time": 2.6666, "color": "ffffffff" },
+					{ "time": 4, "color": "ffffffa0" },
+					{ "time": 5.3333, "color": "ffffffff" },
+					{ "time": 6.6666, "color": "ffffffa0" },
+					{ "time": 8, "color": "ffffffff" },
+					{ "time": 9.3333, "color": "ffffffa0" },
+					{ "time": 10.6666, "color": "ffffffff" }
+				]
+			},
+			"parisblock2_locked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "parisblock2_locked" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -115.17,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"parisIsland03_locked": {
+		"slots": {
+			"parisHouseLight02": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"parisIsland04": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

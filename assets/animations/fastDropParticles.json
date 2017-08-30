@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "NlJG+IB0fgUZ03YKs+h7AScOtDE", "spine": "2.1.27", "width": 446, "height": 412, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "fastDropParticles", "bone": "root", "attachment": "fastDropParticles_11" }
+],
+"skins": {
+	"default": {
+		"fastDropParticles": {
+			"fastDropParticles_01": { "width": 446, "height": 412 },
+			"fastDropParticles_02": { "width": 446, "height": 412 },
+			"fastDropParticles_03": { "width": 446, "height": 412 },
+			"fastDropParticles_04": { "width": 446, "height": 412 },
+			"fastDropParticles_05": { "width": 446, "height": 412 },
+			"fastDropParticles_06": { "width": 446, "height": 412 },
+			"fastDropParticles_07": { "width": 446, "height": 412 },
+			"fastDropParticles_08": { "width": 446, "height": 412 },
+			"fastDropParticles_09": { "width": 446, "height": 412 },
+			"fastDropParticles_10": { "width": 446, "height": 412 },
+			"fastDropParticles_11": { "width": 446, "height": 412 }
+		}
+	}
+},
+"animations": {
+	"fastDropParticles": {
+		"slots": {
+			"fastDropParticles": {
+				"attachment": [
+					{ "time": 0, "name": "fastDropParticles_01" },
+					{ "time": 0.0333, "name": "fastDropParticles_02" },
+					{ "time": 0.0666, "name": "fastDropParticles_03" },
+					{ "time": 0.1, "name": "fastDropParticles_04" },
+					{ "time": 0.1333, "name": "fastDropParticles_05" },
+					{ "time": 0.1666, "name": "fastDropParticles_06" },
+					{ "time": 0.2, "name": "fastDropParticles_07" },
+					{ "time": 0.2333, "name": "fastDropParticles_08" },
+					{ "time": 0.2666, "name": "fastDropParticles_09" },
+					{ "time": 0.3, "name": "fastDropParticles_10" },
+					{ "time": 0.3333, "name": "fastDropParticles_11" }
+				]
+			}
+		}
+	}
+}
+}

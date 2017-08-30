@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "UeBEjI+EDwByt7ogOsea39JizpU", "spine": "3.2.01", "width": 355, "height": 379.5, "images": "./images/" },
+"bones": [
+	{ "name": "tokyoIsland01" }
+],
+"slots": [
+	{ "name": "tokyoIsland01", "bone": "tokyoIsland01", "attachment": "tokyoIsland01" },
+	{ "name": "tokyoIsland01_locked", "bone": "tokyoIsland01", "attachment": "tokyoIsland02_locked" }
+],
+"skins": {
+	"default": {
+		"tokyoIsland01": {
+			"tokyoIsland01": { "width": 354, "height": 379 }
+		},
+		"tokyoIsland01_locked": {
+			"tokyoIsland02_locked": { "x": 0.5, "y": 0.5, "width": 355, "height": 379 }
+		}
+	}
+},
+"animations": {
+	"tokyoIsland01": {
+		"slots": {
+			"tokyoIsland01_locked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"tokyoIsland01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -78.99,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"tokyoIsland01_locked": {
+		"slots": {
+			"tokyoIsland01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

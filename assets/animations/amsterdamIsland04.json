@@ -1,0 +1,244 @@
+{
+"skeleton": { "hash": "Eu5bC4rKoGmKDZgRpIys5lTPsYQ", "spine": "3.2.01", "width": 710.25, "height": 577, "images": "./images/" },
+"bones": [
+	{ "name": "root", "y": 17 },
+	{ "name": "Amsterdam_Island_05", "parent": "root", "x": -10.61, "y": 28.4 },
+	{ "name": "AMSTERDAM_COW_02", "parent": "Amsterdam_Island_05", "x": -114.99, "y": 170.04 },
+	{ "name": "AMSTERDAM_COWHEAD_02", "parent": "AMSTERDAM_COW_02", "x": 160.61, "y": -56.35 },
+	{ "name": "AMSTERDAM_COW_03", "parent": "Amsterdam_Island_05", "x": -115.19, "y": 189.41 },
+	{ "name": "AMSTERDAM_COWHEAD_03", "parent": "AMSTERDAM_COW_03", "x": -34.81, "y": -20.11 },
+	{ "name": "DUCK_01", "parent": "Amsterdam_Island_05", "x": 102.54, "y": 39.74 },
+	{ "name": "AMSTERDAM_DUCK_HEAD_01", "parent": "DUCK_01", "x": -11.86, "y": 8.81 },
+	{ "name": "DUCK_02", "parent": "Amsterdam_Island_05", "x": 128.27, "y": 53.87 },
+	{ "name": "AMSTERDAM_DUCK_HEAD_02", "parent": "DUCK_02", "x": -7.22, "y": 3.42 },
+	{ "name": "AMSTERDAM_TRACTOR", "parent": "Amsterdam_Island_05", "x": -9.26, "y": 233.59 },
+	{ "name": "AMSTERDAM_TRACTOR_01", "parent": "AMSTERDAM_TRACTOR", "x": -3.8, "y": 18.08 },
+	{ "name": "AMSTERDAM_TRACTOR_WHEELS", "parent": "AMSTERDAM_TRACTOR", "x": -2.04, "y": -16.23 }
+],
+"slots": [
+	{ "name": "AMSTERDAM_ISLAND_06", "bone": "Amsterdam_Island_05", "attachment": "AMSTERDAM_ISLAND_06" },
+	{ "name": "AMSTERDAM_COWBODY_01", "bone": "AMSTERDAM_COW_03", "attachment": "AMSTERDAM_COWBODY_01" },
+	{ "name": "AMSTERDAM_COWHEAD_01", "bone": "AMSTERDAM_COWHEAD_03", "attachment": "AMSTERDAM_COWHEAD_01" },
+	{ "name": "AMSTERDAM_COWBODY_02", "bone": "AMSTERDAM_COW_02", "attachment": "AMSTERDAM_COWBODY_02" },
+	{ "name": "AMSTERDAM_COWHEAD_02", "bone": "AMSTERDAM_COWHEAD_02", "attachment": "AMSTERDAM_COWHEAD_02" },
+	{ "name": "AMSTERDAM_DUCK_02", "bone": "DUCK_02", "attachment": "AMSTERDAM_DUCK_02" },
+	{ "name": "AMSTERDAM_DUCK_HEAD_02", "bone": "AMSTERDAM_DUCK_HEAD_02", "attachment": "AMSTERDAM_DUCK_HEAD_02" },
+	{ "name": "AMSTERDAM_DUCK_01", "bone": "DUCK_01", "attachment": "AMSTERDAM_DUCK_01" },
+	{ "name": "AMSTERDAM_DUCK_HEAD_01", "bone": "AMSTERDAM_DUCK_HEAD_01", "attachment": "AMSTERDAM_DUCK_HEAD_01" },
+	{ "name": "AMSTERDAM_TRACTOR", "bone": "AMSTERDAM_TRACTOR_01", "attachment": "AMSTERDAM_TRACTOR" },
+	{ "name": "AMSTERDAM_TRACTOR_WHEELS", "bone": "AMSTERDAM_TRACTOR_WHEELS", "attachment": "AMSTERDAM_TRACTOR_WEELS" },
+	{ "name": "amsterdamIsland04_locked", "bone": "root", "attachment": "amsterdamIsland04_locked" }
+],
+"skins": {
+	"default": {
+		"AMSTERDAM_COWBODY_01": {
+			"AMSTERDAM_COWBODY_01": { "x": -4.44, "y": -7.35, "width": 76, "height": 76 }
+		},
+		"AMSTERDAM_COWBODY_02": {
+			"AMSTERDAM_COWBODY_02": { "x": 128.36, "y": -45.98, "width": 76, "height": 76 }
+		},
+		"AMSTERDAM_COWHEAD_01": {
+			"AMSTERDAM_COWHEAD_01": { "x": -0.62, "y": 1.75, "width": 28, "height": 28 }
+		},
+		"AMSTERDAM_COWHEAD_02": {
+			"AMSTERDAM_COWHEAD_02": { "x": -1.74, "y": -0.63, "width": 29, "height": 28 }
+		},
+		"AMSTERDAM_DUCK_01": {
+			"AMSTERDAM_DUCK_01": { "x": -2.68, "y": 3.81, "width": 29, "height": 25 }
+		},
+		"AMSTERDAM_DUCK_02": {
+			"AMSTERDAM_DUCK_02": { "x": -2.41, "y": 0.18, "width": 19, "height": 16 }
+		},
+		"AMSTERDAM_DUCK_HEAD_01": {
+			"AMSTERDAM_DUCK_HEAD_01": { "x": -0.31, "y": -0.49, "width": 16, "height": 16 }
+		},
+		"AMSTERDAM_DUCK_HEAD_02": {
+			"AMSTERDAM_DUCK_HEAD_02": { "x": 0.3, "y": -0.74, "width": 12, "height": 11 }
+		},
+		"AMSTERDAM_ISLAND_06": {
+			"AMSTERDAM_ISLAND_06": { "x": 10.86, "y": -4.94, "width": 709, "height": 546 }
+		},
+		"AMSTERDAM_TRACTOR": {
+			"AMSTERDAM_TRACTOR": { "x": 6.43, "y": -9.62, "width": 92, "height": 114 }
+		},
+		"AMSTERDAM_TRACTOR_WHEELS": {
+			"AMSTERDAM_TRACTOR_WEELS": { "x": -16.82, "y": -10.8, "width": 83, "height": 71 }
+		},
+		"amsterdamIsland04_locked": {
+			"amsterdamIsland04_locked": { "x": 1, "y": 37, "width": 710, "height": 572 }
+		}
+	}
+},
+"animations": {
+	"amsterdamIsland04": {
+		"slots": {
+			"amsterdamIsland04_locked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"DUCK_01": {
+				"translate": [
+					{ "time": 0, "x": 107.5, "y": 52.19 },
+					{ "time": 5.3333, "x": -83.35, "y": -38.94 },
+					{ "time": 10.6666, "x": 107.5, "y": 52.19 }
+				]
+			},
+			"DUCK_02": {
+				"translate": [
+					{ "time": 0, "x": 111.39, "y": 56.08 },
+					{ "time": 5.3333, "x": -80.23, "y": -36.61 },
+					{ "time": 10.6666, "x": 111.39, "y": 56.08 }
+				]
+			},
+			"AMSTERDAM_DUCK_HEAD_02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.3333, "x": 0, "y": 0 },
+					{ "time": 5.3666, "x": 9.62, "y": 4.99, "curve": "stepped" },
+					{ "time": 10.6, "x": 9.62, "y": 4.99 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"AMSTERDAM_DUCK_HEAD_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.3333, "x": 0, "y": 0 },
+					{ "time": 5.3666, "x": 17.75, "y": 7.37, "curve": "stepped" },
+					{ "time": 10.6, "x": 17.75, "y": 7.37 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"AMSTERDAM_TRACTOR": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"AMSTERDAM_TRACTOR_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -5.28 },
+					{ "time": 0.3333, "x": 0, "y": 0.88 },
+					{ "time": 0.6666, "x": 0, "y": -5.28 },
+					{ "time": 1, "x": 0, "y": 0.88 },
+					{ "time": 1.3333, "x": 0, "y": -5.28 },
+					{ "time": 1.6666, "x": 0, "y": 0.88 },
+					{ "time": 2, "x": 0, "y": -5.28 },
+					{ "time": 2.3333, "x": 0, "y": 0.88 },
+					{ "time": 2.6666, "x": 0, "y": -5.28 },
+					{ "time": 3, "x": 0, "y": 0.88 },
+					{ "time": 3.3333, "x": 0, "y": -5.28 },
+					{ "time": 3.6666, "x": 0, "y": 0.88 },
+					{ "time": 4, "x": 0, "y": -5.28 },
+					{ "time": 4.3333, "x": 0, "y": 0.88 },
+					{ "time": 4.6666, "x": 0, "y": -5.28 },
+					{ "time": 5, "x": 0, "y": 0.88 },
+					{ "time": 5.3333, "x": 0, "y": -5.28 },
+					{ "time": 5.6666, "x": 0, "y": 0.88 },
+					{ "time": 6, "x": 0, "y": -5.28 },
+					{ "time": 6.3333, "x": 0, "y": 0.88 },
+					{ "time": 6.6666, "x": 0, "y": -5.28 },
+					{ "time": 7, "x": 0, "y": 0.88 },
+					{ "time": 7.3333, "x": 0, "y": -5.28 },
+					{ "time": 7.6666, "x": 0, "y": 0.88 },
+					{ "time": 8, "x": 0, "y": -5.28 },
+					{ "time": 8.3333, "x": 0, "y": 0.88 },
+					{ "time": 8.6666, "x": 0, "y": -5.28 },
+					{ "time": 9, "x": 0, "y": 0.88 },
+					{ "time": 9.3333, "x": 0, "y": -5.28 },
+					{ "time": 9.6666, "x": 0, "y": 0.88 },
+					{ "time": 10, "x": 0, "y": -5.28 },
+					{ "time": 10.3333, "x": 0, "y": 0.88 },
+					{ "time": 10.6666, "x": 0, "y": -5.28 }
+				]
+			},
+			"AMSTERDAM_COWHEAD_03": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 4.96, "curve": "stepped" },
+					{ "time": 3.5333, "x": 0, "y": 4.96 },
+					{ "time": 4.2, "x": 0, "y": -17.87, "curve": "stepped" },
+					{ "time": 6.8666, "x": 0, "y": -17.87 },
+					{ "time": 7.5333, "x": 0, "y": 4.96, "curve": "stepped" },
+					{ "time": 10.6666, "x": 0, "y": 4.96 }
+				]
+			},
+			"AMSTERDAM_COWHEAD_02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -17.87, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": -17.87 },
+					{ "time": 3.3333, "x": 0, "y": 4.96, "curve": "stepped" },
+					{ "time": 10, "x": 0, "y": 4.96 },
+					{ "time": 10.6666, "x": 0, "y": -17.87 }
+				]
+			},
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -90.36,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"amsterdamIsland04_locked": {
+		"slots": {
+			"AMSTERDAM_COWBODY_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_COWBODY_02": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_COWHEAD_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_COWHEAD_02": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_DUCK_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_DUCK_HEAD_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_ISLAND_06": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_TRACTOR": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"AMSTERDAM_TRACTOR_WHEELS": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

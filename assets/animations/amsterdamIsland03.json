@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "D9IDQVPAv7XO46UdX3sTWjcUk+Q", "spine": "3.2.01", "width": 235, "height": 239, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "AMSTERDAM_ISLAND_05", "bone": "root", "attachment": "AMSTERDAM_ISLAND_05" },
+	{ "name": "amsterdam_island_05_locked", "bone": "root", "attachment": "AMSTERDAM_ISLAND_05_locked" }
+],
+"skins": {
+	"default": {
+		"AMSTERDAM_ISLAND_05": {
+			"AMSTERDAM_ISLAND_05": { "width": 235, "height": 239 }
+		},
+		"amsterdam_island_05_locked": {
+			"AMSTERDAM_ISLAND_05_locked": { "width": 235, "height": 239 }
+		}
+	}
+},
+"animations": {
+	"amsterdamIsland03": {
+		"slots": {
+			"amsterdam_island_05_locked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 6,
+						"x": 0,
+						"y": 70.56,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"amsterdamIsland03_locked": {
+		"slots": {
+			"AMSTERDAM_ISLAND_05": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

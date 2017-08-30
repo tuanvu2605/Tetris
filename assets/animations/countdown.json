@@ -1,0 +1,230 @@
+{
+"skeleton": { "hash": "SNrKYFKn1wJZqw6v5BxiX598BQ0", "spine": "2.1.27", "width": 571, "height": 377, "images": "./images/" },
+"bones": [
+	{ "name": "countdown" }
+],
+"slots": [
+	{ "name": "countdown1", "bone": "countdown", "attachment": "countdown1" },
+	{ "name": "countdown2", "bone": "countdown", "attachment": "countdown2" },
+	{ "name": "countdown3", "bone": "countdown", "attachment": "countdown3" },
+	{ "name": "countdowngo", "bone": "countdown", "attachment": "countdowngo" }
+],
+"skins": {
+	"default": {
+		"countdown1": {
+			"countdown1": { "width": 571, "height": 377 }
+		},
+		"countdown2": {
+			"countdown2": { "width": 571, "height": 377 }
+		},
+		"countdown3": {
+			"countdown3": { "width": 571, "height": 377 }
+		},
+		"countdowngo": {
+			"countdowngo": { "width": 571, "height": 377 }
+		}
+	}
+},
+"animations": {
+	"countdown_123": {
+		"slots": {
+			"countdown1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 1.1333,
+						"color": "ffffff00",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.5666,
+						"color": "ffffffff",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"countdown2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.5666,
+						"color": "ffffff00",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1,
+						"color": "ffffffff",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"countdown3": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"color": "ffffffff",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"countdowngo": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"countdown": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.1,
+						"x": 1.43,
+						"y": 1.43,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.5333,
+						"x": 3.4,
+						"y": 3.4,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.5666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 1.43,
+						"y": 1.43,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 1.1,
+						"x": 3.4,
+						"y": 3.4,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 1.2333,
+						"x": 1.43,
+						"y": 1.43,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.5666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1.6666, "x": 3.4, "y": 3.4 }
+				]
+			}
+		}
+	},
+	"countdown_GO": {
+		"slots": {
+			"countdown1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"countdown2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"countdown3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"countdowngo": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"color": "ffffffff",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"countdown": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.1,
+						"x": 1.43,
+						"y": 1.43,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 0.5333, "x": 3.4, "y": 3.4 }
+				]
+			}
+		}
+	}
+}
+}

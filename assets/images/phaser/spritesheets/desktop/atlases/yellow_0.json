@@ -1,0 +1,165 @@
+{"frames": [
+
+{
+	"filename": "NEWYORK_TAXI_01.png",
+	"frame": {"x":355,"y":591,"w":90,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":69},
+	"sourceSize": {"w":90,"h":69},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_TAXI_02.png",
+	"frame": {"x":355,"y":520,"w":92,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":69},
+	"sourceSize": {"w":92,"h":69},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "TAXI_01.png",
+	"frame": {"x":355,"y":662,"w":66,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":51},
+	"sourceSize": {"w":66,"h":51},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "UndercontructionSign.png",
+	"frame": {"x":1,"y":1,"w":393,"h":517},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":517},
+	"sourceSize": {"w":393,"h":517},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnMarathon.png",
+	"frame": {"x":1,"y":753,"w":307,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":170},
+	"sourceSize": {"w":307,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnMarathon_downstate.png",
+	"frame": {"x":1,"y":925,"w":307,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":170},
+	"sourceSize": {"w":307,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnYe.png",
+	"frame": {"x":1,"y":1097,"w":222,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":76},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnYe_downstate.png",
+	"frame": {"x":225,"y":1097,"w":222,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":66},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlNodeUnlocked.png",
+	"frame": {"x":310,"y":865,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlNodeUnlockedDown.png",
+	"frame": {"x":310,"y":961,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlstaryellow1.png",
+	"frame": {"x":421,"y":43,"w":20,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":19},
+	"sourceSize": {"w":20,"h":19},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlstaryellow2.png",
+	"frame": {"x":396,"y":43,"w":23,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":23},
+	"sourceSize": {"w":23,"h":23},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisCityLlight.png",
+	"frame": {"x":421,"y":64,"w":15,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":15},
+	"sourceSize": {"w":15,"h":15},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisCityLlightHouse.png",
+	"frame": {"x":1,"y":520,"w":352,"h":231},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":352,"h":231},
+	"sourceSize": {"w":352,"h":231},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisHouseLight02.png",
+	"frame": {"x":310,"y":753,"w":122,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":110},
+	"sourceSize": {"w":122,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "star.png",
+	"frame": {"x":396,"y":1,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wm_pa_lighttower.png",
+	"frame": {"x":396,"y":68,"w":14,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":14},
+	"sourceSize": {"w":14,"h":14},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "yellow_0.png",
+	"format": "RGBA8888",
+	"size": {"w":448,"h":1174},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:458b5c8a4bfe8352fc297bd3198a5275:b0303b1a9d082edbdb3f0378e941896b:682b2d7c4c61e9243b9cf513073e7234$"
+}
+}

@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "Xk4B4QJuviuKklQ201Uzkx7U9pg", "spine": "2.1.27", "width": 420, "height": 440, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "parisIsland03", "parent": "root" }
+],
+"slots": [
+	{ "name": "parisIsland03", "bone": "parisIsland03", "attachment": "parisIsland03" }
+],
+"skins": {
+	"default": {
+		"parisIsland03": {
+			"parisIsland03": { "x": -17, "y": -0.5, "width": 420, "height": 440 }
+		}
+	}
+},
+"animations": {
+	"parisIsland02": {
+		"bones": {
+			"parisIsland03": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -94.99,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,28 @@
+{
+  "resources": [
+    "assets/audio/music.ogg",
+    "assets/audio/music.mp3"
+  ],
+  "spritemap": {
+    "bgm_Sample": {
+      "start": 0,
+      "end": 34.775986394557826,
+      "loop": false
+    },
+    "ingame": {
+      "start": 36,
+      "end": 106.66122448979591,
+      "loop": false
+    },
+    "pause": {
+      "start": 108,
+      "end": 138.6,
+      "loop": false
+    },
+    "worldmap": {
+      "start": 140,
+      "end": 204.54857142857145,
+      "loop": false
+    }
+  }
+}

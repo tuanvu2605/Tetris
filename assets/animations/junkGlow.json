@@ -1,0 +1,29 @@
+{
+"skeleton": { "hash": "aGg7WVwrtUQkQo0vMPqgQka1Jow", "spine": "2.1.27", "width": 192, "height": 192, "images": "./images/" },
+"bones": [
+	{ "name": "junkGlow" }
+],
+"slots": [
+	{ "name": "junkGlow", "bone": "junkGlow", "attachment": "junkGlow" }
+],
+"skins": {
+	"default": {
+		"junkGlow": {
+			"junkGlow": { "width": 192, "height": 192 }
+		}
+	}
+},
+"animations": {
+	"junkGlow": {
+		"slots": {
+			"junkGlow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

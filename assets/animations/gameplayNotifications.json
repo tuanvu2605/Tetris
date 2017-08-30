@@ -1,0 +1,477 @@
+{
+"skeleton": { "hash": "dxMWmA4NQoIQVfLGXz5XSwRU0hc", "spine": "2.1.27", "width": 842, "height": 200, "images": "./text_uk/" },
+"bones": [
+	{ "name": "gameplay notifications" }
+],
+"slots": [
+	{ "name": "txtBacktoBackTSpinDouble", "bone": "gameplay notifications", "attachment": "txtBacktoBackTSpinDouble" }
+],
+"skins": {
+	"default": {
+		"txtBacktoBackTSpinDouble": {
+			"txtBacktoBackTSpinDouble": { "width": 842, "height": 200 },
+			"txtBacktoBackTSpinSingle": { "width": 842, "height": 200 },
+			"txtBacktoBackTSpinTriple": { "width": 842, "height": 200 },
+			"txtBacktoBackTetrisTM": { "width": 842, "height": 200 },
+			"txtBlockOut": { "width": 842, "height": 200 },
+			"txtLevelUp": { "width": 842, "height": 200 },
+			"txtMiniTSpin": { "width": 842, "height": 200 },
+			"txtMiniTSpinSingle": { "width": 842, "height": 200 },
+			"txtPerfectClear": { "width": 842, "height": 200 },
+			"txtTSpin": { "width": 842, "height": 200 },
+			"txtTSpinDouble": { "width": 842, "height": 200 },
+			"txtTSpinSingle": { "width": 842, "height": 200 },
+			"txtTSpinTriple": { "width": 842, "height": 200 },
+			"txtTetrisTM": { "width": 842, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"txtBacktoBackTSpinDouble": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1.25, "y": 1.25 },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtBacktoBackTSpinSingle": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtBacktoBackTSpinSingle" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtBacktoBackTSpinTriple": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtBacktoBackTSpinTriple" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtBacktoBackTetrisTM": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtBacktoBackTetrisTM" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtBlockOut": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtBlockOut" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtLevelUp": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtLevelUp" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtMiniTSpin": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtMiniTSpin" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtMiniTSpinSingle": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtMiniTSpinSingle" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtPerfectClear": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtPerfectClear" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtTSpin": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtTSpin" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtTSpinDouble": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtTSpinDouble" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtTSpinSingle": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtTSpinSingle" },
+					{ "time": 0.2, "name": "txtTSpinSingle" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtTSpinTriple": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtTSpinTriple" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	},
+	"txtTetrisTM": {
+		"slots": {
+			"txtBacktoBackTSpinDouble": {
+				"attachment": [
+					{ "time": 0, "name": "txtTetrisTM" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gameplay notifications": {
+				"rotate": [
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1 }
+		]
+	}
+}
+}

@@ -1,0 +1,45 @@
+{
+"skeleton": {
+	"hash": "BrJaEvjS1ZQVpTZ6sK6QshULJi8",
+	"spine": "2.1.27",
+	"width": 484,
+	"height": 272,
+	"images": "/Volumes/mm01/ART/01_Games/TETRIS/04_ANIMATION_WORK_FILES/map/spine/map/images/"
+},
+"bones": [
+	{ "name": "newyorkIsland01" }
+],
+"slots": [
+	{ "name": "NEWYORK_ISLAND_04", "bone": "newyorkIsland01", "attachment": "NEWYORK_ISLAND_04" }
+],
+"skins": {
+	"default": {
+		"NEWYORK_ISLAND_04": {
+			"NEWYORK_ISLAND_04": { "width": 484, "height": 272 }
+		}
+	}
+},
+"animations": {
+	"newyorkIsland01": {
+		"bones": {
+			"newyorkIsland01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 70,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

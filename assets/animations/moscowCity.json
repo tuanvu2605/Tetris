@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "hUK6sVbxJwjI9Z8J4y2Qlrs0a8U", "spine": "2.1.27", "width": 1237, "height": 1323, "images": "./images/" },
+"bones": [
+	{ "name": "moscowCity" }
+],
+"slots": [
+	{ "name": "moscowCity", "bone": "moscowCity", "attachment": "moscow_locked" }
+],
+"skins": {
+	"default": {
+		"moscowCity": {
+			"moscow_locked": { "width": 1237, "height": 1323 }
+		}
+	}
+},
+"animations": {
+	"moscowCity": {}
+}
+}

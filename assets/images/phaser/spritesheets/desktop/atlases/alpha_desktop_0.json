@@ -1,0 +1,228 @@
+{"frames": [
+
+{
+	"filename": "bgTextPanelDesktop.png",
+	"frame": {"x":232,"y":1269,"w":201,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":201,"h":132},
+	"sourceSize": {"w":201,"h":132},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bgTextPanel_1_desktop.png",
+	"frame": {"x":435,"y":1300,"w":177,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":109},
+	"sourceSize": {"w":177,"h":109},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bgTextPanel_2_desktop.png",
+	"frame": {"x":842,"y":1189,"w":177,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":177},
+	"sourceSize": {"w":177,"h":177},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bgTextPanel_3_desktop.png",
+	"frame": {"x":759,"y":1010,"w":81,"h":393},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":393},
+	"sourceSize": {"w":81,"h":393},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "boxSmallGlow_desktop.png",
+	"frame": {"x":222,"y":1111,"w":224,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":224,"h":156},
+	"sourceSize": {"w":224,"h":156},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "boxStarsGlow_desktop.png",
+	"frame": {"x":630,"y":1010,"w":127,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":439},
+	"sourceSize": {"w":127,"h":439},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnGlow_desktop.png",
+	"frame": {"x":1,"y":1111,"w":219,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":220},
+	"sourceSize": {"w":219,"h":220},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnHold_desktop.png",
+	"frame": {"x":448,"y":1111,"w":180,"h":187},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":187},
+	"sourceSize": {"w":180,"h":187},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnHold_desktop_downstate.png",
+	"frame": {"x":842,"y":1010,"w":180,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":177},
+	"sourceSize": {"w":180,"h":187},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "coin_desktop.png",
+	"frame": {"x":842,"y":1368,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "gravityicon.png",
+	"frame": {"x":1042,"y":1010,"w":38,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":57},
+	"sourceSize": {"w":38,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "gridGlow.png",
+	"frame": {"x":1,"y":1,"w":602,"h":1108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":602,"h":1108},
+	"sourceSize": {"w":602,"h":1108},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "helpIcon_desktop.png",
+	"frame": {"x":802,"y":1405,"w":26,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":48},
+	"sourceSize": {"w":26,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hourglassIcon.png",
+	"frame": {"x":914,"y":1368,"w":38,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":57},
+	"sourceSize": {"w":38,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "junkspawnicon.png",
+	"frame": {"x":1042,"y":1069,"w":38,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":38,"h":56},
+	"sourceSize": {"w":38,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "matrixOutline.png",
+	"frame": {"x":605,"y":1,"w":500,"h":1007},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1007},
+	"sourceSize": {"w":500,"h":1007},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "matrixOverlay.png",
+	"frame": {"x":1,"y":1,"w":602,"h":1108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":602,"h":1108},
+	"sourceSize": {"w":602,"h":1108},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mouse.png",
+	"frame": {"x":1,"y":1333,"w":229,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":229,"h":120},
+	"sourceSize": {"w":229,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pauseIcon_dekstop.png",
+	"frame": {"x":232,"y":1403,"w":42,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":42,"h":49},
+	"sourceSize": {"w":56,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "progressEmpty_desktop.png",
+	"frame": {"x":1024,"y":1010,"w":7,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":345},
+	"sourceSize": {"w":7,"h":345},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "progressFill_desktop.png",
+	"frame": {"x":1033,"y":1010,"w":7,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":345},
+	"sourceSize": {"w":7,"h":345},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "progressStar.png",
+	"frame": {"x":1042,"y":1127,"w":27,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":27},
+	"sourceSize": {"w":27,"h":27},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "progressStarFill.png",
+	"frame": {"x":954,"y":1368,"w":28,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":27},
+	"sourceSize": {"w":28,"h":27},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "timeIcon.png",
+	"frame": {"x":759,"y":1405,"w":41,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":48},
+	"sourceSize": {"w":41,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "alpha_desktop_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1106,"h":1454},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:7f0e816369ee6d8e70a980b1e05a8f50:920e1c297647cf944f16bf82f1c053de:02db8209d7ca9be80a3078db9af0b6f4$"
+}
+}

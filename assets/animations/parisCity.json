@@ -1,0 +1,534 @@
+{
+"skeleton": { "hash": "gvzihqcYliN02GmwjM741zv8mmI", "spine": "2.1.27", "width": 1433, "height": 1350, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "parisCity", "parent": "root", "x": 575.33, "y": 665.74 },
+	{ "name": "parisIsland01", "parent": "root", "x": -457.67, "y": 23.66 },
+	{ "name": "parisIsland02", "parent": "root", "x": -457.67, "y": 23.66 },
+	{ "name": "parisIsland03", "parent": "root", "x": -457.67, "y": 23.66 },
+	{ "name": "paris_block1", "parent": "root", "x": -366.02, "y": -325.57 },
+	{ "name": "paris_block10", "parent": "root", "x": 526.09, "y": 683.54 },
+	{ "name": "paris_block2", "parent": "root", "x": -9.17, "y": -196.87 },
+	{ "name": "paris_block3", "parent": "root", "x": 321.34, "y": -103.27 },
+	{ "name": "paris_block4", "parent": "root", "x": 517.32, "y": -82.8 },
+	{ "name": "paris_block5", "parent": "root", "x": 99.04, "y": 192.14 },
+	{ "name": "paris_block6", "parent": "root", "x": -418.67, "y": 34.18 },
+	{ "name": "paris_block7", "parent": "root", "x": -231.47, "y": 312.07 },
+	{ "name": "paris_block8", "parent": "root", "x": 265.76, "y": 411.52 },
+	{ "name": "paris_block9", "parent": "root", "x": -219.77, "y": 616.27 },
+	{ "name": "parisballoon01", "parent": "root", "x": 389.35, "y": 641.49 },
+	{ "name": "parisballoon02", "parent": "root", "x": 389.35, "y": 641.49 },
+	{ "name": "pariscityGrey", "parent": "root", "x": -0.4, "y": -0.9 }
+],
+"slots": [
+	{ "name": "pariscity", "bone": "parisCity" },
+	{ "name": "parisCityLlightHouse", "bone": "parisCity" },
+	{ "name": "parisCityLlight", "bone": "parisCity" },
+	{ "name": "parisIsland03", "bone": "parisIsland03" },
+	{ "name": "parisIsland02", "bone": "parisIsland02" },
+	{ "name": "parisIsland01", "bone": "parisIsland01" },
+	{ "name": "parisballoon02", "bone": "parisballoon02" },
+	{ "name": "parisballoon01", "bone": "parisballoon01" },
+	{ "name": "pariscityGrey", "bone": "pariscityGrey", "attachment": "pariscityGrey" },
+	{ "name": "pariscity_block1", "bone": "paris_block1", "attachment": "pariscity_block1" },
+	{ "name": "pariscity_block10", "bone": "paris_block10", "attachment": "pariscity_block10" },
+	{ "name": "pariscity_block2", "bone": "paris_block2", "attachment": "pariscity_block2" },
+	{ "name": "pariscity_block3", "bone": "paris_block3", "attachment": "pariscity_block3" },
+	{ "name": "pariscity_block4", "bone": "paris_block4", "attachment": "pariscity_block4" },
+	{ "name": "pariscity_block5", "bone": "paris_block5", "attachment": "pariscity_block5" },
+	{ "name": "paris_block6", "bone": "paris_block6", "attachment": "pariscity_block6" },
+	{ "name": "pariscity_block7", "bone": "paris_block7", "attachment": "pariscity_block7" },
+	{ "name": "pariscity_block8", "bone": "paris_block8", "attachment": "pariscity_block8" },
+	{ "name": "pariscity_block9", "bone": "paris_block9", "attachment": "pariscity_block9" }
+],
+"skins": {
+	"default": {
+		"parisCityLlight": {
+			"parisCityLlight": { "x": -346.18, "y": 81.93, "width": 23, "height": 23 }
+		},
+		"parisCityLlightHouse": {
+			"parisCityLlightHouse": { "x": -690.18, "y": -235.56, "width": 541, "height": 356 }
+		},
+		"parisIsland01": {
+			"parisIsland01": { "x": -10.66, "y": -4.98, "width": 290, "height": 235 }
+		},
+		"parisIsland02": {
+			"parisIsland02": { "x": 101.83, "y": -326.49, "width": 417, "height": 384 }
+		},
+		"parisIsland03": {
+			"parisIsland03": { "x": 879.33, "y": -253.49, "width": 420, "height": 440 }
+		},
+		"paris_block6": {
+			"pariscity_block6": { "x": 37.57, "y": 64.29, "width": 466, "height": 305 }
+		},
+		"parisballoon01": {
+			"parisballoon01": { "x": 2.8, "y": -50.82, "width": 217, "height": 325 }
+		},
+		"parisballoon02": {
+			"parisballoon02": { "x": 342.3, "y": 58.67, "width": 174, "height": 262 }
+		},
+		"pariscity": {
+			"pariscity": { "x": -571.68, "y": -444.56, "width": 894, "height": 1076 }
+		},
+		"pariscityGrey": {
+			"pariscityGrey": { "x": 102.8, "y": 157.89, "width": 1433, "height": 1350 }
+		},
+		"pariscity_block1": {
+			"pariscity_block1": { "x": 9.42, "y": 40.57, "width": 417, "height": 466 }
+		},
+		"pariscity_block10": {
+			"pariscity_block10": { "x": -21.19, "y": -6.54, "width": 628, "height": 310 }
+		},
+		"pariscity_block2": {
+			"pariscity_block2": { "x": 57.03, "y": 46.87, "width": 396, "height": 452 }
+		},
+		"pariscity_block3": {
+			"pariscity_block3": { "x": 10.05, "y": -20.21, "width": 241, "height": 515 }
+		},
+		"pariscity_block4": {
+			"pariscity_block4": { "x": 23.57, "y": -44.19, "width": 182, "height": 374 }
+		},
+		"pariscity_block5": {
+			"pariscity_block5": { "x": -51.18, "y": -18.64, "width": 396, "height": 563 }
+		},
+		"pariscity_block7": {
+			"pariscity_block7": { "x": 35.87, "y": -34.07, "width": 497, "height": 350 }
+		},
+		"pariscity_block8": {
+			"pariscity_block8": { "x": -13.87, "y": -5.52, "width": 400, "height": 548 }
+		},
+		"pariscity_block9": {
+			"pariscity_block9": { "x": 46.67, "y": -25.77, "width": 454, "height": 279 }
+		}
+	}
+},
+"animations": {
+	"parisCity": {
+		"slots": {
+			"parisCityLlight": {
+				"attachment": [
+					{ "time": 0, "name": "parisCityLlight" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 1.5333, "name": "parisCityLlight" },
+					{ "time": 2.2666, "name": null },
+					{ "time": 3.0666, "name": "parisCityLlight" },
+					{ "time": 3.8, "name": "parisCityLlight" },
+					{ "time": 4.5666, "name": null },
+					{ "time": 5.3333, "name": "parisCityLlight" },
+					{ "time": 6.0666, "name": null },
+					{ "time": 6.8333, "name": "parisCityLlight" },
+					{ "time": 7.6, "name": "parisCityLlight" },
+					{ "time": 8.3666, "name": null },
+					{ "time": 9.1333, "name": "parisCityLlight" },
+					{ "time": 9.9, "name": null },
+					{ "time": 10.6666, "name": "parisCityLlight" }
+				]
+			},
+			"parisCityLlightHouse": {
+				"attachment": [
+					{ "time": 0, "name": "parisCityLlightHouse" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.0666, "color": "ffffffb6" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 3.2, "color": "ffffffb6" },
+					{ "time": 4.2666, "color": "ffffffff" },
+					{ "time": 5.3333, "color": "ffffffb6" },
+					{ "time": 6.4, "color": "ffffffff" },
+					{ "time": 7.4666, "color": "ffffffb6" },
+					{ "time": 8.5333, "color": "ffffffff" },
+					{ "time": 9.6, "color": "ffffffb6" },
+					{ "time": 10.6666, "color": "ffffffff" }
+				]
+			},
+			"parisIsland01": {
+				"attachment": [
+					{ "time": 0, "name": "parisIsland01" }
+				]
+			},
+			"parisIsland02": {
+				"attachment": [
+					{ "time": 0, "name": "parisIsland02" }
+				]
+			},
+			"parisIsland03": {
+				"attachment": [
+					{ "time": 0, "name": "parisIsland03" }
+				]
+			},
+			"paris_block6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"parisballoon01": {
+				"attachment": [
+					{ "time": 0, "name": "parisballoon01" }
+				]
+			},
+			"parisballoon02": {
+				"attachment": [
+					{ "time": 0, "name": "parisballoon02" }
+				]
+			},
+			"pariscity": {
+				"attachment": [
+					{ "time": 0, "name": "pariscity" }
+				]
+			},
+			"pariscityGrey": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity_block10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"parisCity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -72.96,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"parisballoon01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -117.57,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"parisballoon02": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 105.67,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"parisIsland01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 44.95,
+						"curve": [ 0.381, 0.55, 0.74, 1 ]
+					},
+					{ "time": 2.0333, "x": 0, "y": 0 },
+					{
+						"time": 7.3666,
+						"x": 0,
+						"y": 130.83,
+						"curve": [ 0.244, 0, 0.64, 0.56 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 44.95 }
+				]
+			},
+			"parisIsland02": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -22.64,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 115.73,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": -22.64 }
+				]
+			},
+			"parisIsland03": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 69.08,
+						"curve": [ 0.246, 0.39, 0.206, 0.89 ]
+					},
+					{
+						"time": 3.5666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 8.9,
+						"x": 0,
+						"y": 85.54,
+						"curve": [ 0.559, 0.18, 0.828, 0.56 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 69.08 }
+				]
+			}
+		}
+	},
+	"pariscityUnlock": {
+		"slots": {
+			"parisCityLlight": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"parisCityLlightHouse": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"parisIsland01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"parisIsland02": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"parisIsland03": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paris_block6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" }
+				]
+			},
+			"parisballoon01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"parisballoon02": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscity": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pariscityGrey": {
+				"color": [
+					{ "time": 0.9666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"pariscity_block1": {
+				"attachment": [
+					{ "time": 0, "name": "pariscity_block1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff00" },
+					{ "time": 0.9, "color": "ffffffff" }
+				]
+			},
+			"pariscity_block10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"paris_block6": {
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 1425.44 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				]
+			},
+			"pariscityGrey": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1425.44 },
+					{ "time": 0.1, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block2": {
+				"translate": [
+					{ "time": 0.1, "x": 0, "y": 1425.44 },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block3": {
+				"translate": [
+					{ "time": 0.2, "x": 0, "y": 1425.44 },
+					{ "time": 0.3, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block4": {
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 1425.44 },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block5": {
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 1425.44 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block7": {
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 1425.44 },
+					{ "time": 0.7, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block8": {
+				"translate": [
+					{ "time": 0.7, "x": 0, "y": 1425.44 },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block9": {
+				"translate": [
+					{ "time": 0.8, "x": 0, "y": 1425.44 },
+					{ "time": 0.9, "x": 0, "y": 0 }
+				]
+			},
+			"paris_block10": {
+				"translate": [
+					{ "time": 0.9, "x": 0, "y": 1425.44 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

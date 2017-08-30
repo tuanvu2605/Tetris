@@ -1,0 +1,157 @@
+{
+"skeleton": { "hash": "/C7n8XapLWDrh6PDvt4TnFt8aYo", "spine": "2.1.27", "width": 74, "height": 74, "images": "./images/" },
+"bones": [
+	{ "name": "scoreCell" }
+],
+"slots": [
+	{ "name": "scoreCell", "bone": "scoreCell", "attachment": "scoreCellOff_12" }
+],
+"skins": {
+	"default": {
+		"scoreCell": {
+			"scoreCellOff_00": { "width": 74, "height": 74 },
+			"scoreCellOff_01": { "width": 74, "height": 74 },
+			"scoreCellOff_02": { "width": 74, "height": 74 },
+			"scoreCellOff_03": { "width": 74, "height": 74 },
+			"scoreCellOff_04": { "width": 74, "height": 74 },
+			"scoreCellOff_05": { "width": 74, "height": 74 },
+			"scoreCellOff_06": { "width": 74, "height": 74 },
+			"scoreCellOff_07": { "width": 74, "height": 74 },
+			"scoreCellOff_08": { "width": 74, "height": 74 },
+			"scoreCellOff_09": { "width": 74, "height": 74 },
+			"scoreCellOff_10": { "width": 74, "height": 74 },
+			"scoreCellOff_11": { "width": 74, "height": 74 },
+			"scoreCellOff_12": { "width": 74, "height": 74 },
+			"scoreCellOff_13": { "width": 74, "height": 74 },
+			"scoreCellOff_14": { "width": 74, "height": 74 },
+			"scoreCellOff_15": { "width": 74, "height": 74 },
+			"scoreCellOn_00": { "width": 74, "height": 74 },
+			"scoreCellOn_01": { "width": 74, "height": 74 },
+			"scoreCellOn_02": { "width": 74, "height": 74 },
+			"scoreCellOn_03": { "width": 74, "height": 74 },
+			"scoreCellOn_04": { "width": 74, "height": 74 },
+			"scoreCellOn_05": { "width": 74, "height": 74 },
+			"scoreCellOn_06": { "width": 74, "height": 74 },
+			"scoreCellOn_07": { "width": 74, "height": 74 },
+			"scoreCellOn_08": { "width": 74, "height": 74 },
+			"scoreCellOn_09": { "width": 74, "height": 74 },
+			"scoreCellOn_10": { "width": 74, "height": 74 },
+			"scoreCellOn_11": { "width": 74, "height": 74 },
+			"scoreCellOn_12": { "width": 74, "height": 74 },
+			"scoreCellOn_13": { "width": 74, "height": 74 },
+			"scoreCellOn_14": { "width": 74, "height": 74 },
+			"scoreCellOn_15": { "width": 74, "height": 74 }
+		}
+	}
+},
+"animations": {
+	"scoreCellOff": {
+		"slots": {
+			"scoreCell": {
+				"attachment": [
+					{ "time": 0, "name": "scoreCellOff_00" },
+					{ "time": 0.0333, "name": "scoreCellOff_01" },
+					{ "time": 0.0666, "name": "scoreCellOff_02" },
+					{ "time": 0.1, "name": "scoreCellOff_03" },
+					{ "time": 0.1333, "name": "scoreCellOff_04" },
+					{ "time": 0.1666, "name": "scoreCellOff_05" },
+					{ "time": 0.2, "name": "scoreCellOff_06" },
+					{ "time": 0.2333, "name": "scoreCellOff_07" },
+					{ "time": 0.2666, "name": "scoreCellOff_08" },
+					{ "time": 0.3, "name": "scoreCellOff_09" },
+					{ "time": 0.3333, "name": "scoreCellOff_10" },
+					{ "time": 0.3666, "name": "scoreCellOff_11" },
+					{ "time": 0.4, "name": "scoreCellOff_12" },
+					{ "time": 0.4333, "name": "scoreCellOff_13" },
+					{ "time": 0.4666, "name": "scoreCellOff_14" },
+					{ "time": 0.5, "name": "scoreCellOff_15" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"scoreCellOffjunk": {
+		"slots": {
+			"scoreCell": {
+				"attachment": [
+					{ "time": 0, "name": "scoreCellOff_00" },
+					{ "time": 0.0333, "name": "scoreCellOff_01" },
+					{ "time": 0.0666, "name": "scoreCellOff_02" },
+					{ "time": 0.1, "name": "scoreCellOff_03" },
+					{ "time": 0.1333, "name": "scoreCellOff_04" },
+					{ "time": 0.1666, "name": "scoreCellOff_05" },
+					{ "time": 0.2, "name": "scoreCellOff_06" },
+					{ "time": 0.2333, "name": "scoreCellOff_07" },
+					{ "time": 0.2666, "name": "scoreCellOff_08" },
+					{ "time": 0.3, "name": "scoreCellOff_09" },
+					{ "time": 0.3333, "name": "scoreCellOff_10" },
+					{ "time": 0.3666, "name": "scoreCellOff_11" },
+					{ "time": 0.4, "name": "scoreCellOff_12" },
+					{ "time": 0.4333, "name": "scoreCellOff_13" },
+					{ "time": 0.4666, "name": "scoreCellOff_14" },
+					{ "time": 0.5, "name": "scoreCellOff_15" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff6a" }
+				]
+			}
+		}
+	},
+	"scoreCellOn": {
+		"slots": {
+			"scoreCell": {
+				"attachment": [
+					{ "time": 0, "name": "scoreCellOn_00" },
+					{ "time": 0.0333, "name": "scoreCellOn_01" },
+					{ "time": 0.0666, "name": "scoreCellOn_02" },
+					{ "time": 0.1, "name": "scoreCellOn_03" },
+					{ "time": 0.1333, "name": "scoreCellOn_04" },
+					{ "time": 0.1666, "name": "scoreCellOn_05" },
+					{ "time": 0.2, "name": "scoreCellOn_06" },
+					{ "time": 0.2333, "name": "scoreCellOn_07" },
+					{ "time": 0.2666, "name": "scoreCellOn_08" },
+					{ "time": 0.3, "name": "scoreCellOn_09" },
+					{ "time": 0.3333, "name": "scoreCellOn_10" },
+					{ "time": 0.3666, "name": "scoreCellOn_11" },
+					{ "time": 0.4, "name": "scoreCellOn_12" },
+					{ "time": 0.4333, "name": "scoreCellOn_13" },
+					{ "time": 0.4666, "name": "scoreCellOn_14" },
+					{ "time": 0.5, "name": "scoreCellOn_15" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"scoreCellOnjunk": {
+		"slots": {
+			"scoreCell": {
+				"attachment": [
+					{ "time": 0, "name": "scoreCellOn_00" },
+					{ "time": 0.0333, "name": "scoreCellOn_01" },
+					{ "time": 0.0666, "name": "scoreCellOn_02" },
+					{ "time": 0.1, "name": "scoreCellOn_03" },
+					{ "time": 0.1333, "name": "scoreCellOn_04" },
+					{ "time": 0.1666, "name": "scoreCellOn_05" },
+					{ "time": 0.2, "name": "scoreCellOn_06" },
+					{ "time": 0.2333, "name": "scoreCellOn_07" },
+					{ "time": 0.2666, "name": "scoreCellOn_08" },
+					{ "time": 0.3, "name": "scoreCellOn_09" },
+					{ "time": 0.3333, "name": "scoreCellOn_10" },
+					{ "time": 0.3666, "name": "scoreCellOn_11" },
+					{ "time": 0.4, "name": "scoreCellOn_12" },
+					{ "time": 0.4333, "name": "scoreCellOn_13" },
+					{ "time": 0.4666, "name": "scoreCellOn_14" },
+					{ "time": 0.5, "name": "scoreCellOn_15" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff6a" }
+				]
+			}
+		}
+	}
+}
+}

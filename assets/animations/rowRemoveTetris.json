@@ -1,0 +1,496 @@
+{
+"skeleton": { "hash": "2ec1hGlT2P0TKC17BnyWfE0foxo", "spine": "2.1.27", "width": 1288, "height": 620, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ROW1", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "ROW2", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "ROW3", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "ROW4", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "ROW5", "bone": "root", "attachment": "rowRemoveTetris_354" },
+	{ "name": "ROW6", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "ROW7", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "ROW8", "bone": "root", "attachment": "rowRemoveTetris_359" },
+	{ "name": "rowRemoveParticles_02_01", "bone": "root", "attachment": "rowRemoveParticles_02_02" },
+	{ "name": "rowRemoveParticles_02_02", "bone": "root", "attachment": "rowRemoveParticles_02_15" },
+	{ "name": "rowRemove_Partic_01_01", "bone": "root", "attachment": "rowRemove_Partic_01_14" },
+	{ "name": "rowRemove_Partic_01_02", "bone": "root", "attachment": "rowRemove_Partic_01_14" },
+	{ "name": "rowRemove_Partic_01_3", "bone": "root", "attachment": "rowRemove_Partic_01_05" },
+	{ "name": "rowRemove_Partic_01_5", "bone": "root", "attachment": "rowRemove_Partic_01_01" },
+	{ "name": "rowRemoveParticles_02_2", "bone": "root", "attachment": "rowRemoveParticles_02_02" },
+	{ "name": "rowRemoveParticles_02_06", "bone": "root", "attachment": "rowRemoveParticles_02_15" }
+],
+"skins": {
+	"default": {
+		"ROW1": {
+			"rowRemoveTetris_352": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": 111.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": 111.22, "width": 760, "height": 88 }
+		},
+		"ROW2": {
+			"rowRemoveTetris_352": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": 35.22, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": 35.22, "width": 760, "height": 88 }
+		},
+		"ROW3": {
+			"rowRemoveTetris_352": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": -40.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": -40.77, "width": 760, "height": 88 }
+		},
+		"ROW4": {
+			"rowRemoveTetris_352": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": -116.77, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": -116.77, "width": 760, "height": 88 }
+		},
+		"ROW5": {
+			"rowRemoveTetris_352": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": 111.22, "scaleX": -1, "width": 760, "height": 88 }
+		},
+		"ROW6": {
+			"rowRemoveTetris_352": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": 35.22, "scaleX": -1, "width": 760, "height": 88 }
+		},
+		"ROW7": {
+			"rowRemoveTetris_352": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": -40.77, "scaleX": -1, "width": 760, "height": 88 }
+		},
+		"ROW8": {
+			"rowRemoveTetris_352": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_353": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_354": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_355": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_356": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_357": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_358": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 },
+			"rowRemoveTetris_359": { "y": -116.77, "scaleX": -1, "width": 760, "height": 88 }
+		},
+		"rowRemoveParticles_02_01": {
+			"rowRemoveParticles_02_02": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_03": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_04": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_05": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_06": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_07": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_08": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_09": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_10": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_11": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_12": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_13": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_14": { "x": 245, "y": 84.22, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_15": { "x": 245, "y": 84.22, "width": 808, "height": 446 }
+		},
+		"rowRemoveParticles_02_02": {
+			"rowRemoveParticles_02_02": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_03": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_04": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_05": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_06": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_07": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_08": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_09": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_10": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_11": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_12": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_13": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_14": { "x": 245, "y": -46.77, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_15": { "x": 245, "y": -46.77, "width": 808, "height": 446 }
+		},
+		"rowRemoveParticles_02_06": {
+			"rowRemoveParticles_02_02": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_03": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_04": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_05": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_06": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_07": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_08": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_09": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_10": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_11": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_12": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_13": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_14": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_15": { "x": -235, "y": -89.77, "scaleX": -1, "width": 808, "height": 446 }
+		},
+		"rowRemoveParticles_02_2": {
+			"rowRemoveParticles_02_02": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_03": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_04": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_05": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_06": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_07": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_08": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_09": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_10": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_11": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_12": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_13": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_14": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemoveParticles_02_15": { "x": -235, "y": 41.22, "scaleX": -1, "width": 808, "height": 446 }
+		},
+		"rowRemove_Partic_01_01": {
+			"rowRemove_Partic_01_01": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_02": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_03": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_04": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_05": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_06": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_07": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_08": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_09": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_10": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_11": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_12": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_13": { "x": 245, "y": 41.22, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_14": { "x": 245, "y": 41.22, "width": 808, "height": 446 }
+		},
+		"rowRemove_Partic_01_02": {
+			"rowRemove_Partic_01_01": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_02": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_03": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_04": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_05": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_06": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_07": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_08": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_09": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_10": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_11": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_12": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_13": { "x": 245, "y": -89.77, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_14": { "x": 245, "y": -89.77, "width": 808, "height": 446 }
+		},
+		"rowRemove_Partic_01_3": {
+			"rowRemove_Partic_01_01": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_02": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_03": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_04": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_05": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_06": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_07": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_08": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_09": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_10": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_11": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_12": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_13": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_14": { "x": -235, "y": 84.22, "scaleX": -1, "width": 808, "height": 446 }
+		},
+		"rowRemove_Partic_01_5": {
+			"rowRemove_Partic_01_01": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_02": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_03": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_04": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_05": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_06": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_07": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_08": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_09": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_10": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_11": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_12": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_13": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 },
+			"rowRemove_Partic_01_14": { "x": -235, "y": -46.77, "scaleX": -1, "width": 808, "height": 446 }
+		}
+	}
+},
+"animations": {
+	"rowRemoveTetris": {
+		"slots": {
+			"ROW1": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW2": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW3": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW4": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW5": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW6": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW7": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"ROW8": {
+				"attachment": [
+					{ "time": 0, "name": "rowRemoveTetris_352" },
+					{ "time": 0.0333, "name": "rowRemoveTetris_353" },
+					{ "time": 0.0666, "name": "rowRemoveTetris_354" },
+					{ "time": 0.1, "name": "rowRemoveTetris_355" },
+					{ "time": 0.1333, "name": "rowRemoveTetris_356" },
+					{ "time": 0.1666, "name": "rowRemoveTetris_357" },
+					{ "time": 0.2, "name": "rowRemoveTetris_358" },
+					{ "time": 0.2333, "name": "rowRemoveTetris_359" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"rowRemoveParticles_02_01": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemoveParticles_02_02" },
+					{ "time": 0.0666, "name": "rowRemoveParticles_02_03" },
+					{ "time": 0.1, "name": "rowRemoveParticles_02_04" },
+					{ "time": 0.1333, "name": "rowRemoveParticles_02_05" },
+					{ "time": 0.1666, "name": "rowRemoveParticles_02_06" },
+					{ "time": 0.2, "name": "rowRemoveParticles_02_07" },
+					{ "time": 0.2333, "name": "rowRemoveParticles_02_08" },
+					{ "time": 0.2666, "name": "rowRemoveParticles_02_09" },
+					{ "time": 0.3, "name": "rowRemoveParticles_02_10" },
+					{ "time": 0.3333, "name": "rowRemoveParticles_02_11" },
+					{ "time": 0.3666, "name": "rowRemoveParticles_02_12" },
+					{ "time": 0.4, "name": "rowRemoveParticles_02_13" },
+					{ "time": 0.4333, "name": "rowRemoveParticles_02_14" },
+					{ "time": 0.4666, "name": "rowRemoveParticles_02_15" }
+				]
+			},
+			"rowRemoveParticles_02_02": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemoveParticles_02_02" },
+					{ "time": 0.0666, "name": "rowRemoveParticles_02_03" },
+					{ "time": 0.1, "name": "rowRemoveParticles_02_04" },
+					{ "time": 0.1333, "name": "rowRemoveParticles_02_05" },
+					{ "time": 0.1666, "name": "rowRemoveParticles_02_06" },
+					{ "time": 0.2, "name": "rowRemoveParticles_02_07" },
+					{ "time": 0.2333, "name": "rowRemoveParticles_02_08" },
+					{ "time": 0.2666, "name": "rowRemoveParticles_02_09" },
+					{ "time": 0.3, "name": "rowRemoveParticles_02_10" },
+					{ "time": 0.3333, "name": "rowRemoveParticles_02_11" },
+					{ "time": 0.3666, "name": "rowRemoveParticles_02_12" },
+					{ "time": 0.4, "name": "rowRemoveParticles_02_13" },
+					{ "time": 0.4333, "name": "rowRemoveParticles_02_14" },
+					{ "time": 0.4666, "name": "rowRemoveParticles_02_15" }
+				]
+			},
+			"rowRemoveParticles_02_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemoveParticles_02_02" },
+					{ "time": 0.0666, "name": "rowRemoveParticles_02_03" },
+					{ "time": 0.1, "name": "rowRemoveParticles_02_04" },
+					{ "time": 0.1333, "name": "rowRemoveParticles_02_05" },
+					{ "time": 0.1666, "name": "rowRemoveParticles_02_06" },
+					{ "time": 0.2, "name": "rowRemoveParticles_02_07" },
+					{ "time": 0.2333, "name": "rowRemoveParticles_02_08" },
+					{ "time": 0.2666, "name": "rowRemoveParticles_02_09" },
+					{ "time": 0.3, "name": "rowRemoveParticles_02_10" },
+					{ "time": 0.3333, "name": "rowRemoveParticles_02_11" },
+					{ "time": 0.3666, "name": "rowRemoveParticles_02_12" },
+					{ "time": 0.4, "name": "rowRemoveParticles_02_13" },
+					{ "time": 0.4333, "name": "rowRemoveParticles_02_14" },
+					{ "time": 0.4666, "name": "rowRemoveParticles_02_15" }
+				]
+			},
+			"rowRemoveParticles_02_06": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemoveParticles_02_02" },
+					{ "time": 0.0666, "name": "rowRemoveParticles_02_03" },
+					{ "time": 0.1, "name": "rowRemoveParticles_02_04" },
+					{ "time": 0.1333, "name": "rowRemoveParticles_02_05" },
+					{ "time": 0.1666, "name": "rowRemoveParticles_02_06" },
+					{ "time": 0.2, "name": "rowRemoveParticles_02_07" },
+					{ "time": 0.2333, "name": "rowRemoveParticles_02_08" },
+					{ "time": 0.2666, "name": "rowRemoveParticles_02_09" },
+					{ "time": 0.3, "name": "rowRemoveParticles_02_10" },
+					{ "time": 0.3333, "name": "rowRemoveParticles_02_11" },
+					{ "time": 0.3666, "name": "rowRemoveParticles_02_12" },
+					{ "time": 0.4, "name": "rowRemoveParticles_02_13" },
+					{ "time": 0.4333, "name": "rowRemoveParticles_02_14" },
+					{ "time": 0.4666, "name": "rowRemoveParticles_02_15" }
+				]
+			},
+			"rowRemove_Partic_01_01": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemove_Partic_01_01" },
+					{ "time": 0.0666, "name": "rowRemove_Partic_01_02" },
+					{ "time": 0.1, "name": "rowRemove_Partic_01_03" },
+					{ "time": 0.1333, "name": "rowRemove_Partic_01_04" },
+					{ "time": 0.1666, "name": "rowRemove_Partic_01_05" },
+					{ "time": 0.2, "name": "rowRemove_Partic_01_06" },
+					{ "time": 0.2333, "name": "rowRemove_Partic_01_07" },
+					{ "time": 0.2666, "name": "rowRemove_Partic_01_08" },
+					{ "time": 0.3, "name": "rowRemove_Partic_01_09" },
+					{ "time": 0.3333, "name": "rowRemove_Partic_01_10" },
+					{ "time": 0.3666, "name": "rowRemove_Partic_01_11" },
+					{ "time": 0.4, "name": "rowRemove_Partic_01_12" },
+					{ "time": 0.4333, "name": "rowRemove_Partic_01_13" }
+				]
+			},
+			"rowRemove_Partic_01_02": {
+				"attachment": [
+					{ "time": 0.0333, "name": "rowRemove_Partic_01_01" },
+					{ "time": 0.0666, "name": "rowRemove_Partic_01_02" },
+					{ "time": 0.1, "name": "rowRemove_Partic_01_03" },
+					{ "time": 0.1333, "name": "rowRemove_Partic_01_04" },
+					{ "time": 0.1666, "name": "rowRemove_Partic_01_05" },
+					{ "time": 0.2, "name": "rowRemove_Partic_01_06" },
+					{ "time": 0.2333, "name": "rowRemove_Partic_01_07" },
+					{ "time": 0.2666, "name": "rowRemove_Partic_01_08" },
+					{ "time": 0.3, "name": "rowRemove_Partic_01_09" },
+					{ "time": 0.3333, "name": "rowRemove_Partic_01_10" },
+					{ "time": 0.3666, "name": "rowRemove_Partic_01_11" },
+					{ "time": 0.4, "name": "rowRemove_Partic_01_12" },
+					{ "time": 0.4333, "name": "rowRemove_Partic_01_13" },
+					{ "time": 0.4666, "name": "rowRemove_Partic_01_14" }
+				]
+			},
+			"rowRemove_Partic_01_3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemove_Partic_01_01" },
+					{ "time": 0.0666, "name": "rowRemove_Partic_01_02" },
+					{ "time": 0.1, "name": "rowRemove_Partic_01_03" },
+					{ "time": 0.1333, "name": "rowRemove_Partic_01_04" },
+					{ "time": 0.1666, "name": "rowRemove_Partic_01_05" },
+					{ "time": 0.2, "name": "rowRemove_Partic_01_06" },
+					{ "time": 0.2333, "name": "rowRemove_Partic_01_07" },
+					{ "time": 0.2666, "name": "rowRemove_Partic_01_08" },
+					{ "time": 0.3, "name": "rowRemove_Partic_01_09" },
+					{ "time": 0.3333, "name": "rowRemove_Partic_01_10" },
+					{ "time": 0.3666, "name": "rowRemove_Partic_01_11" },
+					{ "time": 0.4, "name": "rowRemove_Partic_01_12" },
+					{ "time": 0.4333, "name": "rowRemove_Partic_01_13" },
+					{ "time": 0.4666, "name": "rowRemove_Partic_01_14" }
+				]
+			},
+			"rowRemove_Partic_01_5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "rowRemove_Partic_01_01" },
+					{ "time": 0.0666, "name": "rowRemove_Partic_01_02" },
+					{ "time": 0.1, "name": "rowRemove_Partic_01_03" },
+					{ "time": 0.1333, "name": "rowRemove_Partic_01_04" },
+					{ "time": 0.1666, "name": "rowRemove_Partic_01_05" },
+					{ "time": 0.2, "name": "rowRemove_Partic_01_06" },
+					{ "time": 0.2333, "name": "rowRemove_Partic_01_07" },
+					{ "time": 0.2666, "name": "rowRemove_Partic_01_08" },
+					{ "time": 0.3, "name": "rowRemove_Partic_01_09" },
+					{ "time": 0.3333, "name": "rowRemove_Partic_01_10" },
+					{ "time": 0.3666, "name": "rowRemove_Partic_01_11" },
+					{ "time": 0.4, "name": "rowRemove_Partic_01_12" },
+					{ "time": 0.4333, "name": "rowRemove_Partic_01_13" },
+					{ "time": 0.4666, "name": "rowRemove_Partic_01_14" }
+				]
+			}
+		}
+	}
+}
+}

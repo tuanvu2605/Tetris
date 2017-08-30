@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "vRcDxwuj9Kmjb/DQwbN20cd9pMY", "spine": "2.1.27", "width": 309, "height": 203, "images": "./image/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bgTextPanelAnim", "bone": "root", "attachment": "bgTextPanelDesktop" }
+],
+"skins": {
+	"default": {
+		"bgTextPanelAnim": {
+			"bgTextPanelDesktop": { "width": 309, "height": 203 }
+		}
+	}
+},
+"animations": {
+	"uiPanelGlowDesktop": {
+		"slots": {
+			"bgTextPanelAnim": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

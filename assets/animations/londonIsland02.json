@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "+V9+/VsDfh3JjNWXGKcUiPKcqEk", "spine": "3.2.01", "width": 265, "height": 510, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "londenIsland2", "bone": "root", "attachment": "londenIsland2_locked" }
+],
+"skins": {
+	"default": {
+		"londenIsland2": {
+			"londenIsland2": { "width": 265, "height": 510 },
+			"londenIsland2_locked": { "width": 265, "height": 510 }
+		}
+	}
+},
+"animations": {
+	"londonIsland02": {
+		"slots": {
+			"londenIsland2": {
+				"attachment": [
+					{ "time": 0, "name": "londenIsland2" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 108,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"londonIsland02_locked": {
+		"slots": {
+			"londenIsland2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "londenIsland2_locked" }
+				]
+			}
+		}
+	}
+}
+}

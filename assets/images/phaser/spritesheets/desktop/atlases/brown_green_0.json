@@ -1,0 +1,840 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_ISLAND_01.png",
+	"frame": {"x":774,"y":728,"w":243,"h":257},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":243,"h":257},
+	"sourceSize": {"w":243,"h":257},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_ISLAND_02.png",
+	"frame": {"x":854,"y":987,"w":240,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":249},
+	"sourceSize": {"w":240,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_ISLAND_05.png",
+	"frame": {"x":1019,"y":811,"w":153,"h":155},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":155},
+	"sourceSize": {"w":153,"h":155},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_ISLAND_06.png",
+	"frame": {"x":1,"y":394,"w":461,"h":355},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":461,"h":355},
+	"sourceSize": {"w":461,"h":355},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_BASE.png",
+	"frame": {"x":504,"y":731,"w":268,"h":289},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":268,"h":289},
+	"sourceSize": {"w":268,"h":289},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LondenIlsand3.png",
+	"frame": {"x":1319,"y":535,"w":205,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":201},
+	"sourceSize": {"w":205,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_CITY_ISLAND_01.png",
+	"frame": {"x":882,"y":556,"w":189,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":170},
+	"sourceSize": {"w":189,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_CITY_ISLAND_03.png",
+	"frame": {"x":882,"y":383,"w":189,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":171},
+	"sourceSize": {"w":189,"h":171},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_ISLAND_04.png",
+	"frame": {"x":1,"y":1151,"w":315,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":315,"h":177},
+	"sourceSize": {"w":315,"h":177},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_ISLAND_05.png",
+	"frame": {"x":1948,"y":366,"w":87,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":135},
+	"sourceSize": {"w":87,"h":135},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK__CITY_ISLAND_02.png",
+	"frame": {"x":1526,"y":535,"w":88,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":137},
+	"sourceSize": {"w":88,"h":137},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block1.png",
+	"frame": {"x":786,"y":1,"w":295,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":380},
+	"sourceSize": {"w":295,"h":380},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block2.png",
+	"frame": {"x":1,"y":751,"w":285,"h":398},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":285,"h":398},
+	"sourceSize": {"w":285,"h":398},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block4.png",
+	"frame": {"x":477,"y":1,"w":307,"h":384},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":384},
+	"sourceSize": {"w":307,"h":384},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "island1.png",
+	"frame": {"x":1073,"y":394,"w":244,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":260},
+	"sourceSize": {"w":244,"h":260},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "island2.png",
+	"frame": {"x":604,"y":1022,"w":248,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":248,"h":286},
+	"sourceSize": {"w":248,"h":286},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIsland05.png",
+	"frame": {"x":288,"y":751,"w":214,"h":335},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":335},
+	"sourceSize": {"w":214,"h":335},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIsland06.png",
+	"frame": {"x":318,"y":1088,"w":284,"h":274},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":284,"h":274},
+	"sourceSize": {"w":284,"h":274},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londonIsland4.png",
+	"frame": {"x":1,"y":1,"w":474,"h":391},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":474,"h":391},
+	"sourceSize": {"w":474,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londoncity_block1.png",
+	"frame": {"x":1083,"y":1,"w":265,"h":391},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":265,"h":391},
+	"sourceSize": {"w":265,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01.png",
+	"frame": {"x":1526,"y":674,"w":92,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":111},
+	"sourceSize": {"w":92,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_02.png",
+	"frame": {"x":1264,"y":656,"w":39,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":75},
+	"sourceSize": {"w":39,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_03.png",
+	"frame": {"x":1300,"y":935,"w":89,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":112},
+	"sourceSize": {"w":90,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_04.png",
+	"frame": {"x":1912,"y":1179,"w":100,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":93},
+	"sourceSize": {"w":100,"h":93},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_05.png",
+	"frame": {"x":604,"y":1310,"w":100,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":53},
+	"sourceSize": {"w":100,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_06.png",
+	"frame": {"x":1504,"y":1186,"w":100,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":98},
+	"sourceSize": {"w":100,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_07.png",
+	"frame": {"x":1198,"y":1183,"w":100,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":116},
+	"sourceSize": {"w":100,"h":116},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_08.png",
+	"frame": {"x":1174,"y":811,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_09.png",
+	"frame": {"x":1096,"y":968,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_10.png",
+	"frame": {"x":1722,"y":665,"w":100,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":120},
+	"sourceSize": {"w":100,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_11.png",
+	"frame": {"x":1824,"y":665,"w":100,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":120},
+	"sourceSize": {"w":100,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_12.png",
+	"frame": {"x":1922,"y":541,"w":100,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":119},
+	"sourceSize": {"w":100,"h":119},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_13.png",
+	"frame": {"x":1926,"y":662,"w":100,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":119},
+	"sourceSize": {"w":100,"h":119},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_14.png",
+	"frame": {"x":1096,"y":1092,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_15.png",
+	"frame": {"x":854,"y":1238,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_16.png",
+	"frame": {"x":956,"y":1238,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02.png",
+	"frame": {"x":1504,"y":1092,"w":92,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":92},
+	"sourceSize": {"w":92,"h":92},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_02.png",
+	"frame": {"x":1504,"y":1286,"w":40,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":66},
+	"sourceSize": {"w":40,"h":66},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_03.png",
+	"frame": {"x":1802,"y":989,"w":100,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":96},
+	"sourceSize": {"w":100,"h":96},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_04.png",
+	"frame": {"x":1708,"y":1281,"w":100,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":81},
+	"sourceSize": {"w":100,"h":81},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_05.png",
+	"frame": {"x":1926,"y":783,"w":100,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":93},
+	"sourceSize": {"w":100,"h":93},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_06.png",
+	"frame": {"x":1606,"y":1184,"w":100,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":98},
+	"sourceSize": {"w":100,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_07.png",
+	"frame": {"x":1409,"y":738,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_08.png",
+	"frame": {"x":1300,"y":1162,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_09.png",
+	"frame": {"x":1912,"y":1274,"w":100,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":85},
+	"sourceSize": {"w":100,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_10.png",
+	"frame": {"x":1904,"y":985,"w":100,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":95},
+	"sourceSize": {"w":100,"h":95},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_11.png",
+	"frame": {"x":1276,"y":841,"w":100,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":92},
+	"sourceSize": {"w":100,"h":92},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_12.png",
+	"frame": {"x":1700,"y":993,"w":100,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":98},
+	"sourceSize": {"w":100,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_13.png",
+	"frame": {"x":1708,"y":1181,"w":100,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":98},
+	"sourceSize": {"w":100,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_14.png",
+	"frame": {"x":1511,"y":787,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_15.png",
+	"frame": {"x":1613,"y":789,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_16.png",
+	"frame": {"x":1409,"y":840,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03.png",
+	"frame": {"x":1802,"y":1087,"w":92,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":92},
+	"sourceSize": {"w":92,"h":92},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_02.png",
+	"frame": {"x":1264,"y":733,"w":41,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":66},
+	"sourceSize": {"w":41,"h":66},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_03.png",
+	"frame": {"x":1817,"y":787,"w":100,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":97},
+	"sourceSize": {"w":100,"h":97},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_04.png",
+	"frame": {"x":1810,"y":1279,"w":100,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":83},
+	"sourceSize": {"w":100,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_05.png",
+	"frame": {"x":706,"y":1310,"w":100,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":47},
+	"sourceSize": {"w":100,"h":47},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_06.png",
+	"frame": {"x":1817,"y":886,"w":100,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":97},
+	"sourceSize": {"w":100,"h":97},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_07.png",
+	"frame": {"x":1391,"y":942,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_08.png",
+	"frame": {"x":1394,"y":1044,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_09.png",
+	"frame": {"x":1700,"y":1093,"w":100,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":86},
+	"sourceSize": {"w":100,"h":86},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_10.png",
+	"frame": {"x":1810,"y":1181,"w":100,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":96},
+	"sourceSize": {"w":100,"h":96},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_11.png",
+	"frame": {"x":1598,"y":1094,"w":100,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":88},
+	"sourceSize": {"w":100,"h":88},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_12.png",
+	"frame": {"x":1715,"y":789,"w":100,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":98},
+	"sourceSize": {"w":100,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_13.png",
+	"frame": {"x":1715,"y":889,"w":100,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":98},
+	"sourceSize": {"w":100,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_14.png",
+	"frame": {"x":1402,"y":1146,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_15.png",
+	"frame": {"x":1402,"y":1248,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_16.png",
+	"frame": {"x":1511,"y":889,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04.png",
+	"frame": {"x":1300,"y":1049,"w":92,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":111},
+	"sourceSize": {"w":92,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_02.png",
+	"frame": {"x":1019,"y":728,"w":40,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":76},
+	"sourceSize": {"w":40,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_03.png",
+	"frame": {"x":1948,"y":246,"w":99,"h":118},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":118},
+	"sourceSize": {"w":99,"h":118},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_04.png",
+	"frame": {"x":1904,"y":1082,"w":100,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":95},
+	"sourceSize": {"w":100,"h":95},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_05.png",
+	"frame": {"x":1198,"y":935,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_06.png",
+	"frame": {"x":1198,"y":1059,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_07.png",
+	"frame": {"x":1307,"y":738,"w":100,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":101},
+	"sourceSize": {"w":100,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_08.png",
+	"frame": {"x":1613,"y":891,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_09.png",
+	"frame": {"x":1300,"y":1264,"w":100,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":99},
+	"sourceSize": {"w":100,"h":99},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_10.png",
+	"frame": {"x":1496,"y":991,"w":100,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":99},
+	"sourceSize": {"w":100,"h":99},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_11.png",
+	"frame": {"x":1598,"y":993,"w":100,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":99},
+	"sourceSize": {"w":100,"h":99},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_12.png",
+	"frame": {"x":1616,"y":541,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_13.png",
+	"frame": {"x":1718,"y":541,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_14.png",
+	"frame": {"x":1820,"y":541,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_15.png",
+	"frame": {"x":1058,"y":1238,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_16.png",
+	"frame": {"x":1620,"y":665,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland01.png",
+	"frame": {"x":1073,"y":656,"w":189,"h":153},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":153},
+	"sourceSize": {"w":189,"h":153},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland02.png",
+	"frame": {"x":1675,"y":289,"w":271,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":271,"h":250},
+	"sourceSize": {"w":271,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland03.png",
+	"frame": {"x":1623,"y":1,"w":273,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":273,"h":286},
+	"sourceSize": {"w":273,"h":286},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block1.png",
+	"frame": {"x":1350,"y":1,"w":271,"h":303},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":271,"h":303},
+	"sourceSize": {"w":271,"h":303},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block2.png",
+	"frame": {"x":623,"y":387,"w":257,"h":294},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":257,"h":294},
+	"sourceSize": {"w":257,"h":294},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block3.png",
+	"frame": {"x":464,"y":394,"w":157,"h":335},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":335},
+	"sourceSize": {"w":157,"h":335},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block4.png",
+	"frame": {"x":1898,"y":1,"w":118,"h":243},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":243},
+	"sourceSize": {"w":118,"h":243},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block7.png",
+	"frame": {"x":1350,"y":306,"w":323,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":227},
+	"sourceSize": {"w":323,"h":227},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "brown_green_0.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1364},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:a190a02c07ef5740bda9f04a36afcb87:9c20af9cabc3dd24e705e99e37f89f55:a6b98f77f68f723f13ee8345e08c8afa$"
+}
+}

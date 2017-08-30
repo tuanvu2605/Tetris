@@ -1,0 +1,129 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_TRACTOR.png",
+	"frame": {"x":1314,"y":890,"w":60,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":74},
+	"sourceSize": {"w":60,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnMarathonLocked_lock.png",
+	"frame": {"x":982,"y":890,"w":106,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":106,"h":90},
+	"sourceSize": {"w":107,"h":90},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnOr.png",
+	"frame": {"x":1090,"y":890,"w":222,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":76},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "btnOr_downstate.png",
+	"frame": {"x":1138,"y":447,"w":222,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":66},
+	"sourceSize": {"w":222,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "clock.png",
+	"frame": {"x":1,"y":517,"w":488,"h":476},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":488,"h":476},
+	"sourceSize": {"w":488,"h":482},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cup.png",
+	"frame": {"x":1031,"y":1,"w":357,"h":319},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":357,"h":319},
+	"sourceSize": {"w":365,"h":322},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "frame_01.png",
+	"frame": {"x":1242,"y":322,"w":99,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":99,"h":117},
+	"sourceSize": {"w":103,"h":117},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "frame_02.png",
+	"frame": {"x":1138,"y":322,"w":102,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":102,"h":123},
+	"sourceSize": {"w":103,"h":123},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "frame_03.png",
+	"frame": {"x":1031,"y":322,"w":105,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":132},
+	"sourceSize": {"w":105,"h":132},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lock.png",
+	"frame": {"x":1,"y":1,"w":513,"h":514},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":513,"h":514},
+	"sourceSize": {"w":515,"h":519},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lockBroken.png",
+	"frame": {"x":516,"y":1,"w":513,"h":514},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":513,"h":514},
+	"sourceSize": {"w":515,"h":519},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wall.png",
+	"frame": {"x":491,"y":517,"w":489,"h":440},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":489,"h":440},
+	"sourceSize": {"w":489,"h":441},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wall2.png",
+	"frame": {"x":982,"y":517,"w":486,"h":371},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":486,"h":371},
+	"sourceSize": {"w":486,"h":374},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "orange_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1469,"h":994},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:0779f991f9699c63a3afbae48b667e50:cc091f5eb21b929279abf7d1deb5d9e7:a3ab98fa2c31a0ef66a8ffad4d0861ec$"
+}
+}

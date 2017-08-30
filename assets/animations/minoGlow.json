@@ -1,0 +1,30 @@
+{
+"skeleton": { "hash": "TbTXYtOn5AwhtKIvdl8coFWkdz8", "spine": "2.1.27", "width": 314, "height": 314, "images": "./images/" },
+"bones": [
+	{ "name": "minoGlow" }
+],
+"slots": [
+	{ "name": "minoGlow", "bone": "minoGlow", "attachment": "minoGlow" }
+],
+"skins": {
+	"default": {
+		"minoGlow": {
+			"minoGlow": { "width": 314, "height": 314 }
+		}
+	}
+},
+"animations": {
+	"minoGlow": {
+		"slots": {
+			"minoGlow": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

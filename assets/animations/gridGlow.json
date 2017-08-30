@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "6I/5g1a7Ewsdq/GbR3GvuJldhvs", "spine": "2.1.27", "width": 926, "height": 1705, "images": "./image/" },
+"bones": [
+	{ "name": "gridGlow" }
+],
+"slots": [
+	{ "name": "gridGlow", "bone": "gridGlow", "attachment": "gridGlow" }
+],
+"skins": {
+	"default": {
+		"gridGlow": {
+			"gridGlow": { "width": 926, "height": 1705 }
+		}
+	}
+},
+"animations": {
+	"gridGlow": {
+		"slots": {
+			"gridGlow": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.075, 0.3, 0.344, 0.79 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"gridGlow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,891 @@
+{
+"skeleton": { "hash": "LBOtMXPgE5RsFL8smecckc0ua50", "spine": "2.1.27", "width": 1141.02, "height": 1350.01, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "island5", "parent": "root", "x": -382.57, "y": -211.96 },
+	{ "name": "island6", "parent": "root", "x": 439.37, "y": -225.71 },
+	{ "name": "london_block1", "parent": "root", "x": -371.29, "y": -140.28 },
+	{ "name": "london_block2", "parent": "root", "x": 97.49, "y": -379 },
+	{ "name": "london_block3", "parent": "root", "x": 189.52, "y": 52.39 },
+	{ "name": "london_block4", "parent": "root", "x": 462.74, "y": 84.03 },
+	{ "name": "london_block5", "parent": "root", "x": -72.19, "y": 388.89 },
+	{ "name": "london_block6", "parent": "root", "x": -310.89, "y": 426.27 },
+	{ "name": "london_block7", "parent": "root", "x": 367.83, "y": 342.87 },
+	{ "name": "london_block8", "parent": "root", "x": 77.36, "y": 509.68 },
+	{ "name": "london_block9", "parent": "root", "x": -224.61, "y": 811.66 },
+	{ "name": "london_city", "parent": "root", "x": 6.72, "y": 29.61 },
+	{ "name": "londoncityGrey", "parent": "root", "x": 42.84, "y": 176.06 },
+	{ "name": "ClockLeft", "parent": "london_city", "x": -250.19, "y": 605.92 },
+	{ "name": "LondenCityBoath", "parent": "london_city", "x": 162.37, "y": 287.13 },
+	{ "name": "LondenCityBus2", "parent": "london_city", "x": -292.34, "y": 231.18 },
+	{ "name": "bone", "parent": "london_city", "x": -297.53, "y": 209.56 },
+	{ "name": "bone2", "parent": "london_city", "x": 336.87, "y": 266.8 },
+	{ "name": "bone3", "parent": "london_city", "x": 50.67, "y": 85.54 },
+	{ "name": "bone4", "parent": "london_city", "x": 169.92, "y": 176.17 },
+	{ "name": "clockright", "parent": "london_city", "x": -152.98, "y": 597.05 },
+	{ "name": "SMOKE", "parent": "LondenCityBus2", "x": -79.99, "y": 8.12 },
+	{ "name": "smoke", "parent": "LondenCityBoath", "x": -22.27, "y": 57.07 },
+	{ "name": "smoke2", "parent": "LondenCityBoath", "x": 20.87, "y": 66.81 }
+],
+"slots": [
+	{ "name": "londonCity", "bone": "bone3" },
+	{ "name": "LondenCityBoath", "bone": "LondenCityBoath" },
+	{ "name": "londonCitymask", "bone": "bone4" },
+	{ "name": "londenIsland06", "bone": "island6" },
+	{ "name": "londenIsland05", "bone": "island5" },
+	{ "name": "londenClock01", "bone": "clockright" },
+	{ "name": "Smoke", "bone": "SMOKE" },
+	{ "name": "bus", "bone": "LondenCityBus2" },
+	{ "name": "bus wheels", "bone": "bone" },
+	{ "name": "AMSTERDAM_SMOKE_01", "bone": "smoke" },
+	{ "name": "AMSTERDAM_SMOKE_1", "bone": "smoke2" },
+	{ "name": "londenCityTower", "bone": "bone2" },
+	{ "name": "londoncityGrey", "bone": "londoncityGrey", "attachment": "londoncityGrey" },
+	{ "name": "londoncity_block1", "bone": "london_block1", "attachment": "londoncity_block1" },
+	{ "name": "londoncity_block2", "bone": "london_block2", "attachment": "londoncity_block2" },
+	{ "name": "londoncity_block3", "bone": "london_block3", "attachment": "londoncity_block3" },
+	{ "name": "londoncity_block4", "bone": "london_block4", "attachment": "londoncity_block4" },
+	{ "name": "londoncity_block5", "bone": "london_block5", "attachment": "londoncity_block5" },
+	{ "name": "londoncity_block6", "bone": "london_block6", "attachment": "londoncity_block6" },
+	{ "name": "londoncity_block7", "bone": "london_block7", "attachment": "londoncity_block7" },
+	{ "name": "londoncity_block8", "bone": "london_block8", "attachment": "londoncity_block8" },
+	{ "name": "londoncity_block9", "bone": "london_block9", "attachment": "londoncity_block9" },
+	{ "name": "ClockLeft", "bone": "ClockLeft", "attachment": "londenClock02" }
+],
+"skins": {
+	"default": {
+		"AMSTERDAM_SMOKE_01": {
+			"AMSTERDAM_SMOKE_01": { "x": 34.8, "y": 15.31, "width": 85, "height": 64 },
+			"AMSTERDAM_SMOKE_02": { "x": 34.8, "y": 15.31, "width": 90, "height": 68 },
+			"AMSTERDAM_SMOKE_03": { "x": 34.8, "y": 15.31, "width": 83, "height": 62 }
+		},
+		"AMSTERDAM_SMOKE_1": {
+			"AMSTERDAM_SMOKE_01": { "x": 34.8, "y": 15.31, "width": 85, "height": 64 },
+			"AMSTERDAM_SMOKE_02": { "x": 34.8, "y": 15.31, "width": 90, "height": 68 },
+			"AMSTERDAM_SMOKE_03": { "x": 34.8, "y": 15.31, "width": 83, "height": 62 }
+		},
+		"ClockLeft": {
+			"londenClock02": { "x": 0.8, "y": 17.05, "width": 6, "height": 39 }
+		},
+		"LondenCityBoath": {
+			"LondenCityBoath": { "x": -3.93, "y": -4.35, "width": 216, "height": 146 }
+		},
+		"Smoke": {
+			"NEWYORK_TAXI_SMOKE 03": { "x": -24.43, "y": 19.52, "scaleX": -1, "width": 77, "height": 64 },
+			"NEWYORK_TAXI_SMOKE_01": { "x": -20.29, "y": 16.74, "scaleX": -1, "width": 68, "height": 58 },
+			"NEWYORK_TAXI_SMOKE_02": { "x": -15.75, "y": 9.81, "scaleX": -1, "width": 60, "height": 52 }
+		},
+		"bus": {
+			"londenIslandBus": { "x": 18.76, "y": 9.3, "width": 190, "height": 160 }
+		},
+		"bus wheels": {
+			"londenIslandBusWheels": { "x": -2.25, "y": -16.16, "width": 119, "height": 65 }
+		},
+		"londenCityTower": {
+			"londenCityTower": { "x": -13.63, "y": 24.61, "width": 426, "height": 407 }
+		},
+		"londenClock01": {
+			"londenClock01": { "x": 0.43, "y": 16.69, "width": 6, "height": 39 }
+		},
+		"londenIsland05": {
+			"londenIsland05": { "x": 65.73, "y": 9.33, "width": 330, "height": 515 }
+		},
+		"londenIsland06": {
+			"londenIsland06": { "x": 0.28, "y": -30.91, "width": 437, "height": 421 }
+		},
+		"londonCity": {
+			"londonCity": { "x": 31.26, "y": 264.7, "width": 1005, "height": 1068 }
+		},
+		"londonCitymask": {
+			"londonCitymask": { "x": -5.48, "y": -1.42, "width": 226, "height": 181 }
+		},
+		"londoncityGrey": {
+			"londoncityGrey": { "x": 45.78, "y": 65.62, "width": 1141, "height": 1350 }
+		},
+		"londoncity_block1": {
+			"londoncity_block1": { "x": 93.39, "y": 8.01, "width": 408, "height": 602 }
+		},
+		"londoncity_block2": {
+			"londoncity_block2": { "x": 17.1, "y": 49.2, "width": 657, "height": 171 }
+		},
+		"londoncity_block3": {
+			"londoncity_block3": { "x": 47.07, "y": -30.19, "width": 409, "height": 537 }
+		},
+		"londoncity_block4": {
+			"londoncity_block4": { "x": -18.64, "y": -33.83, "width": 430, "height": 595 }
+		},
+		"londoncity_block5": {
+			"londoncity_block5": { "x": -17.17, "y": -6.19, "width": 249, "height": 784 }
+		},
+		"londoncity_block6": {
+			"londoncity_block6": { "x": -4.5, "y": -4.07, "width": 209, "height": 511 }
+		},
+		"londoncity_block7": {
+			"londoncity_block7": { "x": -23.73, "y": 4.82, "width": 230, "height": 336 }
+		},
+		"londoncity_block8": {
+			"londoncity_block8": { "x": 54.73, "y": -41.48, "width": 198, "height": 359 }
+		},
+		"londoncity_block9": {
+			"londoncity_block9": { "x": 7.71, "y": -15.46, "width": 142, "height": 241 }
+		}
+	}
+},
+"animations": {
+	"londonCity": {
+		"slots": {
+			"AMSTERDAM_SMOKE_01": {
+				"attachment": [
+					{ "time": 0, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 0.1333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 0.2666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 0.4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 0.5333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 0.6666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 0.8, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 0.9333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 1.0666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 1.2, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 1.3333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 1.4666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 1.6, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 1.7333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 1.8666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 2, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 2.1333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 2.2666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 2.4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 2.5333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 2.6666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 2.8, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 2.9333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 3.0666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 3.2, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 3.3333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 3.4666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 3.6, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 3.7333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 3.8666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 4.1333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 4.2666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 4.4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 4.5333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 4.6666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 4.8, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 4.9333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 5.0666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 5.2, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 5.3333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 5.4666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 5.6, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 5.7333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 5.8666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 6, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 6.1333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 6.2666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 6.4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 6.5333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 6.6666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 6.8, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 6.9333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 7.0666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 7.2, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 7.3333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 7.4666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 7.6, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 7.7333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 7.8666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 8, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 8.1333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 8.2666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 8.4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 8.5333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 8.6666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 8.8, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 8.9333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 9.0666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 9.2, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 9.3333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 9.4666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 9.6, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 9.7333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 9.8666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 10, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 10.1333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 10.2666, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 10.4, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 10.5333, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 10.6666, "name": "AMSTERDAM_SMOKE_03" }
+				]
+			},
+			"AMSTERDAM_SMOKE_1": {
+				"attachment": [
+					{ "time": 0, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 0.1333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 0.2666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 0.4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 0.5333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 0.6666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 0.8, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 0.9333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 1.0666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 1.2, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 1.3333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 1.4666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 1.6, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 1.7333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 1.8666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 2, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 2.1333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 2.2666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 2.4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 2.5333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 2.6666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 2.8, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 2.9333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 3.0666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 3.2, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 3.3333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 3.4666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 3.6, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 3.7333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 3.8666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 4.1333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 4.2666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 4.4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 4.5333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 4.6666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 4.8, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 4.9333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 5.0666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 5.2, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 5.3333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 5.4666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 5.6, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 5.7333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 5.8666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 6, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 6.1333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 6.2666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 6.4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 6.5333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 6.6666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 6.8, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 6.9333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 7.0666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 7.2, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 7.3333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 7.4666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 7.6, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 7.7333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 7.8666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 8, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 8.1333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 8.2666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 8.4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 8.5333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 8.6666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 8.8, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 8.9333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 9.0666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 9.2, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 9.3333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 9.4666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 9.6, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 9.7333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 9.8666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 10, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 10.1333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 10.2666, "name": "AMSTERDAM_SMOKE_01" },
+					{ "time": 10.4, "name": "AMSTERDAM_SMOKE_02" },
+					{ "time": 10.5333, "name": "AMSTERDAM_SMOKE_03" },
+					{ "time": 10.6666, "name": "AMSTERDAM_SMOKE_01" }
+				]
+			},
+			"LondenCityBoath": {
+				"attachment": [
+					{ "time": 0, "name": "LondenCityBoath" }
+				]
+			},
+			"Smoke": {
+				"attachment": [
+					{ "time": 0, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10.6666, "name": "NEWYORK_TAXI_SMOKE 03" }
+				]
+			},
+			"bus": {
+				"attachment": [
+					{ "time": 0, "name": "londenIslandBus" }
+				]
+			},
+			"bus wheels": {
+				"attachment": [
+					{ "time": 0, "name": "londenIslandBusWheels" }
+				]
+			},
+			"londenCityTower": {
+				"attachment": [
+					{ "time": 0, "name": "londenCityTower" }
+				]
+			},
+			"londenClock01": {
+				"attachment": [
+					{ "time": 0, "name": "londenClock01" }
+				]
+			},
+			"londenIsland05": {
+				"attachment": [
+					{ "time": 0, "name": "londenIsland05" }
+				]
+			},
+			"londenIsland06": {
+				"attachment": [
+					{ "time": 0, "name": "londenIsland06" }
+				]
+			},
+			"londonCity": {
+				"attachment": [
+					{ "time": 0, "name": "londonCity" }
+				]
+			},
+			"londonCitymask": {
+				"attachment": [
+					{ "time": 0, "name": "londonCitymask" }
+				]
+			},
+			"londoncityGrey": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncity_block9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"londoncityGrey": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block5": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block7": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block8": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"london_block9": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.8 }
+				]
+			},
+			"LondenCityBus2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.29 },
+					{ "time": 0.6666, "x": 0, "y": 5.72 },
+					{ "time": 1.3333, "x": 0, "y": -2.29 },
+					{ "time": 2, "x": 0, "y": 5.72 },
+					{ "time": 2.6666, "x": 0, "y": -2.29 },
+					{ "time": 3.3333, "x": 0, "y": 5.72 },
+					{ "time": 4, "x": 0, "y": -2.29 },
+					{ "time": 4.6666, "x": 0, "y": 5.72 },
+					{ "time": 5.3333, "x": 0, "y": -2.29 },
+					{ "time": 6, "x": 0, "y": 5.72 },
+					{ "time": 6.6666, "x": 0, "y": -2.29 },
+					{ "time": 7.3333, "x": 0, "y": 5.72 },
+					{ "time": 8, "x": 0, "y": -2.29 },
+					{ "time": 8.6666, "x": 0, "y": 5.72 },
+					{ "time": 9.3333, "x": 0, "y": -2.29 },
+					{ "time": 10, "x": 0, "y": 5.72 },
+					{ "time": 10.6666, "x": 0, "y": -2.29 }
+				]
+			},
+			"LondenCityBoath": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -17.19 },
+					{ "time": 1.0666, "x": 0, "y": -22.34 },
+					{ "time": 2.1333, "x": 0, "y": -17.19 },
+					{ "time": 3.2, "x": 0, "y": -22.34 },
+					{ "time": 4.2333, "x": 0, "y": -17.19 },
+					{ "time": 5.3, "x": 0, "y": -22.34 },
+					{ "time": 6.3666, "x": 0, "y": -17.19 },
+					{ "time": 7.4666, "x": 0, "y": -22.34 },
+					{ "time": 8.5333, "x": 0, "y": -17.19 },
+					{ "time": 9.6, "x": 0, "y": -22.34 },
+					{ "time": 10.6666, "x": 0, "y": -17.19 }
+				]
+			},
+			"clockright": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 3.5666, "angle": -63.87 },
+					{ "time": 7.1333, "angle": 180 },
+					{ "time": 8.9, "angle": 112.51 },
+					{ "time": 10.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.7666, "x": 1, "y": 1.1 },
+					{ "time": 3.5666, "x": 1, "y": 0.8 },
+					{ "time": 5.3333, "x": 1, "y": 0.5 },
+					{ "time": 7.1333, "x": 1, "y": 0.7 },
+					{ "time": 8.1, "x": 1, "y": 0.95 },
+					{ "time": 8.9, "x": 1, "y": 1 },
+					{ "time": 9.8333, "x": 1, "y": 0.8 },
+					{ "time": 10.6666, "x": 1, "y": 1 }
+				]
+			},
+			"island5": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 24.75,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 68.72,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 24.75 }
+				]
+			},
+			"island6": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 134.71,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -63.22,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 134.71 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"ClockLeft": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 3.5666, "angle": -113.49 },
+					{ "time": 7.1333, "angle": -178.72 },
+					{ "time": 8.9, "angle": 62.67 },
+					{ "time": 10.6666, "angle": 0.84 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.16 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.7666, "x": 1, "y": 0.8 },
+					{ "time": 3.5666, "x": 1, "y": 1 },
+					{ "time": 4.6, "x": 1, "y": 1.1 },
+					{ "time": 5.3666, "x": 1, "y": 1 },
+					{ "time": 7.1333, "x": 1, "y": 0.75 },
+					{ "time": 7.8666, "x": 1, "y": 0.55 },
+					{ "time": 8.3333, "x": 1, "y": 0.6 },
+					{ "time": 8.9, "x": 1, "y": 0.8 },
+					{ "time": 9.6, "x": 1, "y": 1.1 },
+					{ "time": 10.6666, "x": 1, "y": 1 }
+				]
+			},
+			"london_city": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -80.36,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"londoncityUnlock": {
+		"slots": {
+			"AMSTERDAM_SMOKE_01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"AMSTERDAM_SMOKE_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LondenCityBoath": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"bus": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"bus wheels": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londenCityTower": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londenClock01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londenIsland05": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londenIsland06": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londonCity": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londonCitymask": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"londoncityGrey": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"londoncity_block1": {
+				"attachment": [
+					{ "time": 0, "name": "londoncity_block1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block2": {
+				"attachment": [
+					{ "time": 0.1666, "name": "londoncity_block2" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block3": {
+				"attachment": [
+					{ "time": 0.3, "name": "londoncity_block3" }
+				],
+				"color": [
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block4": {
+				"attachment": [
+					{ "time": 0.4, "name": "londoncity_block4" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block5": {
+				"attachment": [
+					{ "time": 0.5, "name": "londoncity_block5" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block6": {
+				"attachment": [
+					{ "time": 0.6, "name": "londoncity_block6" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block7": {
+				"attachment": [
+					{ "time": 0.7, "name": "londoncity_block7" }
+				],
+				"color": [
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block8": {
+				"attachment": [
+					{ "time": 0.8333, "name": "londoncity_block8" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"londoncity_block9": {
+				"attachment": [
+					{ "time": 0.9, "name": "londoncity_block9" }
+				],
+				"color": [
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"london_block1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1498.97 },
+					{ "time": 0.1, "x": 0, "y": 0 }
+				]
+			},
+			"london_block2": {
+				"translate": [
+					{ "time": 0.1666, "x": 0, "y": 1498.97 },
+					{ "time": 0.2666, "x": 0, "y": 0 }
+				]
+			},
+			"london_block3": {
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 1498.97 },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				]
+			},
+			"london_block4": {
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 1498.97 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"london_block5": {
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 1498.97 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				]
+			},
+			"london_block6": {
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 1498.97 },
+					{ "time": 0.7, "x": 0, "y": 0 }
+				]
+			},
+			"london_block7": {
+				"translate": [
+					{ "time": 0.7, "x": 0, "y": 1498.97 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"london_block8": {
+				"translate": [
+					{ "time": 0.8333, "x": 0, "y": 1498.97 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				]
+			},
+			"london_block9": {
+				"translate": [
+					{ "time": 0.9, "x": 0, "y": 1498.97 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,75 @@
+{"frames": [
+
+{
+	"filename": "Undercontruction.png",
+	"frame": {"x":1385,"y":500,"w":416,"h":347},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":32,"w":416,"h":347},
+	"sourceSize": {"w":460,"h":386},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cityAm.png",
+	"frame": {"x":492,"y":492,"w":446,"h":450},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":446,"h":450},
+	"sourceSize": {"w":447,"h":450},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cityLo.png",
+	"frame": {"x":1,"y":1,"w":532,"h":470},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":532,"h":470},
+	"sourceSize": {"w":533,"h":471},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cityNy.png",
+	"frame": {"x":1055,"y":1,"w":512,"h":497},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":512,"h":497},
+	"sourceSize": {"w":517,"h":502},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cityPa.png",
+	"frame": {"x":1,"y":473,"w":489,"h":464},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":489,"h":464},
+	"sourceSize": {"w":493,"h":465},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cityTo.png",
+	"frame": {"x":535,"y":1,"w":518,"h":489},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":518,"h":489},
+	"sourceSize": {"w":521,"h":489},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "island.png",
+	"frame": {"x":940,"y":500,"w":443,"h":372},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":443,"h":372},
+	"sourceSize": {"w":443,"h":372},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "alpha_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1802,"h":943},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:ab4543c0b8345c230b45ce9b289df319:0cd9eae823a656373e8f6293bfae4d01:df03cec31046134aae8be84c78654d53$"
+}
+}

@@ -1,0 +1,81 @@
+{
+"skeleton": { "hash": "sWUo99tDSvtZNrgsprVlHrzi3a4", "spine": "3.2.01", "width": 392.03, "height": 590.22, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "parisMill", "parent": "root", "x": 12, "y": 289 },
+	{ "name": "parisMillWicks", "parent": "root", "x": 11, "y": 288 }
+],
+"slots": [
+	{ "name": "parisMill", "bone": "parisMill", "attachment": "parisMill" },
+	{ "name": "parisMillWicks", "bone": "parisMillWicks", "attachment": "parisMillWicks" },
+	{ "name": "parisblock1_locked", "bone": "root", "attachment": "parisblock1_locked" }
+],
+"skins": {
+	"default": {
+		"parisMill": {
+			"parisMill": { "x": -5.53, "y": -188.72, "width": 391, "height": 565 }
+		},
+		"parisMillWicks": {
+			"parisMillWicks": { "width": 239, "height": 239 }
+		},
+		"parisblock1_locked": {
+			"parisblock1_locked": { "x": 7, "y": 113, "width": 392, "height": 590 }
+		}
+	}
+},
+"animations": {
+	"parisIsland01": {
+		"slots": {
+			"parisblock1_locked": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"parisMillWicks": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": -89.99 },
+					{ "time": 2.6666, "angle": 180 },
+					{ "time": 5.3666, "angle": 0 },
+					{ "time": 6.7, "angle": -89.99 },
+					{ "time": 8.0333, "angle": 180 },
+					{ "time": 10.7, "angle": 0 }
+				]
+			},
+			"root": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 71.11,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"parisIsland01_locked": {
+		"slots": {
+			"parisMill": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"parisMillWicks": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

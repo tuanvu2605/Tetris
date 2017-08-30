@@ -1,0 +1,166 @@
+{
+"skeleton": {
+	"hash": "lVC78vx86U4i1qxUcrnUNTfzu8o",
+	"spine": "2.1.27",
+	"width": 477,
+	"height": 808,
+	"images": "/Users/Remco/Desktop/Map_Animation/animation/spine/images/"
+},
+"bones": [
+	{ "name": "newyorkTower02" },
+	{ "name": "neweyorktower", "parent": "newyorkTower02" },
+	{ "name": "taxi", "parent": "neweyorktower", "x": 112.87, "y": 35.54 }
+],
+"slots": [
+	{ "name": "NEWYORK_TOWER_02", "bone": "neweyorktower", "attachment": "NEWYORK_TOWER_02" },
+	{ "name": "NEWYORK_TAXI_SMOKE", "bone": "taxi", "attachment": "NEWYORK_TAXI_SMOKE 03" },
+	{ "name": "NEWYORK_LIMO", "bone": "taxi", "attachment": "NEWYORK_LIMO" },
+	{ "name": "NEWYORK_WEELS", "bone": "neweyorktower", "attachment": "NEWYORK_WEELS" }
+],
+"skins": {
+	"default": {
+		"NEWYORK_LIMO": {
+			"NEWYORK_LIMO": { "x": -8.07, "y": -13.09, "width": 159, "height": 100 }
+		},
+		"NEWYORK_TAXI_SMOKE": {
+			"NEWYORK_TAXI_SMOKE 03": { "x": 75.2, "y": 35.44, "width": 77, "height": 64 },
+			"NEWYORK_TAXI_SMOKE_01": { "x": 71.97, "y": 33.55, "width": 68, "height": 58 },
+			"NEWYORK_TAXI_SMOKE_02": { "x": 75.42, "y": 32.9, "width": 60, "height": 52 }
+		},
+		"NEWYORK_TOWER_02": {
+			"NEWYORK_TOWER_02": { "x": 13.79, "y": 148.45, "width": 477, "height": 808 }
+		},
+		"NEWYORK_WEELS": {
+			"NEWYORK_WEELS": { "x": 123.29, "y": 2.95, "width": 106, "height": 55 }
+		}
+	}
+},
+"animations": {
+	"newyorkTower02": {
+		"slots": {
+			"NEWYORK_TAXI_SMOKE": {
+				"attachment": [
+					{ "time": 0, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 0.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 0.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 0.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 1.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 1.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 1.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 2.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 2.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 2.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 3.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 3.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 3.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 4.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 4.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 4.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 5.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 5.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 5.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 6.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 6.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 6.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 7.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 7.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 7.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 8.6666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 8.8, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 8.9333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.0666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.2, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.3333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.4666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 9.6, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 9.7333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 9.8666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.1333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10.2666, "name": "NEWYORK_TAXI_SMOKE 03" },
+					{ "time": 10.4, "name": "NEWYORK_TAXI_SMOKE_01" },
+					{ "time": 10.5333, "name": "NEWYORK_TAXI_SMOKE_02" },
+					{ "time": 10.6666, "name": "NEWYORK_TAXI_SMOKE 03" }
+				]
+			}
+		},
+		"bones": {
+			"taxi": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 5.94 },
+					{ "time": 2.6666, "x": 0, "y": 0 },
+					{ "time": 4, "x": 0, "y": 5.94 },
+					{ "time": 5.3333, "x": 1.98, "y": 1.98 },
+					{ "time": 6.6666, "x": 0, "y": 5.94 },
+					{ "time": 8, "x": 0, "y": 0 },
+					{ "time": 9.3333, "x": 0, "y": 5.94 },
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"newyorkTower02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"neweyorktower": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -81.3,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

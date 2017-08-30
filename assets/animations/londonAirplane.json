@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "SLSCZj9Mpl46L2gk3bGCFvj3Ma0", "spine": "2.1.27", "width": 470, "height": 220, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "londonAirplane", "parent": "root" },
+	{ "name": "LondonAirplaneBeams", "parent": "londonAirplane" }
+],
+"slots": [
+	{ "name": "londonAirplaneBeams2", "bone": "LondonAirplaneBeams", "attachment": "londonAirplaneBeams" },
+	{ "name": "londonAirplane", "bone": "londonAirplane", "attachment": "londonAirplane" }
+],
+"skins": {
+	"default": {
+		"londonAirplane": {
+			"londonAirplane": { "x": 41.5, "y": 9, "width": 317, "height": 158 }
+		},
+		"londonAirplaneBeams2": {
+			"londonAirplaneBeams": { "x": 129, "y": 55.5, "width": 448, "height": 189 }
+		}
+	}
+},
+"animations": {
+	"londonAirplaneLeftToRight": {
+		"slots": {
+			"londonAirplane": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.0333, "color": "ffffffff" },
+					{ "time": 8.0666, "color": "ffffff00" }
+				]
+			},
+			"londonAirplaneBeams2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 3.6666, "color": "ffffff00" },
+					{ "time": 5, "color": "ffffffff" },
+					{ "time": 6.3333, "color": "ffffff00" },
+					{ "time": 7.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.0333, "color": "ffffffff" },
+					{ "time": 8.0666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"londonAirplane": {
+				"translate": [
+					{ "time": 0, "x": -1862.04, "y": 916.62, "curve": "stepped" },
+					{ "time": 0.9666, "x": -1862.04, "y": 916.62 },
+					{ "time": 8.0333, "x": 1550.18, "y": -983.24, "curve": "stepped" },
+					{ "time": 10.6666, "x": 1550.18, "y": -983.24 }
+				],
+				"scale": [
+					{ "time": 0, "x": -1, "y": 1 }
+				]
+			}
+		}
+	},
+	"londonAirplaneRightToLeft": {
+		"slots": {
+			"londonAirplane": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.0333, "color": "ffffffff" },
+					{ "time": 8.0666, "color": "ffffff00" }
+				]
+			},
+			"londonAirplaneBeams2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 3.6666, "color": "ffffff00" },
+					{ "time": 5, "color": "ffffffff" },
+					{ "time": 6.3333, "color": "ffffff00" },
+					{ "time": 7.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.0333, "color": "ffffffff" },
+					{ "time": 8.0666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"londonAirplane": {
+				"translate": [
+					{ "time": 0, "x": 1484.51, "y": 916.62, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1484.51, "y": 916.62 },
+					{ "time": 8.0333, "x": -1862.04, "y": -983.24, "curve": "stepped" },
+					{ "time": 10.6666, "x": -1862.04, "y": -983.24 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,45 @@
+{
+"skeleton": {
+	"hash": "wnNQKcPM4NBQAVu0X0Gry98++kM",
+	"spine": "2.1.27",
+	"width": 134,
+	"height": 208,
+	"images": "/Users/Remco/Desktop/Map_Animation/animation/spine/images/"
+},
+"bones": [
+	{ "name": "newyorkIsland02" }
+],
+"slots": [
+	{ "name": "Island_05", "bone": "newyorkIsland02", "attachment": "NEWYORK_ISLAND_05" }
+],
+"skins": {
+	"default": {
+		"Island_05": {
+			"NEWYORK_ISLAND_05": { "width": 134, "height": 208 }
+		}
+	}
+},
+"animations": {
+	"newyorkIsland02": {
+		"bones": {
+			"newyorkIsland02": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 48,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,2 +1,4 @@
-http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/loader_0.json 
-http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/loader_no_alpha_0.json 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/tutorialMouse_0.json 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/white_0.json 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/yellow_0.json 
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/desktop/atlases/win_stars_animation_0.json 

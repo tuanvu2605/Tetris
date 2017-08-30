@@ -1,0 +1,45 @@
+{
+"skeleton": {
+	"hash": "/dCw8Vdd0QiIt/Fe4Un/1skZUPc",
+	"spine": "2.1.27",
+	"width": 301,
+	"height": 625,
+	"images": "/Users/Remco/Desktop/Map_Animation/animation/spine/images/"
+},
+"bones": [
+	{ "name": "newyorkTower01" }
+],
+"slots": [
+	{ "name": "NEWYORK_TOWER_01", "bone": "newyorkTower01", "attachment": "NEWYORK_TOWER_01" }
+],
+"skins": {
+	"default": {
+		"NEWYORK_TOWER_01": {
+			"NEWYORK_TOWER_01": { "x": 5.84, "y": -10.45, "width": 301, "height": 625 }
+		}
+	}
+},
+"animations": {
+	"newyorkTower01": {
+		"bones": {
+			"newyorkTower01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 6,
+						"x": 0,
+						"y": 150.87,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

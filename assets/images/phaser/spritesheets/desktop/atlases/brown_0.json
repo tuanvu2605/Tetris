@@ -1,0 +1,93 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_BOOT.png",
+	"frame": {"x":243,"y":1,"w":165,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":89},
+	"sourceSize": {"w":165,"h":89},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_DUCK_01.png",
+	"frame": {"x":75,"y":191,"w":19,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":16},
+	"sourceSize": {"w":19,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_DUCK_HEAD_01.png",
+	"frame": {"x":75,"y":209,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_TRACTOR_WEELS.png",
+	"frame": {"x":346,"y":92,"w":54,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":46},
+	"sourceSize": {"w":54,"h":46},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block3.png",
+	"frame": {"x":1,"y":191,"w":72,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":34},
+	"sourceSize": {"w":72,"h":34},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block9.png",
+	"frame": {"x":243,"y":92,"w":101,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":130},
+	"sourceSize": {"w":101,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenClock01.png",
+	"frame": {"x":402,"y":92,"w":4,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":4,"h":25},
+	"sourceSize": {"w":4,"h":25},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenClock02.png",
+	"frame": {"x":402,"y":119,"w":4,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":4,"h":25},
+	"sourceSize": {"w":4,"h":25},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIslandCastleWall.png",
+	"frame": {"x":1,"y":1,"w":240,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":188},
+	"sourceSize": {"w":240,"h":188},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "brown_0.png",
+	"format": "RGBA8888",
+	"size": {"w":409,"h":226},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:86205437e181f21e8fe51b3f8f38da1d:935c4834ffc2c8a30c940d163954fec3:8133a9e1b60f980aa5280a4493424069$"
+}
+}

@@ -1,0 +1,851 @@
+{
+"skeleton": { "hash": "z72I2n/Fg3QRog/lZD2gwfmcqXE", "spine": "2.1.27", "width": 1195.02, "height": 1442.89, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "tokioIsland01", "parent": "root", "x": -350.12, "y": -277.1 },
+	{ "name": "tokioIsland02", "parent": "root", "x": -44.28, "y": -18.93 },
+	{ "name": "tokyoCity", "parent": "root" },
+	{ "name": "tokyoMount", "parent": "root", "x": 58.69, "y": 451.7 },
+	{ "name": "tokyo_block1", "parent": "root", "x": -395.99, "y": -131.32 },
+	{ "name": "tokyo_block10", "parent": "root", "x": 171, "y": 692.71 },
+	{ "name": "tokyo_block2", "parent": "root", "x": -103.67, "y": -332.92 },
+	{ "name": "tokyo_block3", "parent": "root", "x": 423, "y": -363.16 },
+	{ "name": "tokyo_block4", "parent": "root", "x": 105.48, "y": -55.72 },
+	{ "name": "tokyo_block5", "parent": "root", "x": 554.03, "y": -133.84 },
+	{ "name": "tokyo_block6", "parent": "root", "x": 317.16, "y": 188.71 },
+	{ "name": "tokyo_block7", "parent": "root", "x": -98.63, "y": 110.59 },
+	{ "name": "tokyo_block8", "parent": "root", "x": -315.35, "y": 324.79 },
+	{ "name": "tokyo_block9", "parent": "root", "x": 34.91, "y": 657.43 },
+	{ "name": "tokyocityGrey", "parent": "root", "x": 47.52, "y": 213.91 },
+	{ "name": "redLight", "parent": "tokyoCity", "x": -173.19, "y": 570.09 },
+	{ "name": "redLight2", "parent": "tokyoCity", "x": 70.23, "y": 570.09 },
+	{ "name": "redLight3", "parent": "tokyoCity", "x": -57.11, "y": 627.57 },
+	{ "name": "redLight4", "parent": "tokyoCity", "x": -297.28, "y": 847.24 },
+	{ "name": "tokyomino010", "parent": "tokyoCity", "x": 225.49, "y": 331.3 },
+	{ "name": "tokyomino06", "parent": "tokyoCity", "x": 302.28, "y": 251.82 },
+	{ "name": "tokyomino07", "parent": "tokyoCity", "x": 295.14, "y": 401.84 },
+	{ "name": "tokyomino08", "parent": "tokyoCity", "x": 295.14, "y": 326.82 },
+	{ "name": "tokyomino09", "parent": "tokyoCity", "x": 222.81, "y": 202.7 },
+	{ "name": "tokyomino11", "parent": "tokyoCity", "x": 222.81, "y": 258.96 },
+	{ "name": "tokyomino6", "parent": "tokyoCity", "x": 140.99, "y": 379.25, "scaleX": -1 },
+	{ "name": "tokyomino7", "parent": "tokyoCity", "x": 145.13, "y": 293.76, "scaleX": -1 },
+	{ "name": "tokyomino8", "parent": "tokyoCity", "x": 145.13, "y": 473.61, "scaleX": -1 }
+],
+"slots": [
+	{ "name": "tokyoMount", "bone": "tokyoMount" },
+	{ "name": "tokyoCityMask", "bone": "tokyoCity" },
+	{ "name": "tokyomino11", "bone": "tokyomino11" },
+	{ "name": "tokyomino010", "bone": "tokyomino010" },
+	{ "name": "tokyomino09", "bone": "tokyomino09" },
+	{ "name": "tokyomino08", "bone": "tokyomino08" },
+	{ "name": "tokyomino8", "bone": "tokyomino8" },
+	{ "name": "tokyomino07", "bone": "tokyomino07" },
+	{ "name": "tokyomino7", "bone": "tokyomino7" },
+	{ "name": "tokyomino06", "bone": "tokyomino06" },
+	{ "name": "tokyomino6", "bone": "tokyomino6" },
+	{ "name": "tokyoCity", "bone": "tokyoCity" },
+	{ "name": "tokyoRedLight", "bone": "redLight" },
+	{ "name": "tokyoRedLight2", "bone": "redLight2" },
+	{ "name": "tokyoRedLight3", "bone": "redLight3" },
+	{ "name": "tokyoRedLight4", "bone": "redLight4" },
+	{ "name": "island1", "bone": "tokioIsland01" },
+	{ "name": "island2", "bone": "tokioIsland02" },
+	{ "name": "tokyocityGrey", "bone": "tokyocityGrey", "attachment": "tokyocityGrey" },
+	{ "name": "tokyocity_block1", "bone": "tokyo_block1", "attachment": "tokyocity_block1" },
+	{ "name": "tokyocity_block10", "bone": "tokyo_block10", "attachment": "tokyocity_block10" },
+	{ "name": "tokyocity_block2", "bone": "tokyo_block2", "attachment": "tokyocity_block2" },
+	{ "name": "tokyocity_block3", "bone": "tokyo_block3", "attachment": "tokyocity_block3" },
+	{ "name": "tokyocity_block4", "bone": "tokyo_block4", "attachment": "tokyocity_block4" },
+	{ "name": "tokyocity_block5", "bone": "tokyo_block5", "attachment": "tokyocity_block5" },
+	{ "name": "tokyocity_block6", "bone": "tokyo_block6", "attachment": "tokyocity_block6" },
+	{ "name": "tokyocity_block7", "bone": "tokyo_block7", "attachment": "tokyocity_block7" },
+	{ "name": "tokyocity_block8", "bone": "tokyo_block8", "attachment": "tokyocity_block8" },
+	{ "name": "tokyocity_block9", "bone": "tokyo_block9", "attachment": "tokyocity_block9" }
+],
+"skins": {
+	"default": {
+		"island1": {
+			"island1": { "x": -3.38, "y": 14.96, "width": 376, "height": 400 }
+		},
+		"island2": {
+			"island2": { "x": 505.03, "y": -342.51, "width": 382, "height": 440 }
+		},
+		"tokyoCity": {
+			"tokyoCity": { "x": 59.71, "y": 244.49, "width": 1035, "height": 1230 }
+		},
+		"tokyoCityMask": {
+			"tokyoCityMask": { "x": 218.83, "y": 252.84, "width": 204, "height": 126 }
+		},
+		"tokyoMount": {
+			"tokyoMount": { "x": -24.23, "y": 55.36, "width": 954, "height": 587 }
+		},
+		"tokyoRedLight": {
+			"tokyoRedLight": { "x": -2.59, "y": 6.39, "width": 14, "height": 14 }
+		},
+		"tokyoRedLight2": {
+			"tokyoRedLight": { "x": -2.59, "y": 6.39, "width": 14, "height": 14 }
+		},
+		"tokyoRedLight3": {
+			"tokyoRedLight": { "x": -2.59, "y": 6.39, "width": 14, "height": 14 }
+		},
+		"tokyoRedLight4": {
+			"tokyoRedLight": { "x": -2.59, "y": 6.39, "width": 14, "height": 14 }
+		},
+		"tokyocityGrey": {
+			"tokyocityGrey": { "x": 8.16, "y": -76.11, "width": 1195, "height": 1442 }
+		},
+		"tokyocity_block1": {
+			"tokyocity_block1": { "x": 42.69, "y": -62.97, "width": 377, "height": 452 }
+		},
+		"tokyocity_block10": {
+			"tokyocity_block10": { "x": 31.69, "y": 17.48, "width": 347, "height": 183 }
+		},
+		"tokyocity_block2": {
+			"tokyocity_block2": { "x": -2.11, "y": 19.12, "width": 504, "height": 299 }
+		},
+		"tokyocity_block3": {
+			"tokyocity_block3": { "x": 1.19, "y": -26.13, "width": 310, "height": 386 }
+		},
+		"tokyocity_block4": {
+			"tokyocity_block4": { "x": 41.21, "y": -30.04, "width": 315, "height": 509 }
+		},
+		"tokyocity_block5": {
+			"tokyocity_block5": { "x": -76.83, "y": -34.95, "width": 352, "height": 413 }
+		},
+		"tokyocity_block6": {
+			"tokyocity_block6": { "x": 25.53, "y": -12.01, "width": 395, "height": 396 }
+		},
+		"tokyocity_block7": {
+			"tokyocity_block7": { "x": 88.83, "y": -6.39, "width": 314, "height": 541 }
+		},
+		"tokyocity_block8": {
+			"tokyocity_block8": { "x": 3.55, "y": -9.09, "width": 294, "height": 572 }
+		},
+		"tokyocity_block9": {
+			"tokyocity_block9": { "x": 9.26, "y": -41.23, "width": 830, "height": 487 }
+		},
+		"tokyomino010": {
+			"tokyomino010": { "x": -1.28, "y": -0.8, "width": 48, "height": 72 }
+		},
+		"tokyomino06": {
+			"tokyomino06": { "x": -3.57, "y": 3.16, "width": 31, "height": 59 }
+		},
+		"tokyomino07": {
+			"tokyomino07": { "x": 0.56, "y": 2.64, "width": 29, "height": 68 }
+		},
+		"tokyomino08": {
+			"tokyomino08": { "x": 2.56, "y": 3.15, "width": 33, "height": 73 }
+		},
+		"tokyomino09": {
+			"tokyomino09": { "x": 1.39, "y": 1.78, "width": 48, "height": 72 }
+		},
+		"tokyomino11": {
+			"tokyomino11": { "x": -2.6, "y": 8.52, "width": 72, "height": 48 }
+		},
+		"tokyomino6": {
+			"tokyomino06": { "x": -3.57, "y": 3.16, "width": 31, "height": 59 }
+		},
+		"tokyomino7": {
+			"tokyomino07": { "x": 0.56, "y": 2.64, "width": 29, "height": 68 }
+		},
+		"tokyomino8": {
+			"tokyomino08": { "x": 2.56, "y": 3.15, "width": 33, "height": 73 }
+		}
+	}
+},
+"animations": {
+	"tokyoCity": {
+		"slots": {
+			"island1": {
+				"attachment": [
+					{ "time": 0, "name": "island1" }
+				]
+			},
+			"island2": {
+				"attachment": [
+					{ "time": 0, "name": "island2" }
+				]
+			},
+			"tokyoCity": {
+				"attachment": [
+					{ "time": 0, "name": "tokyoCity" }
+				]
+			},
+			"tokyoCityMask": {
+				"attachment": [
+					{ "time": 0, "name": "tokyoCityMask" }
+				]
+			},
+			"tokyoRedLight": {
+				"attachment": [
+					{ "time": 0, "name": "tokyoRedLight" },
+					{ "time": 1.2, "name": "tokyoRedLight" },
+					{ "time": 1.4666, "name": null },
+					{ "time": 1.7666, "name": "tokyoRedLight" },
+					{ "time": 2.0666, "name": "tokyoRedLight" },
+					{ "time": 2.3666, "name": null },
+					{ "time": 2.6666, "name": "tokyoRedLight" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3.8666, "name": "tokyoRedLight" },
+					{ "time": 4.1333, "name": null },
+					{ "time": 4.4333, "name": "tokyoRedLight" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 5.9333, "name": "tokyoRedLight" },
+					{ "time": 7.1, "name": "tokyoRedLight" },
+					{ "time": 7.4, "name": null },
+					{ "time": 7.7, "name": "tokyoRedLight" },
+					{ "time": 8, "name": "tokyoRedLight" },
+					{ "time": 8.3, "name": null },
+					{ "time": 8.6, "name": "tokyoRedLight" },
+					{ "time": 8.9, "name": null },
+					{ "time": 9.7666, "name": "tokyoRedLight" },
+					{ "time": 10.0666, "name": null },
+					{ "time": 10.3666, "name": "tokyoRedLight" }
+				]
+			},
+			"tokyoRedLight2": {
+				"attachment": [
+					{ "time": 0, "name": "tokyoRedLight" },
+					{ "time": 1.2, "name": "tokyoRedLight" },
+					{ "time": 1.4666, "name": null },
+					{ "time": 1.7666, "name": "tokyoRedLight" },
+					{ "time": 2.0666, "name": "tokyoRedLight" },
+					{ "time": 2.3666, "name": null },
+					{ "time": 2.6666, "name": "tokyoRedLight" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3.8666, "name": "tokyoRedLight" },
+					{ "time": 4.1333, "name": null },
+					{ "time": 4.4333, "name": "tokyoRedLight" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 5.9333, "name": "tokyoRedLight" },
+					{ "time": 7.1, "name": "tokyoRedLight" },
+					{ "time": 7.4, "name": null },
+					{ "time": 7.7, "name": "tokyoRedLight" },
+					{ "time": 8, "name": "tokyoRedLight" },
+					{ "time": 8.3, "name": null },
+					{ "time": 8.6, "name": "tokyoRedLight" },
+					{ "time": 8.9, "name": null },
+					{ "time": 9.7666, "name": "tokyoRedLight" },
+					{ "time": 10.0666, "name": null },
+					{ "time": 10.3666, "name": "tokyoRedLight" }
+				]
+			},
+			"tokyoRedLight3": {
+				"attachment": [
+					{ "time": 0, "name": "tokyoRedLight" },
+					{ "time": 1.2, "name": "tokyoRedLight" },
+					{ "time": 1.4666, "name": null },
+					{ "time": 1.7666, "name": "tokyoRedLight" },
+					{ "time": 2.0666, "name": "tokyoRedLight" },
+					{ "time": 2.3666, "name": null },
+					{ "time": 2.6666, "name": "tokyoRedLight" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3.8666, "name": "tokyoRedLight" },
+					{ "time": 4.1333, "name": null },
+					{ "time": 4.4333, "name": "tokyoRedLight" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 5.9333, "name": "tokyoRedLight" },
+					{ "time": 7.1, "name": "tokyoRedLight" },
+					{ "time": 7.4, "name": null },
+					{ "time": 7.7, "name": "tokyoRedLight" },
+					{ "time": 8, "name": "tokyoRedLight" },
+					{ "time": 8.3, "name": null },
+					{ "time": 8.6, "name": "tokyoRedLight" },
+					{ "time": 8.9, "name": null },
+					{ "time": 9.7666, "name": "tokyoRedLight" },
+					{ "time": 10.0666, "name": null },
+					{ "time": 10.3666, "name": "tokyoRedLight" },
+					{ "time": 10.6666, "name": null }
+				]
+			},
+			"tokyoRedLight4": {
+				"attachment": [
+					{ "time": 0, "name": "tokyoRedLight" },
+					{ "time": 1.2, "name": "tokyoRedLight" },
+					{ "time": 1.4666, "name": null },
+					{ "time": 1.7666, "name": "tokyoRedLight" },
+					{ "time": 2.0666, "name": "tokyoRedLight" },
+					{ "time": 2.3666, "name": null },
+					{ "time": 2.6666, "name": "tokyoRedLight" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3.8666, "name": "tokyoRedLight" },
+					{ "time": 4.1333, "name": null },
+					{ "time": 4.4333, "name": "tokyoRedLight" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 5.9333, "name": "tokyoRedLight" },
+					{ "time": 7.1, "name": "tokyoRedLight" },
+					{ "time": 7.4, "name": null },
+					{ "time": 7.7, "name": "tokyoRedLight" },
+					{ "time": 8, "name": "tokyoRedLight" },
+					{ "time": 8.3, "name": null },
+					{ "time": 8.6, "name": "tokyoRedLight" },
+					{ "time": 8.9, "name": null },
+					{ "time": 9.7666, "name": "tokyoRedLight" },
+					{ "time": 10.0666, "name": null },
+					{ "time": 10.3666, "name": "tokyoRedLight" },
+					{ "time": 10.6666, "name": null }
+				]
+			},
+			"tokyocityGrey": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocity_block10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino06": {
+				"attachment": [
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.7666, "name": "tokyomino06" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 5.3333, "name": "tokyomino06" },
+					{ "time": 8.3, "name": null },
+					{ "time": 8.9, "name": "tokyomino06" }
+				]
+			},
+			"tokyomino6": {
+				"attachment": [
+					{ "time": 2.3666, "name": null },
+					{ "time": 3.5666, "name": "tokyomino06" },
+					{ "time": 5.9333, "name": null },
+					{ "time": 7.1333, "name": "tokyomino06" }
+				]
+			},
+			"tokyomino07": {
+				"attachment": [
+					{ "time": 3.5333, "name": null },
+					{ "time": 3.5666, "name": "tokyomino07" },
+					{ "time": 7.1, "name": null },
+					{ "time": 8.3, "name": "tokyomino07" }
+				]
+			},
+			"tokyomino7": {
+				"attachment": [
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.7666, "name": null },
+					{ "time": 2.3666, "name": "tokyomino07" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 5.3333, "name": "tokyomino07" },
+					{ "time": 8.3, "name": null },
+					{ "time": 8.9, "name": "tokyomino07" }
+				]
+			},
+			"tokyomino08": {
+				"attachment": [
+					{ "time": 2.3666, "name": null },
+					{ "time": 3.5666, "name": "tokyomino08" },
+					{ "time": 5.8, "name": null },
+					{ "time": 7.1333, "name": "tokyomino08" }
+				]
+			},
+			"tokyomino8": {
+				"attachment": [
+					{ "time": 3.5333, "name": null },
+					{ "time": 3.5666, "name": "tokyomino08" },
+					{ "time": 7.1, "name": null },
+					{ "time": 7.1333, "name": "tokyomino08" }
+				]
+			},
+			"tokyomino09": {
+				"attachment": [
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.3666, "name": "tokyomino09" }
+				]
+			},
+			"tokyomino010": {
+				"attachment": [
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.3666, "name": "tokyomino010" }
+				]
+			},
+			"tokyomino11": {
+				"attachment": [
+					{ "time": 1.9333, "name": null },
+					{ "time": 2.7333, "name": "tokyomino11" },
+					{ "time": 7.3, "name": null },
+					{ "time": 8.1, "name": "tokyomino11" }
+				]
+			}
+		},
+		"bones": {
+			"tokyomino06": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -1.61 },
+					{ "time": 1.1666, "x": 0, "y": -93.55 },
+					{ "time": 1.7666, "x": 0, "y": 80.96, "curve": "stepped" },
+					{ "time": 2.3666, "x": 0, "y": 80.96 },
+					{ "time": 3.5333, "x": 0, "y": -1.61, "curve": "stepped" },
+					{ "time": 3.5666, "x": 0, "y": -1.61 },
+					{ "time": 4.7333, "x": 0, "y": -93.55 },
+					{ "time": 5.3333, "x": 0, "y": 80.96, "curve": "stepped" },
+					{ "time": 5.9333, "x": 0, "y": 80.96 },
+					{ "time": 7.1, "x": 0, "y": -1.61, "curve": "stepped" },
+					{ "time": 7.1333, "x": 0, "y": -1.61 },
+					{ "time": 8.3, "x": 0, "y": -93.55 },
+					{ "time": 8.9, "x": 0, "y": 80.96, "curve": "stepped" },
+					{ "time": 9.5, "x": 0, "y": 80.96 },
+					{ "time": 10.6666, "x": 0, "y": -1.61 }
+				]
+			},
+			"tokyomino6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -53.8 },
+					{ "time": 1.1666, "x": 0, "y": -128.21 },
+					{ "time": 2.3666, "x": 0, "y": -214.07 },
+					{ "time": 3.5666, "x": 0, "y": -53.8 },
+					{ "time": 4.7333, "x": 0, "y": -128.21 },
+					{ "time": 5.9333, "x": 0, "y": -214.07 },
+					{ "time": 7.1333, "x": 0, "y": -53.8 },
+					{ "time": 8.3, "x": 0, "y": -128.21 },
+					{ "time": 9.5, "x": 0, "y": -214.07 }
+				]
+			},
+			"tokyomino07": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -80.32 },
+					{ "time": 1.1666, "x": 0, "y": -80.37 },
+					{ "time": 2.3666, "x": 0, "y": -154.78 },
+					{ "time": 3.5333, "x": 0, "y": -237.13 },
+					{ "time": 3.5666, "x": 0, "y": -80.32 },
+					{ "time": 4.7333, "x": 0, "y": -80.37 },
+					{ "time": 5.9333, "x": 0, "y": -154.78 },
+					{ "time": 7.1, "x": 0, "y": -237.13 },
+					{ "time": 7.1333, "x": 0, "y": -80.32 },
+					{ "time": 8.3, "x": 0, "y": -80.37 },
+					{ "time": 9.5, "x": 0, "y": -154.78 },
+					{ "time": 10.6666, "x": 0, "y": -237.13 }
+				]
+			},
+			"tokyomino7": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -37.09 },
+					{ "time": 1.1666, "x": 0, "y": -127.42 },
+					{ "time": 1.7666, "x": 0, "y": 50.77, "curve": "stepped" },
+					{ "time": 2.3666, "x": 0, "y": 50.77 },
+					{ "time": 3.5333, "x": 0, "y": -37.09, "curve": "stepped" },
+					{ "time": 3.5666, "x": 0, "y": -37.09 },
+					{ "time": 4.7333, "x": 0, "y": -127.42 },
+					{ "time": 5.3333, "x": 0, "y": 50.77, "curve": "stepped" },
+					{ "time": 5.9333, "x": 0, "y": 50.77 },
+					{ "time": 7.1, "x": 0, "y": -37.09, "curve": "stepped" },
+					{ "time": 7.1333, "x": 0, "y": -37.09 },
+					{ "time": 8.3, "x": 0, "y": -127.42 },
+					{ "time": 8.9, "x": 0, "y": 50.77, "curve": "stepped" },
+					{ "time": 9.5, "x": 0, "y": 50.77 },
+					{ "time": 10.6666, "x": 0, "y": -37.09 }
+				]
+			},
+			"tokyomino08": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.76 },
+					{ "time": 1.1666, "x": 0, "y": -82.26 },
+					{ "time": 2.3666, "x": 0, "y": -162.39 },
+					{ "time": 3.5666, "x": 0, "y": -3.76 },
+					{ "time": 4.7333, "x": 0, "y": -82.26 },
+					{ "time": 5.9333, "x": 0, "y": -162.39 },
+					{ "time": 7.1333, "x": 0, "y": -3.76 },
+					{ "time": 8.3, "x": 0, "y": -82.26 },
+					{ "time": 9.5, "x": 0, "y": -162.39 }
+				]
+			},
+			"tokyomino8": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -154.34 },
+					{ "time": 1.1666, "x": 0, "y": -133.74 },
+					{ "time": 2.3666, "x": 0, "y": -225.32 },
+					{ "time": 3.5333, "x": 0, "y": -303.98 },
+					{ "time": 3.5666, "x": 0, "y": -154.34 },
+					{ "time": 4.7333, "x": 0, "y": -133.74 },
+					{ "time": 5.9333, "x": 0, "y": -225.32 },
+					{ "time": 7.1, "x": 0, "y": -303.98 },
+					{ "time": 7.1333, "x": 0, "y": -154.34 },
+					{ "time": 8.3, "x": 0, "y": -133.74 },
+					{ "time": 9.5, "x": 0, "y": -225.32 },
+					{ "time": 10.6666, "x": 0, "y": -303.98 }
+				]
+			},
+			"tokyomino09": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 114.52 },
+					{ "time": 1.7666, "x": 0, "y": 32.25 },
+					{ "time": 3.5333, "x": 0, "y": -63.14, "curve": "stepped" },
+					{ "time": 5.3333, "x": 0, "y": -63.14 },
+					{ "time": 5.3666, "x": 0, "y": 119.06 },
+					{ "time": 7.1333, "x": 0, "y": 32.25 },
+					{ "time": 8.9, "x": 0, "y": -63.14, "curve": "stepped" },
+					{ "time": 10.6666, "x": 0, "y": -63.14 }
+				]
+			},
+			"tokyomino010": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -1.69 },
+					{ "time": 1.7666, "x": 0, "y": -4.05 },
+					{ "time": 3.5333, "x": 0, "y": -93.73 },
+					{ "time": 5.3333, "x": 0, "y": -179.76 },
+					{ "time": 5.3666, "x": 0, "y": -5.53 },
+					{ "time": 7.1333, "x": 0, "y": -4.05 },
+					{ "time": 8.9, "x": 0, "y": -93.73 },
+					{ "time": 10.6666, "x": 0, "y": -179.76 }
+				]
+			},
+			"tokyomino11": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -22.58 },
+					{ "time": 1.7666, "x": 0, "y": -120.97, "curve": "stepped" },
+					{ "time": 1.9333, "x": 0, "y": -120.97 },
+					{ "time": 2.6666, "x": 0, "y": 74.43, "curve": "stepped" },
+					{ "time": 3.5333, "x": 0, "y": 74.43 },
+					{ "time": 5.3333, "x": 0, "y": -22.58, "curve": "stepped" },
+					{ "time": 5.3666, "x": 0, "y": -22.58 },
+					{ "time": 7.1333, "x": 0, "y": -120.97, "curve": "stepped" },
+					{ "time": 7.3, "x": 0, "y": -120.97 },
+					{ "time": 8.0333, "x": 0, "y": 74.43, "curve": "stepped" },
+					{ "time": 8.9, "x": 0, "y": 74.43 },
+					{ "time": 10.6666, "x": 0, "y": -22.58 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"tokioIsland02": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 201.31,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"tokioIsland01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": -82.59,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			},
+			"tokyoCity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{
+						"time": 5.3333,
+						"x": 0,
+						"y": 95.49,
+						"curve": [ 0.701, 0.17, 0.307, 0.88 ]
+					},
+					{ "time": 10.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"tokyocityUnlock": {
+		"slots": {
+			"island1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"island2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoCity": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoCityMask": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoMount": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoRedLight": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoRedLight2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoRedLight3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyoRedLight4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyocityGrey": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff00" },
+					{ "time": 0.9, "color": "ffffffff" }
+				]
+			},
+			"tokyocity_block10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"tokyomino06": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino07": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino08": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino09": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino010": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tokyomino11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"tokyocityGrey": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1666.15 },
+					{ "time": 0.1, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block2": {
+				"translate": [
+					{ "time": 0.1, "x": 0, "y": 1666.15 },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block3": {
+				"translate": [
+					{ "time": 0.2, "x": 0, "y": 1666.15 },
+					{ "time": 0.3, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block4": {
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 1666.15 },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block5": {
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 1666.15 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block6": {
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 1666.15 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block7": {
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 1666.15 },
+					{ "time": 0.7, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block8": {
+				"translate": [
+					{ "time": 0.7, "x": 0, "y": 1666.15 },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block9": {
+				"translate": [
+					{ "time": 0.8, "x": 0, "y": 1666.15 },
+					{ "time": 0.9, "x": 0, "y": 0 }
+				]
+			},
+			"tokyo_block10": {
+				"translate": [
+					{ "time": 0.9, "x": 0, "y": 1666.15 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}
