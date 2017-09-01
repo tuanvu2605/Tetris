@@ -1,0 +1,840 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_ISLAND_01.png",
+	"frame": {"x":1544,"y":491,"w":206,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":206,"h":218},
+	"sourceSize": {"w":206,"h":218},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_ISLAND_02.png",
+	"frame": {"x":428,"y":626,"w":204,"h":211},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":211},
+	"sourceSize": {"w":204,"h":211},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_ISLAND_05.png",
+	"frame": {"x":1854,"y":433,"w":129,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":131},
+	"sourceSize": {"w":129,"h":131},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "AMSTERDAM_ISLAND_06.png",
+	"frame": {"x":1,"y":334,"w":390,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":390,"h":300},
+	"sourceSize": {"w":390,"h":300},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LONDEN_EYE_BASE.png",
+	"frame": {"x":1419,"y":245,"w":227,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":227,"h":244},
+	"sourceSize": {"w":227,"h":244},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "LondenIlsand3.png",
+	"frame": {"x":1648,"y":235,"w":173,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":170},
+	"sourceSize": {"w":173,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_CITY_ISLAND_01.png",
+	"frame": {"x":393,"y":480,"w":160,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":144},
+	"sourceSize": {"w":160,"h":144},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_CITY_ISLAND_03.png",
+	"frame": {"x":1823,"y":286,"w":160,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":145},
+	"sourceSize": {"w":160,"h":145},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_ISLAND_04.png",
+	"frame": {"x":404,"y":328,"w":266,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":266,"h":150},
+	"sourceSize": {"w":266,"h":150},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_ISLAND_05.png",
+	"frame": {"x":590,"y":839,"w":74,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":114},
+	"sourceSize": {"w":74,"h":114},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK__CITY_ISLAND_02.png",
+	"frame": {"x":555,"y":480,"w":75,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":116},
+	"sourceSize": {"w":75,"h":116},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block1.png",
+	"frame": {"x":666,"y":1,"w":250,"h":321},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":321},
+	"sourceSize": {"w":250,"h":321},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block2.png",
+	"frame": {"x":1,"y":636,"w":241,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":337},
+	"sourceSize": {"w":241,"h":337},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block4.png",
+	"frame": {"x":404,"y":1,"w":260,"h":325},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":260,"h":325},
+	"sourceSize": {"w":260,"h":325},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "island1.png",
+	"frame": {"x":1335,"y":491,"w":207,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":207,"h":220},
+	"sourceSize": {"w":207,"h":220},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "island2.png",
+	"frame": {"x":1123,"y":454,"w":210,"h":242},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":242},
+	"sourceSize": {"w":210,"h":242},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIsland05.png",
+	"frame": {"x":244,"y":636,"w":182,"h":283},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":283},
+	"sourceSize": {"w":182,"h":283},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIsland06.png",
+	"frame": {"x":1608,"y":1,"w":240,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":232},
+	"sourceSize": {"w":240,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londonIsland4.png",
+	"frame": {"x":1,"y":1,"w":401,"h":331},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":401,"h":331},
+	"sourceSize": {"w":401,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londoncity_block1.png",
+	"frame": {"x":918,"y":1,"w":224,"h":331},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":224,"h":331},
+	"sourceSize": {"w":224,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01.png",
+	"frame": {"x":1503,"y":713,"w":78,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":94},
+	"sourceSize": {"w":78,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_02.png",
+	"frame": {"x":1069,"y":585,"w":33,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":64},
+	"sourceSize": {"w":33,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_03.png",
+	"frame": {"x":1663,"y":711,"w":76,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":95},
+	"sourceSize": {"w":76,"h":95},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_04.png",
+	"frame": {"x":1710,"y":808,"w":85,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":79},
+	"sourceSize": {"w":85,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_05.png",
+	"frame": {"x":840,"y":939,"w":85,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":45},
+	"sourceSize": {"w":85,"h":45},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_06.png",
+	"frame": {"x":1275,"y":800,"w":85,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":83},
+	"sourceSize": {"w":85,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_07.png",
+	"frame": {"x":1242,"y":698,"w":85,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":98},
+	"sourceSize": {"w":85,"h":98},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_08.png",
+	"frame": {"x":1854,"y":566,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_09.png",
+	"frame": {"x":1854,"y":671,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_10.png",
+	"frame": {"x":895,"y":690,"w":85,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":101},
+	"sourceSize": {"w":85,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_11.png",
+	"frame": {"x":982,"y":585,"w":85,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":101},
+	"sourceSize": {"w":85,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_12.png",
+	"frame": {"x":982,"y":688,"w":85,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":101},
+	"sourceSize": {"w":85,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_13.png",
+	"frame": {"x":1069,"y":698,"w":85,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":101},
+	"sourceSize": {"w":85,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_14.png",
+	"frame": {"x":634,"y":624,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_15.png",
+	"frame": {"x":634,"y":729,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode01_16.png",
+	"frame": {"x":721,"y":624,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02.png",
+	"frame": {"x":1797,"y":779,"w":78,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":78},
+	"sourceSize": {"w":78,"h":78},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_02.png",
+	"frame": {"x":1941,"y":690,"w":34,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":56},
+	"sourceSize": {"w":34,"h":56},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_03.png",
+	"frame": {"x":1536,"y":809,"w":85,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":81},
+	"sourceSize": {"w":85,"h":81},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_04.png",
+	"frame": {"x":753,"y":939,"w":85,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":69},
+	"sourceSize": {"w":85,"h":69},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_05.png",
+	"frame": {"x":1710,"y":889,"w":85,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":79},
+	"sourceSize": {"w":85,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_06.png",
+	"frame": {"x":1362,"y":800,"w":85,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":83},
+	"sourceSize": {"w":85,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_07.png",
+	"frame": {"x":244,"y":921,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_08.png",
+	"frame": {"x":331,"y":921,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_09.png",
+	"frame": {"x":1877,"y":928,"w":85,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":72},
+	"sourceSize": {"w":85,"h":72},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_10.png",
+	"frame": {"x":1623,"y":808,"w":85,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":80},
+	"sourceSize": {"w":85,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_11.png",
+	"frame": {"x":1752,"y":699,"w":85,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":78},
+	"sourceSize": {"w":85,"h":78},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_12.png",
+	"frame": {"x":1275,"y":885,"w":85,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":83},
+	"sourceSize": {"w":85,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_13.png",
+	"frame": {"x":1362,"y":885,"w":85,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":83},
+	"sourceSize": {"w":85,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_14.png",
+	"frame": {"x":632,"y":537,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_15.png",
+	"frame": {"x":719,"y":537,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode02_16.png",
+	"frame": {"x":806,"y":537,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03.png",
+	"frame": {"x":1797,"y":859,"w":78,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":78},
+	"sourceSize": {"w":78,"h":78},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_02.png",
+	"frame": {"x":1941,"y":632,"w":35,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":56},
+	"sourceSize": {"w":35,"h":56},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_03.png",
+	"frame": {"x":1648,"y":407,"w":85,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":82},
+	"sourceSize": {"w":85,"h":82},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_04.png",
+	"frame": {"x":666,"y":939,"w":85,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":70},
+	"sourceSize": {"w":85,"h":70},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_05.png",
+	"frame": {"x":927,"y":967,"w":85,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":40},
+	"sourceSize": {"w":85,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_06.png",
+	"frame": {"x":1735,"y":407,"w":85,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":82},
+	"sourceSize": {"w":85,"h":82},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_07.png",
+	"frame": {"x":1329,"y":713,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_08.png",
+	"frame": {"x":1416,"y":713,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_09.png",
+	"frame": {"x":1877,"y":853,"w":85,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":73},
+	"sourceSize": {"w":85,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_10.png",
+	"frame": {"x":1536,"y":892,"w":85,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":81},
+	"sourceSize": {"w":85,"h":81},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_11.png",
+	"frame": {"x":1877,"y":776,"w":85,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":75},
+	"sourceSize": {"w":85,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_12.png",
+	"frame": {"x":1449,"y":809,"w":85,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":83},
+	"sourceSize": {"w":85,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_13.png",
+	"frame": {"x":1449,"y":894,"w":85,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":83},
+	"sourceSize": {"w":85,"h":83},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_14.png",
+	"frame": {"x":927,"y":793,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_15.png",
+	"frame": {"x":927,"y":880,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode03_16.png",
+	"frame": {"x":1014,"y":801,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04.png",
+	"frame": {"x":1583,"y":711,"w":78,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":94},
+	"sourceSize": {"w":78,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_02.png",
+	"frame": {"x":1941,"y":566,"w":34,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":64},
+	"sourceSize": {"w":34,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_03.png",
+	"frame": {"x":1156,"y":698,"w":84,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":100},
+	"sourceSize": {"w":84,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_04.png",
+	"frame": {"x":1623,"y":890,"w":85,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":80},
+	"sourceSize": {"w":85,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_05.png",
+	"frame": {"x":721,"y":729,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_06.png",
+	"frame": {"x":666,"y":834,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_07.png",
+	"frame": {"x":1014,"y":888,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_08.png",
+	"frame": {"x":1101,"y":801,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":85},
+	"sourceSize": {"w":85,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_09.png",
+	"frame": {"x":1101,"y":888,"w":85,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":84},
+	"sourceSize": {"w":85,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_10.png",
+	"frame": {"x":1188,"y":800,"w":85,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":84},
+	"sourceSize": {"w":85,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_11.png",
+	"frame": {"x":1188,"y":886,"w":85,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":84},
+	"sourceSize": {"w":85,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_12.png",
+	"frame": {"x":808,"y":624,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_13.png",
+	"frame": {"x":808,"y":729,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_14.png",
+	"frame": {"x":753,"y":834,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_15.png",
+	"frame": {"x":840,"y":834,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lvlnode04_16.png",
+	"frame": {"x":895,"y":585,"w":85,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":103},
+	"sourceSize": {"w":85,"h":103},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland01.png",
+	"frame": {"x":428,"y":839,"w":160,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":129},
+	"sourceSize": {"w":160,"h":129},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland02.png",
+	"frame": {"x":672,"y":324,"w":229,"h":211},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":229,"h":211},
+	"sourceSize": {"w":229,"h":211},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland03.png",
+	"frame": {"x":1375,"y":1,"w":231,"h":242},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":242},
+	"sourceSize": {"w":231,"h":242},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block1.png",
+	"frame": {"x":1144,"y":1,"w":229,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":229,"h":256},
+	"sourceSize": {"w":229,"h":256},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block2.png",
+	"frame": {"x":903,"y":334,"w":218,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":249},
+	"sourceSize": {"w":218,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block3.png",
+	"frame": {"x":1850,"y":1,"w":133,"h":283},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":283},
+	"sourceSize": {"w":133,"h":283},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block4.png",
+	"frame": {"x":1752,"y":491,"w":100,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":206},
+	"sourceSize": {"w":100,"h":206},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block7.png",
+	"frame": {"x":1144,"y":259,"w":273,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":273,"h":193},
+	"sourceSize": {"w":273,"h":193},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "brown_green_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1984,"h":1010},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:619d25249919936d1857f7d58da1b341:9c20af9cabc3dd24e705e99e37f89f55:a6b98f77f68f723f13ee8345e08c8afa$"
+}
+}

@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "lvlnode01_beam.png",
+	"frame": {"x":269,"y":1867,"w":179,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":179,"h":179},
+	"sourceSize": {"w":179,"h":182},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "moscow.png",
+	"frame": {"x":1450,"y":1273,"w":505,"h":580},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":505,"h":580},
+	"sourceSize": {"w":505,"h":580},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "newyorkblock1.png",
+	"frame": {"x":1,"y":1867,"w":266,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":266,"h":150},
+	"sourceSize": {"w":266,"h":150},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "paris.png",
+	"frame": {"x":660,"y":797,"w":788,"h":742},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":788,"h":742},
+	"sourceSize": {"w":788,"h":742},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "paris_locked.png",
+	"frame": {"x":1,"y":1,"w":788,"h":743},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":788,"h":743},
+	"sourceSize": {"w":788,"h":743},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisblock2.png",
+	"frame": {"x":528,"y":1541,"w":507,"h":468},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":507,"h":468},
+	"sourceSize": {"w":507,"h":468},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parislocked.png",
+	"frame": {"x":1450,"y":680,"w":491,"h":591},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":491,"h":591},
+	"sourceSize": {"w":491,"h":591},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "starsEmpty.png",
+	"frame": {"x":1447,"y":1855,"w":423,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":423,"h":188},
+	"sourceSize": {"w":423,"h":188},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyo.png",
+	"frame": {"x":791,"y":1,"w":657,"h":794},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":657,"h":794},
+	"sourceSize": {"w":657,"h":794},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyo_locked.png",
+	"frame": {"x":1,"y":746,"w":657,"h":793},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":657,"h":793},
+	"sourceSize": {"w":657,"h":793},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoblock3.png",
+	"frame": {"x":1037,"y":1541,"w":408,"h":420},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":408,"h":420},
+	"sourceSize": {"w":408,"h":420},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "type_i_shape.jpg",
+	"frame": {"x":726,"y":746,"w":35,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":35},
+	"sourceSize": {"w":35,"h":35},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wm_ho_cow.png",
+	"frame": {"x":660,"y":746,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wm_ja_city.png",
+	"frame": {"x":1450,"y":1,"w":570,"h":677},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":570,"h":677},
+	"sourceSize": {"w":570,"h":677},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wm_ja_fuji.png",
+	"frame": {"x":1,"y":1541,"w":525,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":525,"h":324},
+	"sourceSize": {"w":525,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wm_mc_block1.png",
+	"frame": {"x":1872,"y":1855,"w":159,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":161},
+	"sourceSize": {"w":159,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "placeholder_0.png",
+	"format": "RGBA8888",
+	"size": {"w":2042,"h":2047},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:23ea5f535368b49c71573253a0a2d430:d65f115ebc8f44b86bf2d89495fa2cfe:e864131f5b1d076a6d89745238aa52c3$"
+}
+}

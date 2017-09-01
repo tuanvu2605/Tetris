@@ -1,0 +1,111 @@
+{"frames": [
+
+{
+	"filename": "lastHurrahBeams.png",
+	"frame": {"x":1045,"y":684,"w":504,"h":441},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":15,"w":504,"h":441},
+	"sourceSize": {"w":510,"h":456},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_1.png",
+	"frame": {"x":671,"y":684,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_2.png",
+	"frame": {"x":1045,"y":1127,"w":164,"h":188},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":513,"y":190,"w":164,"h":188},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_3.png",
+	"frame": {"x":1551,"y":1037,"w":286,"h":301},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":460,"y":142,"w":286,"h":301},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_4.png",
+	"frame": {"x":1551,"y":631,"w":389,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":415,"y":109,"w":389,"h":404},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_5.png",
+	"frame": {"x":565,"y":728,"w":478,"h":492},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":375,"y":87,"w":478,"h":492},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_6.png",
+	"frame": {"x":1,"y":728,"w":562,"h":565},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":334,"y":75,"w":562,"h":565},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_7.png",
+	"frame": {"x":1360,"y":1,"w":632,"h":628},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":299,"y":72,"w":632,"h":628},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_8.png",
+	"frame": {"x":671,"y":1,"w":687,"h":681},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":269,"y":75,"w":687,"h":681},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrah_9.png",
+	"frame": {"x":1,"y":1,"w":668,"h":725},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":245,"y":84,"w":668,"h":725},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lastHurrahtext.png",
+	"frame": {"x":1,"y":1295,"w":397,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":29,"w":397,"h":26},
+	"sourceSize": {"w":419,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "last_hurrah_animation_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1993,"h":1339},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:77a1564933abcc78aa9cde04218f740e:1a780e465b8f5cf9c6c0857a053b4311:9610607f5e3d15fd8b3410266ce372ed$"
+}
+}

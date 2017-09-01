@@ -3069,7 +3069,7 @@
                             r.put(o[0], o[1]), o[2] && console.log("Comment on key: " + o[0] + "\n -- " + o[2])
                         }
                         r.language = t
-                    }, i.open("get", window.bb_base_path + "/lang/" + t + ".csv", !0), i.send()
+                    }, i.open("get","/tetris/lang/" + t + ".csv", !0), i.send()
                 },
                 get: function(e) {
                     if (this.language === undefined) return console.error("Language not yet loaded, exiting"), null;

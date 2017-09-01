@@ -1,0 +1,2 @@
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/mobile/atlases/yellow_0.json
+http://games.coolgames.com/tetris-twist/en/4.7/assets/images/phaser/spritesheets/mobile/atlases/win_stars_animation_0.json

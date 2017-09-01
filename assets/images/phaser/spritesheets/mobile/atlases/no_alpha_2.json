@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "mapLondon_Paris.jpg",
+	"frame": {"x":3,"y":3,"w":1650,"h":1056},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1650,"h":1056},
+	"sourceSize": {"w":1650,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "no_alpha_2.jpg",
+	"format": "RGB888",
+	"size": {"w":1656,"h":1062},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:e94cb2825d9ca5346a3cdf9cf6b1c983:70441a165ad80b774ac42d1065059700:2bb94c480e80c64cffa34dd2ee609add$"
+}
+}

@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "mapTokyo_Amsterdam.jpg",
+	"frame": {"x":3,"y":3,"w":1950,"h":1248},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1950,"h":1248},
+	"sourceSize": {"w":1950,"h":1248},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "no_alpha_8.jpg",
+	"format": "RGB888",
+	"size": {"w":1956,"h":1254},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:6d75d5db009ff645196daf556b8e6330:70441a165ad80b774ac42d1065059700:53cbfb8539e98ccc31593ff374aba43d$"
+}
+}

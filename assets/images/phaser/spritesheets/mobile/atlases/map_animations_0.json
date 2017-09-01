@@ -1,0 +1,318 @@
+{"frames": [
+
+{
+	"filename": "AMSTERDAM_CITY2.png",
+	"frame": {"x":1173,"y":1,"w":547,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":547,"h":600},
+	"sourceSize": {"w":547,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "HELI.png",
+	"frame": {"x":1928,"y":728,"w":63,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":60},
+	"sourceSize": {"w":63,"h":60},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_CITY_02.png",
+	"frame": {"x":631,"y":1,"w":540,"h":655},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":540,"h":655},
+	"sourceSize": {"w":540,"h":655},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_TOWER_01.png",
+	"frame": {"x":1050,"y":1405,"w":166,"h":344},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":344},
+	"sourceSize": {"w":166,"h":344},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NEWYORK_TOWER_02.png",
+	"frame": {"x":1722,"y":1,"w":262,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":262,"h":444},
+	"sourceSize": {"w":262,"h":444},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block5.png",
+	"frame": {"x":1689,"y":942,"w":335,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":335,"h":233},
+	"sourceSize": {"w":335,"h":233},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block6.png",
+	"frame": {"x":1141,"y":658,"w":136,"h":516},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":516},
+	"sourceSize": {"w":136,"h":516},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block7.png",
+	"frame": {"x":1928,"y":613,"w":63,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":113},
+	"sourceSize": {"w":63,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "amsterdamcity_block8.png",
+	"frame": {"x":1050,"y":1751,"w":247,"h":262},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":247,"h":262},
+	"sourceSize": {"w":247,"h":262},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIsland1.png",
+	"frame": {"x":1911,"y":1844,"w":109,"h":152},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":152},
+	"sourceSize": {"w":109,"h":152},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londenIsland2.png",
+	"frame": {"x":1299,"y":1720,"w":146,"h":281},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":281},
+	"sourceSize": {"w":146,"h":281},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londonCity.png",
+	"frame": {"x":495,"y":1425,"w":553,"h":587},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":553,"h":587},
+	"sourceSize": {"w":553,"h":587},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londoncityColor.png",
+	"frame": {"x":1,"y":1,"w":628,"h":743},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":628,"h":743},
+	"sourceSize": {"w":628,"h":743},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londoncity_block2.png",
+	"frame": {"x":1626,"y":1177,"w":361,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":361,"h":94},
+	"sourceSize": {"w":361,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "londoncity_block4.png",
+	"frame": {"x":1689,"y":613,"w":237,"h":327},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":327},
+	"sourceSize": {"w":237,"h":327},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland04.png",
+	"frame": {"x":631,"y":658,"w":508,"h":469},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":508,"h":469},
+	"sourceSize": {"w":508,"h":469},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisIsland05.png",
+	"frame": {"x":1622,"y":1868,"w":133,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":123},
+	"sourceSize": {"w":133,"h":123},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "parisMill.png",
+	"frame": {"x":1611,"y":1273,"w":215,"h":311},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":215,"h":311},
+	"sourceSize": {"w":215,"h":311},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity.png",
+	"frame": {"x":1,"y":1425,"w":492,"h":592},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":492,"h":592},
+	"sourceSize": {"w":492,"h":592},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block10.png",
+	"frame": {"x":1279,"y":1025,"w":345,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":345,"h":171},
+	"sourceSize": {"w":345,"h":171},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pariscity_block5.png",
+	"frame": {"x":1227,"y":1198,"w":218,"h":310},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":310},
+	"sourceSize": {"w":218,"h":310},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoCity.png",
+	"frame": {"x":1,"y":746,"w":569,"h":677},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":569,"h":677},
+	"sourceSize": {"w":569,"h":677},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoCityMask.png",
+	"frame": {"x":1797,"y":1844,"w":112,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":69},
+	"sourceSize": {"w":112,"h":69},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIsland01.png",
+	"frame": {"x":1218,"y":1510,"w":195,"h":208},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":208},
+	"sourceSize": {"w":195,"h":208},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIsland03.png",
+	"frame": {"x":1279,"y":603,"w":408,"h":420},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":408,"h":420},
+	"sourceSize": {"w":408,"h":420},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIslandCastle.png",
+	"frame": {"x":1828,"y":1273,"w":204,"h":318},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":318},
+	"sourceSize": {"w":204,"h":318},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyoIslandmask.png",
+	"frame": {"x":1415,"y":1515,"w":134,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":156},
+	"sourceSize": {"w":134,"h":156},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block1.png",
+	"frame": {"x":1797,"y":1593,"w":207,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":207,"h":249},
+	"sourceSize": {"w":207,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block2.png",
+	"frame": {"x":1722,"y":447,"w":277,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":164},
+	"sourceSize": {"w":277,"h":164},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block4.png",
+	"frame": {"x":1622,"y":1586,"w":173,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":280},
+	"sourceSize": {"w":173,"h":280},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block5.png",
+	"frame": {"x":1031,"y":1176,"w":194,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":227},
+	"sourceSize": {"w":194,"h":227},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block7.png",
+	"frame": {"x":1447,"y":1673,"w":173,"h":298},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":298},
+	"sourceSize": {"w":173,"h":298},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block8.png",
+	"frame": {"x":1447,"y":1198,"w":162,"h":315},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":315},
+	"sourceSize": {"w":162,"h":315},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tokyocity_block9.png",
+	"frame": {"x":572,"y":1129,"w":457,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":457,"h":268},
+	"sourceSize": {"w":457,"h":268},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "map_animations_0.png",
+	"format": "RGBA8888",
+	"size": {"w":2033,"h":2018},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:705917337b254b7a619a95acb96b2973:6f9ff5182cd9fcc662e32c617285a9e1:9d0c7ce60665ba1dba99f22faf31f4f6$"
+}
+}

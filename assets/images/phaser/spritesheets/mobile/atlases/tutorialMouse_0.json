@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "controlsBoxLower.png",
+	"frame": {"x":1,"y":1,"w":416,"h":257},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":416,"h":257},
+	"sourceSize": {"w":416,"h":257},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "tutorialMouse_0.png",
+	"format": "RGBA8888",
+	"size": {"w":418,"h":259},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:78be68c81fcf2ade0920e15c40bb31f1:ebfd880e2178c831bf21e28bce88b2c2:5f6c4fa04790de042c63eb90f6f98cad$"
+}
+}

@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "bgCoverUp.jpg",
+	"frame": {"x":3,"y":1065,"w":407,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":407,"h":142},
+	"sourceSize": {"w":407,"h":142},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bgCoverUpBottom.jpg",
+	"frame": {"x":416,"y":1065,"w":392,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":68},
+	"sourceSize": {"w":392,"h":68},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bg_mobile.jpg",
+	"frame": {"x":3,"y":3,"w":1188,"h":1056},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1188,"h":1056},
+	"sourceSize": {"w":1188,"h":1056},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "no_alpha_mobile_0.jpg",
+	"format": "RGB888",
+	"size": {"w":1194,"h":1210},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:3357f44734c17f7f792f6437ca44781f:031a226f3d05a7705ce9324a2d711a71:f824130b8a51ab170d2fb9882c7c41dd$"
+}
+}

@@ -1,0 +1,147 @@
+{"frames": [
+
+{
+	"filename": "lastHurrahtext.png",
+	"frame": {"x":1,"y":449,"w":398,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":23,"w":398,"h":38},
+	"sourceSize": {"w":419,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtBacktoBackTSpinDouble.png",
+	"frame": {"x":409,"y":1,"w":402,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":0,"w":402,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtBacktoBackTSpinSingle.png",
+	"frame": {"x":1,"y":113,"w":402,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":0,"w":402,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtBacktoBackTSpinTriple.png",
+	"frame": {"x":1,"y":1,"w":406,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":0,"w":406,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtBacktoBackTetrisTM.png",
+	"frame": {"x":1,"y":225,"w":326,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":0,"w":326,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtBlockOut.png",
+	"frame": {"x":647,"y":113,"w":188,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":136,"y":0,"w":188,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtLevelUp.png",
+	"frame": {"x":792,"y":225,"w":176,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":143,"y":0,"w":176,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtMiniTSpin.png",
+	"frame": {"x":571,"y":225,"w":219,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":122,"y":0,"w":219,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtMiniTSpinSingle.png",
+	"frame": {"x":1,"y":337,"w":299,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":81,"y":0,"w":299,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtPerfectClear.png",
+	"frame": {"x":544,"y":337,"w":235,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":0,"w":235,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtTSpin.png",
+	"frame": {"x":813,"y":1,"w":159,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":153,"y":0,"w":159,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtTSpinDouble.png",
+	"frame": {"x":302,"y":337,"w":240,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":0,"w":240,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtTSpinSingle.png",
+	"frame": {"x":329,"y":225,"w":240,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":0,"w":240,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtTSpinTriple.png",
+	"frame": {"x":405,"y":113,"w":240,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":0,"w":240,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "txtTetrisTM.png",
+	"frame": {"x":781,"y":337,"w":164,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":0,"w":164,"h":110},
+	"sourceSize": {"w":463,"h":110},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "notifications_localization_en_0.png",
+	"format": "RGBA8888",
+	"size": {"w":973,"h":488},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:c929e8fa3c7ddc64df93087ebd68cee6:a4079b4e0434748770acff2abb283122:070b31c8cf52b3cf192c2b7d836a0fe6$"
+}
+}

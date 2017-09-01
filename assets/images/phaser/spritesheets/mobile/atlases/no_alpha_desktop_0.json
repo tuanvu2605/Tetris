@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "bgCoverUpBottom_desktop.jpg",
+	"frame": {"x":3,"y":1257,"w":496,"h":117},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":496,"h":117},
+	"sourceSize": {"w":496,"h":117},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bgCoverUp_desktop.jpg",
+	"frame": {"x":505,"y":1257,"w":496,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":496,"h":116},
+	"sourceSize": {"w":496,"h":116},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bg_desktop.jpg",
+	"frame": {"x":3,"y":3,"w":1404,"h":1248},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1404,"h":1248},
+	"sourceSize": {"w":1404,"h":1248},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "no_alpha_desktop_0.jpg",
+	"format": "RGB888",
+	"size": {"w":1410,"h":1377},
+	"scale": "0.65",
+	"smartupdate": "$TexturePacker:SmartUpdate:6bb82698cfb6b8a66b923f3c565e8e28:d6f2af85ebc578bbd794c51d77686e3d:e5f6bfe7f5fd0a5a50869d2796cbfbda$"
+}
+}

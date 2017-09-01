@@ -1,0 +1,57 @@
+{"frames": [
+
+{
+	"filename": "road01.png",
+	"frame": {"x":1,"y":621,"w":891,"h":304},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":891,"h":304},
+	"sourceSize": {"w":891,"h":304},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "road02.png",
+	"frame": {"x":1,"y":307,"w":974,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":974,"h":312},
+	"sourceSize": {"w":974,"h":312},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "road3.png",
+	"frame": {"x":1,"y":1,"w":1035,"h":304},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1035,"h":304},
+	"sourceSize": {"w":1035,"h":304},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "road4.png",
+	"frame": {"x":894,"y":627,"w":881,"h":304},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":881,"h":304},
+	"sourceSize": {"w":881,"h":304},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "road5.png",
+	"frame": {"x":977,"y":307,"w":870,"h":318},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":870,"h":318},
+	"sourceSize": {"w":870,"h":318},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "road_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1848,"h":932},
+	"scale": "0.55",
+	"smartupdate": "$TexturePacker:SmartUpdate:4e5e12ce5586232554b52de33bf6461a:e0ea6007bbbd49e79dfde98993ad9b5c:d9847441a6e3c473cd8193756fd79a5d$"
+}
+}

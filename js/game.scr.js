@@ -32017,6 +32017,7 @@ define('gt/gui/Sprite', ['bottom_line', 'phaser', 'gt/math/ScalePoint', 'gt/math
     function z5(t, k, j, o, e, q) {
         var m = o,
             k5 = j || game.spritesheets.sprites[m].spritesheet;
+            // k5 = j;
         z5._super.constructor.call(this, game, t, k, k5, m);
         this.id = e;
         this.scaler = new j5(this.scale);
@@ -34499,6 +34500,7 @@ define('gt/gui/Image', ['bottom_line', 'phaser', 'settings', 'gt/managers/Sprite
     function R5(t, k, j, o, e, q) {
         var m = o,
             k5 = j || game.spritesheets.sprites[m].spritesheet;
+            // k5 = j;
         R5._super.constructor.call(this, game, t, k, k5, m);
         this.id = e;
         this.scaler = new p5(this.scale);
@@ -34530,6 +34532,7 @@ define('gt/gui/Image', ['bottom_line', 'phaser', 'settings', 'gt/managers/Sprite
             return this;
         }
     });
+    console.log("R5 : " + R5);
     return R5;
 });
 define('gt/gui/Placeholder', ['bottom_line', 'phaser', 'settings', 'gt/math/GlobalPosition'], function(o, e, settings, m) {
@@ -36800,7 +36803,7 @@ define('gt/modules/BootSetup', ['soma', 'bottom_line', 'settings', 'gt/extras/aj
         new a5(platform.initPartners, platform).then(platform.sendDeviceAnalytics, platform).then(t, k).execute();
     };
     Z5.prototype.loadBootInfo = function(k, j, resourceManager) {
-        var e = 'assets/json/boot.json',
+        var e = '/tetris/assets/json/boot.json',
             q = 'bootInfo';
         resourceManager.load(q, e, o5.JSON, function(t) {
             this._injector.mapValue(q, t.result);
@@ -59478,8 +59481,10 @@ define('gt/modules/DomainLocking', [], function() {
         } else {
             console.warn(t);
         }
+        console.log("hi -o : " +o);
         return o;
     };
+    console.log("hi -m : "+m);
     return m;
 });
 requirejs.config({

@@ -26,6 +26,7 @@
       "62.131.152.231"
     ],
     "allowedCountries":[
+      "VN"
 
     ],
     "allowedDomains": ["localhost","connectedgamestore.com","connectedgameplay.com","coolgames.com"],
