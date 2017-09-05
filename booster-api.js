@@ -5203,21 +5203,21 @@
                 }
 
                 function x(e) {
-                    console.log("GADS -> initRewardingVideoAd");
-                    if (e) {
-                        t.utils.extend(t.options, e), a || (a = t.options.description_url), a !== "[description_url]" && (a = encodeURIComponent(a)), l = document.getElementById(t.options.contentElementID), t.options.width === "" && t.options.height === "" && (c = !0);
-                        if (t.options.adTagUrl === "") {
-                            var n = "320x250|480x320|640x480",
-                                r;
-                            if (t.options.portal) r = "https://pubads.g.doubleclick.net/gampad/ads?", r += "sz=480x320|640x480|320x250&iu=/10947743/", r += t.options.portal + "_ingame", r += "&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=" + a + "&correlator=[timestamp]", t.options.gameId && (r += "&cust_params=revtrack%3D" + t.options.gameId);
-                            else if (t.options.gameId && t.options.unitName) {
-                                var i = t.options.unitName;
-                                r = "https://pubads.g.doubleclick.net/gampad/ads?sz=", r += n + "&iu=/10947743/", r += i, r += "&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]", r += "&description_url=" + a + "&correlator=[timestamp]", r += "&cust_params=gamename%3D" + t.options.gameId
-                            } else r = t.options.testing ? "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/6062/iab_vast_samples/skippable&ciu_szs=480x320,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]" : "//pubads.g.doubleclick.net/gampad/ads?sz=" + n + "&iu=/10947743/CONTENT&cust_params=p_game%3D" + t.options.channelID + "&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=" + a + "&correlator=[timestamp]";
-                            t.options.adTagUrl = r
-                        }
-                        t.options.mediaWrapperID === "" ? console.error("GADS -> media id missing or incorrect") : t.options.adsWrapperID === "" ? console.error("GADS -> ads id missing or incorrect") : k()
-                    } else console.error("GADS -> no options object found")
+                    // console.log("GADS -> initRewardingVideoAd");
+                    // if (e) {
+                    //     t.utils.extend(t.options, e), a || (a = t.options.description_url), a !== "[description_url]" && (a = encodeURIComponent(a)), l = document.getElementById(t.options.contentElementID), t.options.width === "" && t.options.height === "" && (c = !0);
+                    //     if (t.options.adTagUrl === "") {
+                    //         var n = "320x250|480x320|640x480",
+                    //             r;
+                    //         if (t.options.portal) r = "https://pubads.g.doubleclick.net/gampad/ads?", r += "sz=480x320|640x480|320x250&iu=/10947743/", r += t.options.portal + "_ingame", r += "&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=" + a + "&correlator=[timestamp]", t.options.gameId && (r += "&cust_params=revtrack%3D" + t.options.gameId);
+                    //         else if (t.options.gameId && t.options.unitName) {
+                    //             var i = t.options.unitName;
+                    //             r = "https://pubads.g.doubleclick.net/gampad/ads?sz=", r += n + "&iu=/10947743/", r += i, r += "&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]", r += "&description_url=" + a + "&correlator=[timestamp]", r += "&cust_params=gamename%3D" + t.options.gameId
+                    //         } else r = t.options.testing ? "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/6062/iab_vast_samples/skippable&ciu_szs=480x320,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]" : "//pubads.g.doubleclick.net/gampad/ads?sz=" + n + "&iu=/10947743/CONTENT&cust_params=p_game%3D" + t.options.channelID + "&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=" + a + "&correlator=[timestamp]";
+                    //         t.options.adTagUrl = r
+                    //     }
+                    //     t.options.mediaWrapperID === "" ? console.error("GADS -> media id missing or incorrect") : t.options.adsWrapperID === "" ? console.error("GADS -> ads id missing or incorrect") : k()
+                    // } else console.error("GADS -> no options object found")
                 }
 
                 function T(e) {
@@ -5458,41 +5458,41 @@
                         })) : this.mode === "BUILTIN" && (p.setMessage("Advertisement will be should as BUILTIN mode"), u = t.template(i, {})), e("body").append(u), typeof n == "object" && n.isPlayScreen && e("#GADS_adpreroll").addClass("GADS_play")
                     },
                     _showAdvertising: function(t) {
-                        t = t || {}, c();
-                        if (t != undefined) {
-                            this.callback = t.callback;
-                            var n = t.startDelay || 0,
-                                i = t.interval || this.interval;
-                            this.interval = i
-                        }
-                        window.onAdDisplay && window.onAdDisplay(), this.render(t);
-                        if (this.mode === "BUILTIN") {
+                        // t = t || {}, c();
+                        // if (t != undefined) {
+                        //     this.callback = t.callback;
+                        //     var n = t.startDelay || 0,
+                        //         i = t.interval || this.interval;
+                        //     this.interval = i
+                        // }
+                        // window.onAdDisplay && window.onAdDisplay(), this.render(t);
+                        // if (this.mode === "BUILTIN") {
                             var s = this,
                                 o = h.buildProtocolRelativeURL(h.getURLParameter("bm.source")),
                                 u = h.getURLParameter("bm.gameid"),
                                 a = this.buildGadObj();
                             t.isPlayScreen && (a.isPlayScreen = !0), a.gameId = window.__gameCode || "null", r.init(a)
-                        } else e("iframe#booster-advertisement-popup").removeClass("hide")
+                        // } else e("iframe#booster-advertisement-popup").removeClass("hide")
                     },
                     showRewardingVideoAd: function(t) {
-                        if (!this.isAdReady()) {
-                            this._close();
-                            return
-                        }
-                        c(), this.postData(), this.isReward = !0;
-                        if (t != undefined) {
-                            this.callback = t.callback;
-                            var n = t.startDelay || 0,
-                                i = t.interval || this.interval;
-                            this.interval = i
-                        }
-                        window.onAdDisplay(), this.render(t);
-                        if (this.mode === "BUILTIN") {
-                            var s = this,
-                                o = h.buildProtocolRelativeURL(h.getURLParameter("bm.source")),
-                                u = this.buildGadObj();
-                            console.assert(t.unitName, "No unit name included, can't request video ads without one."), u.unitName = t.unitName, u.gameId = window.__gameCode || "null", r.initRewardingVideoAd(u)
-                        } else e("iframe#booster-advertisement-popup").removeClass("hide")
+                        // if (!this.isAdReady()) {
+                        //     this._close();
+                        //     return
+                        // }
+                        // c(), this.postData(), this.isReward = !0;
+                        // if (t != undefined) { 
+                        //     this.callback = t.callback;
+                        //     var n = t.startDelay || 0,
+                        //         i = t.interval || this.interval;
+                        //     this.interval = i
+                        // }
+                        // window.onAdDisplay(), this.render(t);
+                        // if (this.mode === "BUILTIN") {
+                        //     var s = this,
+                        //         o = h.buildProtocolRelativeURL(h.getURLParameter("bm.source")),
+                        //         u = this.buildGadObj();
+                        //     console.assert(t.unitName, "No unit name included, can't request video ads without one."), u.unitName = t.unitName, u.gameId = window.__gameCode || "null", r.initRewardingVideoAd(u)
+                        // } else e("iframe#booster-advertisement-popup").removeClass("hide")
                     },
                     showAdvertising: function(e) {
                         this.showPlayScreen(e)

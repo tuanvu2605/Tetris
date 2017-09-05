@@ -36326,14 +36326,18 @@ define('gt/partners/Platform', ['bottom_line', 'gt/utils/Chainable', 'gt/utils/d
         }
     };
     a5.prototype.showAd = function(t, k) {
-        var j = "showAd";
-        if (this._canShowAd()) {
-            this._lastAdTime = Date.now();
-            this._callOnAll(j, t, k);
-        } else {
+
+        window.webkit.messageHandlers.showGgAd.postMessage({data: "", handler: "showGgAd"});
+        // var j = "showAd";
+        // if (this._canShowAd()) {
+        //     this._lastAdTime = Date.now();
+        //     this._callOnAll(j, t, k);
+        // } else {
             t.call(k);
-        }
+        // }
     };
+
+
     a5.prototype.resetAdTimer = function() {
         this._lastAdTime = Date.now();
     };
@@ -40756,8 +40760,12 @@ define('scenes/popups/RewardedAdsPp', ['bottom_line', 'gt/scenes/Popup'], functi
         this.buttons.btnClose.setCallback(this._endGame, this);
     };
     r5.prototype._showVideoAd = function() {
+
+
         this._adTech.playAdTechVideo(this.closePopup, this);
         this._watchedVideo = d6t.s73;
+        window.webkit.messageHandlers.showGgAd.postMessage({data: "", handler: "showGgVideoAd"});
+        // this._adTech.completeAdTechVideo(d6t.s73);
     };
     r5.prototype._resumeGame = function() {
         this._tetrisInput.setActive(d6t.F18);
@@ -58955,7 +58963,7 @@ define('utils/AdTech', ['phaser', 'gt/utils/device'], function(z5, P5) {
         this._gameConfig = gameConfig;
         this._platform = platform;
         window.addEventListener(d6t.O7H, function(t) {
-            this.receiveAdTechMessage(t);
+            this.receiveAdTechMessage();
         }.bind(this), d6t.F18);
     }
     p5.prototype._getAdDescriptor = function() {
@@ -58991,67 +58999,67 @@ define('utils/AdTech', ['phaser', 'gt/utils/device'], function(z5, P5) {
             q = 'iframe',
             m = "adBg",
             k5 = "adOverlay";
-        if (!P5.desktop) {
-            this._game.paused = d6t.s73;
-        }
+        // if (!P5.desktop) {
+        //     this._game.paused = d6t.s73;
+        // }
         this._videoCallback = t;
         this._videoContext = k;
-        var C5 = this._getAdDescriptor(),
-            H5 = Math.floor(Math.random() * d6t.I2x);
-        this._overlay = document.createElement(d6t.k6);
-        this._overlay.className = k5;
-        var j5 = document.createElement(d6t.k6);
-        j5.className = m;
-        var Y5 = document.createElement(d6t.k6);
-        Y5.className = C5.frameClass;
-        this._iframe = document.createElement(q);
-        this._iframe.src = e + C5.zoneId + o + H5;
-        this._iframe.frameborder = d6t.s03;
-        this._iframe.scrolling = j;
-        this._iframe.width = C5.width;
-        this._iframe.height = C5.height;
-        this._iframe.className = C5.adClass;
-        this._overlay.appendChild(j5);
-        this._overlay.appendChild(Y5);
-        this._overlay.appendChild(this._iframe);
-        document.body.appendChild(this._overlay);
+        // var C5 = this._getAdDescriptor(),
+        //     H5 = Math.floor(Math.random() * d6t.I2x);
+        // this._overlay = document.createElement(d6t.k6);
+        // this._overlay.className = k5;
+        // var j5 = document.createElement(d6t.k6);
+        // j5.className = m;
+        // var Y5 = document.createElement(d6t.k6);
+        // Y5.className = C5.frameClass;
+        // this._iframe = document.createElement(q);
+        // this._iframe.src = e + C5.zoneId + o + H5;
+        // this._iframe.frameborder = d6t.s03;
+        // this._iframe.scrolling = j;
+        // this._iframe.width = C5.width;
+        // this._iframe.height = C5.height;
+        // this._iframe.className = C5.adClass;
+        // this._overlay.appendChild(j5);
+        // this._overlay.appendChild(Y5);
+        // this._overlay.appendChild(this._iframe);
+        // document.body.appendChild(this._overlay);
     };
     p5.prototype.completeAdTechVideo = function(t) {
-        if (!P5.desktop) {
-            this._game.paused = d6t.F18;
-        }
-        if (this._overlay) {
-            document.body.removeChild(this._overlay);
-            this._overlay = d6t.B3x;
-        }
+        // if (!P5.desktop) {
+            // this._game.paused = d6t.F18;
+        // }
+        // if (this._overlay) {
+            // document.body.removeChild(this._overlay);
+            // this._overlay = d6t.B3x;
+        // }
         this._platform.resetAdTimer();
         this._videoCallback.call(this._videoContext, t);
     };
-    p5.prototype.receiveAdTechMessage = function(t) {
-        var k = 'videoComplete',
-            j = 'videoEnds',
-            o = 'NoVideo',
-            e = 'noVideo',
-            q = 'videoStart',
-            m = 'https://media.oadts.com',
-            k5 = 'http://media.oadts.com';
-        if ((t.origin == k5 && this._overlay) || (t.origin == m && this._overlay)) {
-            console.log(t);
-            switch (t.data) {
-                case q:
-                    break;
-                case e:
-                case o:
-                    document.body.removeChild(this._overlay);
-                    this._overlay = d6t.B3x;
+    p5.prototype.receiveAdTechMessage = function() {
+        var k = 'videoComplete'
+        //     j = 'videoEnds',
+        //     o = 'NoVideo',
+        //     e = 'noVideo',
+        //     q = 'videoStart',
+        //     m = 'https://media.oadts.com',
+        //     k5 = 'http://media.oadts.com';
+        // if ((t.origin == k5 && this._overlay) || (t.origin == m && this._overlay)) {
+        //     console.log(t);
+        //     switch (t.data) {
+        //         case q:
+        //             break;
+        //         case e:
+        //         case o:
+        //             document.body.removeChild(this._overlay);
+        //             this._overlay = d6t.B3x;
+        //             this.completeAdTechVideo(d6t.s73);
+        //             break;
+        //         case j:
+        //         case k:
                     this.completeAdTechVideo(d6t.s73);
-                    break;
-                case j:
-                case k:
-                    this.completeAdTechVideo(d6t.s73);
-                    break;
-            }
-        }
+                    // break;
+        //     }
+        // }
     };
     return p5;
 });
